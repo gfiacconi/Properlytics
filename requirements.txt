@@ -5,3 +5,4 @@ openai==0.27.2
 pandas==1.4.2
 ply==3.11
 tiktoken==0.3.3
+python-dotenv
