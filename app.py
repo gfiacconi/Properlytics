@@ -1,15 +1,16 @@
 import os 
 import streamlit as st 
 from PyPDF2 import PdfReader
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAISS
-from langchain.chains.question_answering import load_qa_chain
+from dotenv import load_dotenv
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain, SequentialChain 
+from langchain.utilities import WikipediaAPIWrapper
 from langchain.memory import ConversationBufferMemory
-from langchain.utilities import WikipediaAPIWrapper 
+from langchain.chains import LLMChain, SequentialChain 
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.chains.question_answering import load_qa_chain
+from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAISS
 
 load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
