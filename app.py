@@ -12,7 +12,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.chains.question_answering import load_qa_chain
 from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAISS
 
-os.environ["OPENAI_API_KEY"] == st.secrets["OPENAI_API_KEY"]
+os.environ["OPENAI_API_KEY"] == st.secrets['openai']["OPENAI_API_KEY"]
 
 # Set up navbar
 st.set_page_config(page_title='Properlytics', page_icon=':house:', layout='wide')
