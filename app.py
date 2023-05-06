@@ -47,7 +47,7 @@ if choice == 'Home':
     # Llms
     llm = OpenAI(temperature=0.1) 
 
-    wiki = WikipediaAPIWrapper()
+    #wiki = WikipediaAPIWrapper()
 
     reader = PdfReader('dataTorino.pdf')
 
