@@ -1,0 +1,7 @@
+PyPDF2==3.0.1
+faiss-cpu==1.7.4
+langchain==0.0.157
+openai==0.27.2
+pandas==1.4.2
+ply==3.11
+tiktoken==0.3.3
