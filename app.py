@@ -1,4 +1,5 @@
 import os 
+import time
 import numpy as np
 import pandas as pd
 import pydeck as pdk
@@ -73,6 +74,12 @@ if choice == 'Home':
 
     chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
+    progress_text = "Operation in progress. Please wait."
+    my_bar = st.progress(0, text=progress_text)
+
+    for percent_complete in range(100):
+        time.sleep(0.1)
+        my_bar.progress(percent_complete + 1, text=progress_text)
     # Show stuff to the screen if there's a prompt
     if st.button('submit'):
         response = llm(prompt)
@@ -84,11 +91,10 @@ if choice == 'Home':
         #st.write(chain.run(input_documents=docs, question='in base al valore di'+ f"{genre}" +"quanto vale?"))
         #st.write(chain.run(input_documents=docs, question='ripeti questo numero: ' + f"{squareMeter}"))
         #st.write(wiki_research)
-        #st.write(response)
-    
+        #st.write(response)  
 elif choice == 'Analytics':
     st.title('Data Analisis') 
-    
+
     chart_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [45.07, 7.68],
     columns=['lat', 'lon'])
