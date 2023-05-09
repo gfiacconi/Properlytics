@@ -74,10 +74,10 @@ if choice == 'Home':
 
     chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
-    progress_text = "Operation in progress. Please wait."
-    my_bar = st.progress(0, text=progress_text)
     # Show stuff to the screen if there's a prompt
     if st.button('submit'):
+        progress_text = "Operation in progress. Please wait."
+        my_bar = st.progress(0, text=progress_text)
         for percent_complete in range(100):
             time.sleep(0.1)
             my_bar.progress(percent_complete + 1, text=progress_text)
@@ -124,4 +124,14 @@ elif choice == 'Analytics':
     # Add your FAQ content here
 elif choice == 'About':
     st.title('About Properlytics')
-    # Add your About content here
+    with st.form("my_form"):
+        st.write("Inside the form")
+        slider_val = st.slider("Form slider")
+        checkbox_val = st.checkbox("Form checkbox")
+
+        # Every form must have a submit button.
+        submitted = st.form_submit_button("Submit")
+        if submitted:
+            st.write("slider", slider_val, "checkbox", checkbox_val)
+        # Add your About content here
+    st.write("Outside the form")
