@@ -1,9 +1,12 @@
 import os 
+import csv
+import pandas as pd
 import numpy as np
 import pandas as pd
 import pydeck as pdk
 import streamlit as st 
 from PyPDF2 import PdfReader
+import matplotlib.pyplot as plt
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.utilities import WikipediaAPIWrapper
@@ -88,6 +91,14 @@ if choice == 'Home':
     
 elif choice == 'Analytics':
     st.title('Data Analisis') 
+
+    df = pd.read_csv('listings5.1.csv', on_bad_lines='skip')
+
+    chart_data = pd.DataFrame(
+    np.random.randn(20, 3),
+    columns=["Price", "Square Meter", "Floor"])
+    st.bar_chart(chart_data)
+
     chart_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [45.07, 7.68],
     columns=['lat', 'lon'])
