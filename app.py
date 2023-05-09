@@ -73,6 +73,21 @@ if choice == 'Home':
 
     chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
+    # Show stuff to the screen if there's a prompt
+    if st.button('submit'):
+        response = llm(prompt)
+        #wiki_research = wiki.run(prompt) 
+        docs = docsearch.similarity_search(prompt)
+        st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
+        #st.write(chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro'))
+        col2.metric("Final Price",chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro e senza spazi o punti'))
+        #st.write(chain.run(input_documents=docs, question='in base al valore di'+ f"{genre}" +"quanto vale?"))
+        #st.write(chain.run(input_documents=docs, question='ripeti questo numero: ' + f"{squareMeter}"))
+        #st.write(wiki_research)
+        #st.write(response)
+    
+elif choice == 'Analytics':
+    st.title('Data Analisis') 
     chart_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [45.07, 7.68],
     columns=['lat', 'lon'])
@@ -105,22 +120,6 @@ if choice == 'Home':
             ),
         ],
     ))
-    # Show stuff to the screen if there's a prompt
-    if st.button('submit'):
-        response = llm(prompt)
-        #wiki_research = wiki.run(prompt) 
-        docs = docsearch.similarity_search(prompt)
-        st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
-        #st.write(chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro'))
-        col2.metric("Final Price",chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro e senza spazi o punti'))
-        #st.write(chain.run(input_documents=docs, question='in base al valore di'+ f"{genre}" +"quanto vale?"))
-        #st.write(chain.run(input_documents=docs, question='ripeti questo numero: ' + f"{squareMeter}"))
-        #st.write(wiki_research)
-        #st.write(response)
-    
-elif choice == 'Analytics':
-    st.title('Data Analisis') 
-    
     # Add your FAQ content here
 elif choice == 'About':
     st.title('About Properlytics')
