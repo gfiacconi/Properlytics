@@ -81,7 +81,7 @@ if choice == 'Home':
         map_style=None,
         initial_view_state=pdk.ViewState(
             latitude=45.07,
-            longitude=-7.68,
+            longitude=7.68,
             zoom=11,
             pitch=50,
         ),
