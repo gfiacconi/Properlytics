@@ -1,4 +1,7 @@
 import os 
+import numpy as np
+import pandas as pd
+import pydeck as pdk
 import streamlit as st 
 from PyPDF2 import PdfReader
 from langchain.llms import OpenAI
@@ -70,6 +73,40 @@ if choice == 'Home':
 
     chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
+    chart_data = pd.DataFrame(
+    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+    columns=['lat', 'lon'])
+
+    st.pydeck_chart(pdk.Deck(
+        map_style=None,
+        initial_view_state=pdk.ViewState(
+            latitude=37.76,
+            longitude=-122.4,
+            zoom=11,
+            pitch=50,
+        ),
+        layers=[
+            pdk.Layer(
+            'HexagonLayer',
+            data=chart_data,
+            get_position='[lon, lat]',
+            radius=200,
+            elevation_scale=4,
+            elevation_range=[0, 1000],
+            pickable=True,
+            extruded=True,
+            ),
+            pdk.Layer(
+                'ScatterplotLayer',
+                data=chart_data,
+                get_position='[lon, lat]',
+                get_color='[200, 30, 0, 160]',
+                get_radius=200,
+            ),
+        ],
+    ))
+    Copy
+
     # Show stuff to the screen if there's a prompt
     if st.button('submit'):
         response = llm(prompt)
@@ -82,6 +119,7 @@ if choice == 'Home':
         #st.write(chain.run(input_documents=docs, question='ripeti questo numero: ' + f"{squareMeter}"))
         #st.write(wiki_research)
         #st.write(response)
+    
 
 elif choice == 'FAQ':
     st.title('Frequently Asked Questions')
