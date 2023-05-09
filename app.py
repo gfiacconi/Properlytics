@@ -105,8 +105,6 @@ if choice == 'Home':
             ),
         ],
     ))
-    Copy
-
     # Show stuff to the screen if there's a prompt
     if st.button('submit'):
         response = llm(prompt)
