@@ -18,7 +18,7 @@ os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
 # Set up navbar
 st.set_page_config(page_title='Properlytics', page_icon=':house:', layout='wide')
-menu = ['Home', 'FAQ', 'About']
+menu = ['Home', 'Analytics', 'About']
 choice = st.sidebar.selectbox('Select a page', menu)
 
 # App framework
@@ -118,9 +118,9 @@ if choice == 'Home':
         #st.write(wiki_research)
         #st.write(response)
     
-
-elif choice == 'FAQ':
-    st.title('Frequently Asked Questions')
+elif choice == 'Analytics':
+    st.title('Data Analisis') 
+    
     # Add your FAQ content here
 elif choice == 'About':
     st.title('About Properlytics')
