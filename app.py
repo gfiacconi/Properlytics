@@ -74,14 +74,14 @@ if choice == 'Home':
     chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
     chart_data = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [45 , 7],
+    np.random.randn(1000, 2) / [50, 50] + [45.07, 7.68],
     columns=['lat', 'lon'])
 
     st.pydeck_chart(pdk.Deck(
         map_style=None,
         initial_view_state=pdk.ViewState(
-            latitude=45,
-            longitude=-7,
+            latitude=45.07,
+            longitude=-7.68,
             zoom=11,
             pitch=50,
         ),
