@@ -88,10 +88,7 @@ if choice == 'Home':
     
 elif choice == 'Analytics':
     st.title('Data Analisis') 
-
-    df = pd.read_csv('listings5.1.csv', on_bad_lines='skip')
-
-
+    
     chart_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [45.07, 7.68],
     columns=['lat', 'lon'])
