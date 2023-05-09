@@ -26,62 +26,63 @@ choice = st.sidebar.selectbox('Select a page', menu)
 if choice == 'Home':
     st.title('🏘 📈Properlytics: Smarter Real Estate Decisions through Predictive Analytics')
 
+    col1, col2= st.columns(2)
+    col1.metric("Prezzo medio vendita (€/m²)", "€ 1.923", "+ 2,34%")
+    col2.metric("Prezzo medio affitto (€/m²)", "€ 10,12", "+ 10,84%")
+
+    col1, col2= st.columns(2)
+
+    with col1:
+        squareMeter = st.slider('insert sqaure meter', 0, 800, 100)
+        st.write('You selected:', squareMeter, 'm²')
+
+    with col2:
+        option = st.selectbox(
+        'Floor',
+        ('1', '2', '3','4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14','15', '16', '17', '18', '19', '20', '21', '22', '23', '24'))
+
+
+    genre = st.radio(
+    "enter the area",
+    ('Centro', 'Borgo Po', 'San Salvario', 'Crocetta'))
+
+    prompt = f"square meter: {squareMeter} \n floor: {option} \n area: {genre}"
+    # Llms
+    llm = OpenAI(temperature=0.1) 
+
+    #wiki = WikipediaAPIWrapper()
+
+    reader = PdfReader('dataTorino.pdf')
+
+    raw_text = ''
+    for i, page in enumerate(reader.pages):
+        text = page.extract_text()
+        if text:
+            raw_text += text
+
+    text_splitter = CharacterTextSplitter(        
+        separator = "\n",
+        chunk_size = 1000,
+        chunk_overlap  = 200,
+        length_function = len,
+    )
+    texts = text_splitter.split_text(raw_text)
+
+    embeddings = OpenAIEmbeddings()
+
+    docsearch = FAISS.from_texts(texts, embeddings)
+
+    chain = load_qa_chain(OpenAI(), chain_type="stuff")
+
+    progress_text = "Operation in progress. Please wait."
+    my_bar = st.progress(0, text=progress_text)
+
+    for percent_complete in range(100):
+        time.sleep(0.1)
+        my_bar.progress(percent_complete + 1, text=progress_text)
+    # Show stuff to the screen if there's a prompt
+    st.button('submit')
     if st.button('submit'):
-        col1, col2= st.columns(2)
-        col1.metric("Prezzo medio vendita (€/m²)", "€ 1.923", "+ 2,34%")
-        col2.metric("Prezzo medio affitto (€/m²)", "€ 10,12", "+ 10,84%")
-
-        col1, col2= st.columns(2)
-
-        with col1:
-            squareMeter = st.slider('insert sqaure meter', 0, 800, 100)
-            st.write('You selected:', squareMeter, 'm²')
-
-        with col2:
-            option = st.selectbox(
-            'Floor',
-            ('1', '2', '3','4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14','15', '16', '17', '18', '19', '20', '21', '22', '23', '24'))
-
-
-        genre = st.radio(
-        "enter the area",
-        ('Centro', 'Borgo Po', 'San Salvario', 'Crocetta'))
-
-        prompt = f"square meter: {squareMeter} \n floor: {option} \n area: {genre}"
-        # Llms
-        llm = OpenAI(temperature=0.1) 
-
-        #wiki = WikipediaAPIWrapper()
-
-        reader = PdfReader('dataTorino.pdf')
-
-        raw_text = ''
-        for i, page in enumerate(reader.pages):
-            text = page.extract_text()
-            if text:
-                raw_text += text
-
-        text_splitter = CharacterTextSplitter(        
-            separator = "\n",
-            chunk_size = 1000,
-            chunk_overlap  = 200,
-            length_function = len,
-        )
-        texts = text_splitter.split_text(raw_text)
-
-        embeddings = OpenAIEmbeddings()
-
-        docsearch = FAISS.from_texts(texts, embeddings)
-
-        chain = load_qa_chain(OpenAI(), chain_type="stuff")
-
-        progress_text = "Operation in progress. Please wait."
-        my_bar = st.progress(0, text=progress_text)
-
-        for percent_complete in range(100):
-            time.sleep(0.1)
-            my_bar.progress(percent_complete + 1, text=progress_text)
-        # Show stuff to the screen if there's a prompt
         response = llm(prompt)
         docs = docsearch.similarity_search(prompt)
         st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
