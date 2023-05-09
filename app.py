@@ -76,13 +76,11 @@ if choice == 'Home':
 
     progress_text = "Operation in progress. Please wait."
     my_bar = st.progress(0, text=progress_text)
-
-    for percent_complete in range(100):
-        time.sleep(0.1)
-        my_bar.progress(percent_complete + 1, text=progress_text)
     # Show stuff to the screen if there's a prompt
-    st.button('submit')
     if st.button('submit'):
+        for percent_complete in range(100):
+            time.sleep(0.1)
+            my_bar.progress(percent_complete + 1, text=progress_text)
         response = llm(prompt)
         docs = docsearch.similarity_search(prompt)
         st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
