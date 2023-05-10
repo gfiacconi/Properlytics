@@ -104,6 +104,52 @@ elif choice == 'Analytics':
 
     #setting colors to plot
     colorscale = ["red", "blue"]
+
+    col1, col2 = st.columns(2)
+    with col1:
+        # Crea il DataFrame con le colonne specificate
+        df = pd.DataFrame(data, columns=['Dimension (m2)', 'Price'])
+
+        # Configurazione Streamlit
+        st.title('Plot of the price and dimension of the houses in sale')
+        # Crea il plot
+        st.subheader('Plot')
+
+        # Crea lo scatter plot utilizzando Plotly Express
+        fig = px.scatter(
+            df, 
+            x='Dimension (m2)', 
+            y='Price',
+            title="<b>All the properties</b>",
+            color=df['Price'],
+            color_continuous_scale=colorscale,
+            labels={'x': 'Zone', 'y': 'House in sale'}
+        )
+        fig.update_layout(xaxis_title='Dimension (m2)', yaxis_title='Price')
+        st.plotly_chart(fig)
+    
+    with col2:
+                # Crea il DataFrame con le colonne specificate
+        df = pd.DataFrame(data, columns=['Rooms', 'Bathrooms'])
+        zone_counts = df['Rooms'].value_counts().sort_values(ascending=True)
+
+        # Configurazione Streamlit
+        st.title('Plot of the price and dimension of the houses in sale')
+        # Crea il plot
+        st.subheader('Plot')
+        # Crea lo scatter plot utilizzando Plotly Express
+        fig = px.bar(
+            df, 
+            x=zone_counts.values, 
+            y=zone_counts.index,
+            title="<b>All the properties</b>",
+            color=zone_counts.values,
+            color_continuous_scale=colorscale
+        )
+        fig.update_layout(xaxis_title='Bathrooms', yaxis_title='Rooms')
+        st.plotly_chart(fig)
+    
+
     # Crea il DataFrame con le colonne specificate
     df = pd.DataFrame(data, columns=['Zona', 'Price'])
     # Crea il plot
@@ -128,7 +174,6 @@ elif choice == 'Analytics':
         )
 
         st.plotly_chart(fig, use_container_width=True)
-
     with col2:
         # ---- SIDEBAR ----
         st.sidebar.header("Please Filter Here:")
