@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 import pydeck as pdk
 import streamlit as st 
+import plotly.express as px
+import matplotlib.pyplot as plt
 from PyPDF2 import PdfReader
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
@@ -86,13 +88,33 @@ if choice == 'Home':
         st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
         col2.metric("Final Price",chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro e senza spazi o punti'))
 
+
 elif choice == 'Analytics':
     st.title('Data Analisis') 
+    st.write('Here you can find some data analisis about the real estate market in Turin')
 
+    @st.cache_data 
+    def load_data(nrows):
+        data = pd.read_csv('listings5.1.csv', nrows=nrows)
+        return data
+
+    data = load_data(1374)
+
+    st.write('Here is a sample of the data:')
+    st.write(data.head(10))
+
+    st.write('Number of properties per area')
+    df = pd.DataFrame(data, columns=['Zona', 'Price'])
+    df = df.groupby('Zona').size().reset_index(name='Number of properties')
+    df = df.sort_values('Number of properties', ascending=True)
+    fig = px.bar(df, x='Number of properties', y='Zona', color='Number of properties', height=500)
+    fig.update_layout(height=700, width=900)
+
+    st.plotly_chart(fig)
+   
     chart_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [45.07, 7.68],
     columns=['lat', 'lon'])
-
     st.pydeck_chart(pdk.Deck(
         map_style=None,
         initial_view_state=pdk.ViewState(
@@ -124,14 +146,4 @@ elif choice == 'Analytics':
     # Add your FAQ content here
 elif choice == 'About':
     st.title('About Properlytics')
-    with st.form("my_form"):
-        st.write("Inside the form")
-        slider_val = st.slider("Form slider")
-        checkbox_val = st.checkbox("Form checkbox")
-
-        # Every form must have a submit button.
-        submitted = st.form_submit_button("Submit")
-        if submitted:
-            st.write("slider", slider_val, "checkbox", checkbox_val)
-        # Add your About content here
-    st.write("Outside the form")
+    st.write('Properlytics is a real estate analytics platform that helps you make smarter real estate decisions through predictive analytics. We are a team of data scientists, engineers, and real estate professionals who are passionate about helping you make better real estate decisions.')

@@ -1,0 +1,1374 @@
+Ref.Data,Citta,Zona,Address,Price,Dimension (m2),Floor,Ascensore,Rooms,Bathrooms,Build.Date,Stato
+08/05/2023,Torino,Aurora,via Saint Bon 44,43000,40,4,No,2,1,1930,Buono / Abitabile
+08/05/2023,Torino,Lingotto,via Thonon 6/B,159000,90,1,Si,4,1,1910,Da ristrutturare
+08/05/2023,Torino,Quadrilatero Romano,via San Francesco d'Assisi 14,230000,58,3,Si,2,1,1800,Buono / Abitabile
+08/05/2023,Torino,Parco Dora,corso Umbria 16,185000,75,4,Si,3,1,2006,Ottimo / Ristrutturato
+08/05/2023,Torino,Borgo Vittoria,via Natale Palli 10,39000,60,0,Si,2,1,1970,Buono / Abitabile
+08/05/2023,Torino,Cenisia,via crissolo 2,169000,83,1,Si,3,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Santa Rita,corso Sebastopoli 202,355000,160,5,Si,5,2,1950,Ottimo / Ristrutturato
+08/05/2023,Torino,San Salvario - Dante,via Gaetano Donizetti 2,295000,97,2,Si,4,2,1955,Buono / Abitabile
+08/05/2023,Torino,Parella,via Giacinto Pacchiotti 48,77000,60,0,No,2,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Mirafiori Sud - Strada del Drosso,corso Orbassano 398,900000,510,3,No,5,3,1960,Buono / Abitabile
+08/05/2023,Torino,San Paolo,via Entracque 1,148000,70,3,Si,2,1,1950,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via Boston 86,270000,100,6,Si,4,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Cenisia,via Di Nanni 81,123000,75,3,No,2,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Cenisia,corso ferrucci 96,267000,103,6,Si,4,1,1968,Buono / Abitabile
+20/03/2023,Torino,Lucento,via Borgomasino 2,34557,58,5,No,2,5,1960,Da ristrutturare
+08/05/2023,Torino,Lingotto,corso Eusebio Giambone 63,410000,240,1,Si,5,3,1970,Buono / Abitabile
+08/05/2023,Torino,Borgo Vittoria,via Breglio 71,49000,55,2,Si,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,Cenisia,via venasca 27,157000,70,2,No,3,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Pozzo Strada,via Bionaz 9,43000,35,0,No,2,1,1970,Buono / Abitabile
+08/05/2023,Torino,Cenisia,via dante di nanni 81,148000,110,2,No,4,1,1960,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,corso Racconigi 243,180000,85,9,Si,3,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Cenisia,via Fratelli Bandiera 5,438000,155,7,Si,5,2,1960,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via Bainsizza 5,198000,90,1,No,3,1,1900,Ottimo / Ristrutturato
+08/05/2023,Torino,Borgo Vittoria,via bibiana 8,109000,75,0,No,3,1,1940,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,corso Unione Sovietica,198000,119,2,Si,4,1,1970,Buono / Abitabile
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via onorato vigliani 196,59000,55,2,Si,2,1,1965,Buono / Abitabile
+08/05/2023,Torino,Aurora,via Aosta 48,59900,58,6,Si,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,Cenisia,via germanasca 37,95000,30,5,Si,1,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Borgo Vittoria,via Giovanni Randaccio 2,86000,86,0,Si,3,1,1964,Buono / Abitabile
+08/05/2023,Torino,Mirafiori Nord,corso Orbassano 288,135000,80,4,Si,3,1,1965,Buono / Abitabile
+08/05/2023,Torino,Borgo Vittoria,via Michele Coppino 43,149000,144,2,Si,4,1,1960,Buono / Abitabile
+08/05/2023,Torino,Pozzo Strada,via Monte Ortigara 65,125000,65,1,Si,2,1,,Buono / Abitabile
+08/05/2023,Torino,Aurora,via Alessandria,63000,53,0,Si,2,1,1957,Buono / Abitabile
+08/05/2023,Torino,Mirafiori Nord,corso Orbassano 254,120000,85,1,Si,3,1,1965,Da ristrutturare
+08/05/2023,Torino,Santa Rita,via Tripoli 1,140000,80,3,Si,3,1,1960,Buono / Abitabile
+08/05/2023,Torino,Lingotto,via Giovanni Spano 22,79000,54,2,Si,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,San Donato,via Raffaello Lambruschini 10,219000,100,1,No,4,2,1900,Buono / Abitabile
+08/05/2023,Torino,Pozzo Strada,via Francesco De Sanctis 17A,129000,66,2,Si,2,1,1966,Buono / Abitabile
+08/05/2023,Torino,Barriera di Milano,via Giovanni Paisiello 10/37,55000,60,3,No,2,1,1950,Buono / Abitabile
+08/05/2023,Torino,Pozzo Strada,via Postumia 17,69000,52,4,Si,2,1,1956,Buono / Abitabile
+08/05/2023,Torino,Lucento,via Verolengo,89000,80,3,No,3,1,1950,Ottimo / Ristrutturato
+08/05/2023,Torino,Gran Madre - Crimea,via Curtatone 5,315000,130,0,No,5,1,1900,Buono / Abitabile
+07/05/2023,Torino,Parella,via Exilles,179000,65,2,Si,2,1,,Nuovo / In costruzione
+07/05/2023,Torino,Nizza Millefonti,via Stellone,162000,70,3,No,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Cenisia,via Revello,191000,55,5,Si,2,1,,Nuovo / In costruzione
+07/05/2023,Torino,Barriera di Lanzo,via Quincinetto,241000,90,2,Si,4,2,,Nuovo / In costruzione
+07/05/2023,Torino,San Secondo,via Giovanni Camerana,258000,70,7,Si,3,2,,Nuovo / In costruzione
+07/05/2023,Torino,Parella,via Baveno,201000,70,7,Si,2,2,,Nuovo / In costruzione
+07/05/2023,Torino,Cenisia,via Moretta,206000,75,2,Si,2,1,,Nuovo / In costruzione
+07/05/2023,Torino,Nizza Millefonti,via Varazze,188000,80,2,No,4,1,,Nuovo / In costruzione
+07/05/2023,Torino,Barriera di Lanzo,via Traversella,158000,80,5,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Secondo,via Giovanni Camerana,249000,65,4,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Lingotto,via Montevideo 8,219000,125,0,Si,5,2,,Ottimo / Ristrutturato
+08/05/2023,Torino,San Donato,via Principessa Clotilde 56,115000,79,2,Si,3,1,1970,Buono / Abitabile
+07/05/2023,Torino,Vanchiglietta,corso Belgio,253000,86,3,Si,3,1,,Nuovo / In costruzione
+06/02/2023,Torino,Pozzo Strada,corso Peschiera,199000,80,1,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Nizza Millefonti,via Vado,238000,95,1,No,4,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Donato,via Luigi Cibrario,366000,130,1,Si,4,2,,Nuovo / In costruzione
+07/05/2023,Torino,Parella,corso Francia,232000,85,1,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Donato,via Goffredo Casalis,278000,85,4,Si,3,2,,Nuovo / In costruzione
+07/05/2023,Torino,San Donato,via Vincenzo Maria Miglietti,188000,70,2,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Crocetta,via Sebastiano Caboto,256000,90,1,No,3,1,,Nuovo / In costruzione
+19/09/2022,Torino,Crocetta,via Giovanni Da Verazzano,269000,80,4,Si,3,1,,Nuovo / In costruzione
+19/09/2022,Torino,Pozzo Strada,corso Peschiera,226000,95,3,No,4,1,,Nuovo / In costruzione
+19/09/2022,Torino,Crocetta,via Valeggio,449000,125,2,Si,4,2,,Nuovo / In costruzione
+26/03/2023,Torino,Cenisia,via Germanasca,324000,90,2,No,4,1,,Nuovo / In costruzione
+19/09/2022,Torino,Pozzo Strada,via Viberti Candido,321000,100,7,Si,3,2,,Nuovo / In costruzione
+07/05/2023,Torino,Santa Rita,via Baltimora,231000,85,3,Si,3,1,,Nuovo / In costruzione
+19/09/2022,Torino,San Salvario - Dante,via Principe Tommaso,366000,125,3,Si,5,2,,Nuovo / In costruzione
+24/04/2023,Torino,Borgo Vittoria,via Campiglia,194000,80,1,Si,3,1,,Nuovo / In costruzione
+24/04/2023,Torino,Santa Rita,via Baltimora,326000,120,5,Si,4,2,,Nuovo / In costruzione
+07/05/2023,Torino,Madonna di Campagna,via Bernardo Luini,161000,75,1,Si,3,1,,Nuovo / In costruzione
+19/09/2022,Torino,Parella,via Nicomede Bianchi,205000,70,3,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Cenisia,via Valdieri,395000,150,1,Si,5,2,,Nuovo / In costruzione
+19/09/2022,Torino,Crocetta,corso Galileo Ferraris,583000,170,5,Si,5,2,,Nuovo / In costruzione
+07/05/2023,Torino,Crocetta,via Pigafetta,334000,80,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,via Gaetano Donizetti 2,149000,75,5,Si,3,1,1965,Da ristrutturare
+08/05/2023,Torino,Santa Rita,piazza Basilicata 6,135000,80,8,Si,3,1,1980,Buono / Abitabile
+08/05/2023,Torino,Le Vallette,via dei Gladioli 2,85000,89,1,No,4,1,,
+07/05/2023,Torino,Parella,via Viverone,165000,70,2,Si,2,1,,Nuovo / In costruzione
+07/05/2023,Torino,Pozzo Strada,corso Filippo Brunelleschi,435000,150,8,Si,5,2,,Nuovo / In costruzione
+07/05/2023,Torino,Parella,corso Bernardino Telsio,208000,80,1,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Parella,via Carlo Capelli,208000,80,5,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Nizza Millefonti,via Genova,149000,60,4,Si,2,1,,Nuovo / In costruzione
+07/05/2023,Torino,Aurora,via Bologna,227000,80,4,Si,4,1,,Nuovo / In costruzione
+07/05/2023,Torino,Nizza Millefonti,via Ventimiglia,270000,100,4,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Vanchiglia,via Vanchiglia,244000,80,4,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Salvario - Dante,via Nizza,341000,100,1,Si,5,1,,Nuovo / In costruzione
+07/05/2023,Torino,Nizza Millefonti,via Nizza,244000,90,8,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Salvario - Dante,corso Dante Alighieri,487000,160,4,Si,5,2,,Nuovo / In costruzione
+07/05/2023,Torino,Crocetta,corso Germano Sommeiller,365000,90,3,Si,4,1,,Nuovo / In costruzione
+07/05/2023,Torino,Santa Rita,via Castelgomberto,248000,95,4,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Mirafiori Nord,corso Cosenza,211000,85,6,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Paolo,via Carso,244000,85,3,Si,3,2,,Nuovo / In costruzione
+07/05/2023,Torino,Santa Rita,corso Rosselli,299000,95,4,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Pozzo Strada,via Tofane,265000,90,4,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Santa Rita,corso Carlo E Nello Rossalli,454000,140,2,Si,4,2,,Nuovo / In costruzione
+07/05/2023,Torino,Crocetta,via San Secondo,249000,80,2,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Aurora,via Cigna,177000,80,5,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Salvario - Dante,via Nizza,318000,95,2,Si,4,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Secondo,via Lodovico Antonio Muratori,351000,100,6,Si,4,1,,Nuovo / In costruzione
+07/05/2023,Torino,Nizza Millefonti,via Pietro Baiardi,199000,95,1,No,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Salvario - Dante,via Tommaso Grossi,289000,95,3,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Lingotto,via Nizza,221000,100,5,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Salvario - Dante,corso Raffaello,281000,85,6,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Parella,via Giovanni Servais,376000,130,2,Si,4,2,,Nuovo / In costruzione
+07/05/2023,Torino,Lingotto,piazza Carducci,266000,115,4,Si,5,1,,Nuovo / In costruzione
+07/05/2023,Torino,Don Bosco,via Don Giovanni Bosco,245000,90,1,No,2,1,,Nuovo / In costruzione
+07/05/2023,Torino,Nizza Millefonti,via Nizza,383000,135,1,Si,5,1,,Nuovo / In costruzione
+07/05/2023,Torino,San Salvario - Dante,piazza Arturo Graf,572000,170,4,Si,5,2,,Nuovo / In costruzione
+07/05/2023,Torino,Lingotto,piazza Carducci,225000,90,3,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Pozzo Strada,corso Filippo Brunelleschi,315000,120,6,Si,3,1,,Nuovo / In costruzione
+07/05/2023,Torino,Vanchiglia,via Giulia Di Barolo,415000,110,4,Si,4,2,,Nuovo / In costruzione
+07/05/2023,Torino,San Salvario - Dante,via Nizza,450000,140,2,Si,4,3,,Nuovo / In costruzione
+07/05/2023,Torino,Nizza Millefonti,via Finalmarina,215000,90,4,Si,4,1,,Nuovo / In costruzione
+07/05/2023,Torino,Aurora,via Alessandria,215000,90,4,No,4,1,,Nuovo / In costruzione
+19/09/2022,Torino,Aurora,via Antonio Cecchi,176000,90,2,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Paolo,via Rivalta 42,110000,55,3,Si,2,1,1960,Da ristrutturare
+08/05/2023,Torino,Nizza Millefonti,via Ellero 29,69000,62,5,Si,2,1,1970,Buono / Abitabile
+08/05/2023,Torino,Borgo Vittoria,via Emilio Bongiovanni 31,29900,50,4,No,2,1,1960,Buono / Abitabile
+07/05/2023,Torino,Madonna di Campagna,via Assisi,30000,44,3,No,3,1,,Buono / Abitabile
+08/05/2023,Torino,Pozzo Strada,via Bardonecchia 121,125000,58,0,Si,2,1,,Ottimo / Ristrutturato
+07/05/2023,Torino,Lucento,corso Cincinnato,24750,66,1,No,4,1,,Buono / Abitabile
+08/05/2023,Torino,Parella,corso Monte Grappa,54900,65,7,Si,4,1,,Buono / Abitabile
+08/05/2023,Torino,Barriera di Milano,via Brandizzo,18240,51,5,No,3,1,,
+08/05/2023,Torino,Aurora,via Pinerolo,38775,59,1,Si,3,1,,Buono / Abitabile
+08/05/2023,Torino,Aurora,corso Novara,31125,48,2,No,3,1,,Buono / Abitabile
+08/05/2023,Torino,Borgo Vittoria,via Breglio,117000,89,5,Si,5,2,,
+12/09/2023,Torino,Falchera,via Stefano Tempia,74175,117,1,Si,4,1,1986,Buono / Abitabile
+27/06/2023,Torino,Santa Rita,via Gradisca,52350,56,1,Si,3,1,1986,Buono / Abitabile
+08/05/2023,Torino,Campidoglio,corso Alessandro Tassoni,120000,65,0,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,via Saluzzo 64,96500,55,2,Si,2,1,1965,Ottimo / Ristrutturato
+08/05/2023,Torino,Pozzo Strada,via Villa Giusti 10,187000,86,3,No,3,1,1970,Ottimo / Ristrutturato
+08/05/2023,Torino,San Paolo,via Caraglio 3,99000,60,2,No,2,1,,Ottimo / Ristrutturato
+07/05/2023,Torino,Crocetta,via Vincenzo Vela 36,225000,81,3,Si,3,1,1900,Buono / Abitabile
+08/05/2023,Torino,San Donato,via Luigi Cibrario 73,129000,75,3,No,3,1,,Ottimo / Ristrutturato
+07/05/2023,Torino,Aurora,via Clemente Damiano Priocca,240000,100,4,Si,4,1,1935,Ottimo / Ristrutturato
+07/05/2023,Torino,Cenisia,via Vigone 55,75000,65,1,Si,2,1,1967,Buono / Abitabile
+07/05/2023,Torino,Madonna di Campagna,via Caluso 31,79000,75,1,No,3,1,1953,Da ristrutturare
+08/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Buriasco,166000,75,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Don Bosco,corso Umbria,179000,65,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Aurora,corso Principe Oddone,204000,80,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Nizza Millefonti,via Nizza,188000,85,2,Si,3,2,,Nuovo / In costruzione
+08/05/2023,Torino,Le Vallette,corso Molise,172000,85,5,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Donato,via Alessandro Paravia,231000,85,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Filadelfia,248000,95,7,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Gorizia,211000,75,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Crocetta,corso Galileo Ferraris,546000,160,3,Si,5,2,,Nuovo / In costruzione
+08/05/2023,Torino,Crocetta,corso Duca Degli Abruzzi,254000,75,1,No,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Mirafiori Nord,via Paso Buole,201000,85,1,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Donato,via Pietro Palmieri,435000,120,5,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Borgo Vittoria,via Bibiana,213000,90,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,corso Dante Alighieri,254000,80,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Parella,corso Bernardino Telesio,245000,90,4,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Nizza Millefonti,via Genova,175000,75,4,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Canelli,208000,80,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,via Giorgio Bidone,368000,95,1,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Donato,via Carlo Bossi,485000,180,1,Si,5,2,,Nuovo / In costruzione
+08/05/2023,Torino,Aurora,via Cigna,192000,85,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Nizza Millefonti,via Testona,334000,120,2,Si,5,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Paolo,via Tolmino,452000,140,5,Si,4,2,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,via Saluzzo,357000,110,1,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,via Nizza,454000,140,3,Si,4,2,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Castelgomberto,215000,90,1,Si,4,1,,Nuovo / In costruzione
+07/05/2023,Torino,Borgo Vittoria,via Gandino,28500,68,0,No,4,1,,Buono / Abitabile
+08/05/2023,Torino,San Salvario - Baretti,via Baretti,169500,147,1,Si,5,2,,Buono / Abitabile
+08/05/2023,Torino,Barriera di Lanzo,via Andrea Paris 10,55000,51,2,No,1,1,1970,Buono / Abitabile
+06/05/2023,Torino,Santa Rita,via lesegno 72,129000,85,0,Si,3,1,1960,Buono / Abitabile
+06/05/2023,Torino,Vanchiglia,via sant'ottavio 57,209000,78,2,Si,3,1,1930,Buono / Abitabile
+08/05/2023,Torino,Mirafiori Nord,corso Orbassano 260,269000,130,6,Si,5,2,1960,Buono / Abitabile
+06/05/2023,Torino,Santa Rita,via Barletta 79,99000,53,2,Si,2,1,1967,Buono / Abitabile
+06/05/2023,Torino,San Secondo,via Sacchi 2bis,314000,119,2,No,3,1,1900,Ottimo / Ristrutturato
+06/05/2023,Torino,Lingotto,corso Sebastopoli 57,169000,109,1,No,4,2,1950,Da ristrutturare
+07/05/2023,Torino,Parella,corso Monte Grappa,315000,135,2,Si,4,2,1960,Ottimo / Ristrutturato
+06/05/2023,Torino,Santa Rita,via Arbe 28,88000,55,2,Si,2,1,1960,Ottimo / Ristrutturato
+06/05/2023,Torino,Parella,via Valentino Carrera 40,175000,95,4,Si,4,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Madonna di Campagna,via Bernardino Luini 10,58000,60,1,Si,2,1,1955,Da ristrutturare
+06/05/2023,Torino,Regio Parco,via Alessandro Cruto 19,79000,75,5,Si,3,1,1950,Buono / Abitabile
+06/05/2023,Torino,Aurora,corso Regio Parco 5/B,950000,238,9,Si,5,3,2002,Ottimo / Ristrutturato
+06/05/2023,Torino,Lucento,via Mazzè 16,75000,55,3,No,2,1,1955,Ottimo / Ristrutturato
+06/05/2023,Torino,Santa Rita,via Matera 15,158000,95,5,Si,3,2,1960,Buono / Abitabile
+06/05/2023,Torino,Parco Dora,via Macerata 19,65000,68,0,No,3,2,1920,Da ristrutturare
+08/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Buriasco,176000,75,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Don Bosco,corso Umbria,162000,65,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Aurora,corso Principe Oddone,222000,100,2,Si,3,1,,Nuovo / In costruzione
+06/05/2023,Torino,Vanchiglietta,via Oropa 100,164000,87,1,Si,3,1,1960,Da ristrutturare
+06/05/2023,Torino,Barriera di Milano,via BELMONTE 10,29000,60,0,No,2,1,1940,Da ristrutturare
+06/05/2023,Torino,Santa Rita,via Filadelfia 181,129000,70,3,Si,3,1,1967,Buono / Abitabile
+08/05/2023,Torino,Nizza Millefonti,via Varaita,261000,100,1,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Le Vallette,corso Molise,214000,105,3,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Crocetta,corso Alcide De Gasperi,319000,90,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Filadelfia,290000,120,1,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Mirafiori Nord,via Paso Buole,138000,70,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,corso Orbassano,218000,80,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Mirafiori Nord,via Nizza,175000,75,6,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Le Vallette,via delle Pervinche 41,69000,70,1,No,2,1,1965,Ottimo / Ristrutturato
+06/05/2023,Torino,Santa Rita,via Barletta 109/34,100000,67,1,Si,2,1,2020,Nuovo / In costruzione
+08/05/2023,Torino,Parella,via Crevacuore,254000,90,5,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Baltimora,412000,170,1,Si,5,2,,Nuovo / In costruzione
+08/05/2023,Torino,Borgo Vittoria,via Mihcele Coppino,170000,85,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Paolo,via Francesco Millio,350000,95,2,Si,4,2,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,via Belfiore,175000,60,1,No,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Nizza Millefonti,via Testona,334000,120,2,Si,5,1,,Nuovo / In costruzione
+08/05/2023,Torino,Parella,via Valentino Carrera,191000,70,3,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Donato,via Carlo Vidua,215000,80,1,Si,3,2,,Nuovo / In costruzione
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,piazza Bengasi,215000,90,4,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Donato,via Giacinto Collegno,322000,100,4,Si,4,1,,Nuovo / In costruzione
+05/05/2023,Torino,Mirafiori Nord,corso orbassano,225000,100,6,Si,4,2,1960,Buono / Abitabile
+08/05/2023,Torino,Cenisia,via virle 18,79000,65,0,No,2,1,1950,Buono / Abitabile
+08/05/2023,Torino,Lucento,corso Toscana 69,88000,80,3,Si,3,1,1960,Buono / Abitabile
+07/05/2023,Torino,Parella,via Valentino Carrera,55800,66,1,Si,3,1,,Buono / Abitabile
+05/05/2023,Torino,Le Vallette,via Pianezza,31500,105,1,No,5,2,,
+08/05/2023,Torino,Pozzo Strada,via Luigi Ferdinando Marsigli 117,119000,50,1,No,2,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Campidoglio,via Saluggia 16,139000,75,1,No,3,1,,Buono / Abitabile
+05/05/2023,Torino,San Salvario - Dante,corso Dante Alighieri 72,189000,78,4,Si,3,1,1920,Ottimo / Ristrutturato
+05/05/2023,Torino,Borgo Vittoria,via PALLI,54000,64,2,Si,2,1,1960,Da ristrutturare
+05/05/2023,Torino,San Salvario - Dante,via Pio Foà 86,87000,50,4,Si,2,1,1900,Ottimo / Ristrutturato
+08/05/2023,Torino,Santa Rita,via Buenos Aires 41,149000,75,6,Si,3,1,1960,Ottimo / Ristrutturato
+06/05/2023,Torino,Centro Europa,via Biscarra Giovanni Battista e Carlo Felice,169000,85,5,Si,3,1,1970,Ottimo / Ristrutturato
+08/05/2023,Torino,Crocetta,corso Mediterraneo 122,195000,80,0,Si,4,1,1970,Buono / Abitabile
+05/05/2023,Torino,Quadrilatero Romano,via San Domenico,428000,130,0,Si,4,1,1700,Ottimo / Ristrutturato
+05/05/2023,Torino,Quadrilatero Romano,via San Domenico,288000,95,0,Si,2,1,1700,Ottimo / Ristrutturato
+08/05/2023,Torino,San Paolo,via Monginevro 93,150000,86,2,Si,3,1,1900,Buono / Abitabile
+06/05/2023,Torino,Madonna di Campagna,via GUBBIO 72,59000,50,3,Si,2,1,1970,Ottimo / Ristrutturato
+06/05/2023,Torino,Pozzo Strada,via Arvier 4 Bis,178000,72,4,Si,3,1,1959,Ottimo / Ristrutturato
+08/05/2023,Torino,Lucento,via Pietro Cossa 280/40,275000,97,3,Si,3,1,1980,Ottimo / Ristrutturato
+05/05/2023,Torino,Lingotto,via Albisola 10,95000,67,2,Si,3,1,1955,Buono / Abitabile
+05/05/2023,Torino,Santa Rita,via San Marino 89/20,58000,45,0,Si,2,1,1967,Buono / Abitabile
+05/05/2023,Torino,Quadrilatero Romano,via San Domenico,288000,95,0,Si,2,1,1700,Ottimo / Ristrutturato
+05/05/2023,Torino,Pozzo Strada,via San Giorgio Canavese 3,119000,57,3,Si,2,1,,Ottimo / Ristrutturato
+05/05/2023,Torino,Aurora,via Mondovì,30750,51,4,Si,2,4,1967,Buono / Abitabile
+06/05/2023,Torino,San Salvario - Dante,via Giotto 21,79000,61,2,No,2,1,1936,Buono / Abitabile
+05/05/2023,Torino,Crocetta,corso Alcide De Gasperi 27,149000,85,6,Si,3,1,1930,Buono / Abitabile
+06/05/2023,Torino,San Paolo,via Serrano 24,265000,145,1,Si,5,2,1990,Ottimo / Ristrutturato
+05/05/2023,Torino,Lucento,via Val Della Torre,179000,90,4,Si,4,2,2005,Nuovo / In costruzione
+05/05/2023,Torino,San Paolo,via Carrù 6,125000,70,4,Si,2,1,1950,Buono / Abitabile
+05/05/2023,Torino,Lucento,piazza Nazario Sauro 18,50000,50,6,Si,2,1,1970,Da ristrutturare
+05/05/2023,Torino,Lucento,via luini 96,69000,50,4,Si,3,1,1960,Da ristrutturare
+06/05/2023,Torino,Cittadella,via Carlo Boucheron 8,119000,58,0,Si,2,1,1900,Buono / Abitabile
+05/05/2023,Torino,San Donato,corso Francia 58,430000,150,2,Si,5,2,1890,Buono / Abitabile
+07/05/2023,Torino,Vanchiglietta,via Oropa 120B,95000,50,2,Si,2,1,1963,Buono / Abitabile
+08/05/2023,Torino,San Secondo,corso Filippo Turati 59,140000,85,2,No,4,1,1940,Buono / Abitabile
+06/05/2023,Torino,San Paolo,via Malta 9,255000,121,4,Si,5,1,1950,Buono / Abitabile
+05/05/2023,Torino,Barca,via Giovanni Martina 25,159000,85,1,Si,4,2,1990,Ottimo / Ristrutturato
+08/05/2023,Torino,Cenisia,via Frossasco 4,99000,79,3,No,3,1,1930,Buono / Abitabile
+06/05/2023,Torino,Cenisia,via Frossasco 4,70000,49,3,No,2,1,1930,Buono / Abitabile
+05/05/2023,Torino,San Paolo,via Paolo Braccini 56,89000,50,0,No,2,1,1919,Buono / Abitabile
+05/05/2023,Torino,Piazza Solferino,via San Quintino 15,279000,75,3,Si,2,1,1900,Ottimo / Ristrutturato
+05/05/2023,Torino,Parella,corso Bernardino Telesio 28,379000,205,2,Si,5,2,1968,Buono / Abitabile
+08/05/2023,Torino,San Secondo,via Ludovico Antonio Muratori 8,219000,85,1,Si,3,1,2000,Nuovo / In costruzione
+05/05/2023,Torino,Vanchiglietta,via Oslavia 22,158000,72,4,Si,3,1,1959,Buono / Abitabile
+05/05/2023,Torino,Cavoretto,via San Rocco 9,259000,150,3,No,5,2,1700,Ottimo / Ristrutturato
+08/05/2023,Torino,Vanchiglietta,piazza Antonio Fontanesi 2/A,99000,50,3,No,2,1,1950,Buono / Abitabile
+05/05/2023,Torino,Cenisia,corso Peschiera 242,209000,82,4,Si,4,1,1940,Ottimo / Ristrutturato
+05/05/2023,Torino,Pozzo Strada,via Sant'Antonino 66,95000,50,4,No,2,1,1950,Ottimo / Ristrutturato
+05/05/2023,Torino,Borgo Vittoria,via Principe d'Anhalt 3,55000,63,3,No,3,1,,Buono / Abitabile
+05/05/2023,Torino,Centro Europa,via Paolo Gaidano 8,285000,160,2,Si,5,2,1972,Ottimo / Ristrutturato
+08/05/2023,Torino,San Secondo,via Achille Loria 6,245000,77,2,Si,3,1,1950,Ottimo / Ristrutturato
+05/05/2023,Torino,Barriera di Lanzo,via Guglielmo Pepe 16,135000,95,7,Si,4,1,1970,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via tripoli 134,89000,60,2,Si,2,1,1965,Buono / Abitabile
+05/05/2023,Torino,Borgo Vittoria,via Costantino Nigra 13,49000,48,2,No,2,1,1960,Buono / Abitabile
+05/05/2023,Torino,Campidoglio,corso Svizzera 49,85000,55,2,Si,3,1,1960,Ottimo / Ristrutturato
+05/05/2023,Torino,Vanchiglia,via Riccardo Sineo 6,187000,89,0,Si,4,1,1964,Buono / Abitabile
+05/05/2023,Torino,Aurora,via camino 16,54000,50,6,Si,2,1,1960,Buono / Abitabile
+05/05/2023,Torino,Campidoglio,via Netro 6,115000,65,0,No,3,1,1950,Buono / Abitabile
+05/05/2023,Torino,Borgo Vittoria,via Sospello 143,49900,55,2,Si,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,San Donato,via Goffredo Casalis 28,320000,140,1,Si,5,2,1900,Buono / Abitabile
+05/05/2023,Torino,Barriera di Milano,via Puccini 20,95000,82,5,Si,5,1,1970,Buono / Abitabile
+08/05/2023,Torino,Vanchiglia,via Eusebio Bava 47,175000,70,2,No,4,2,1890,Ottimo / Ristrutturato
+05/05/2023,Torino,Pozzo Strada,via Monte Ortigara 41,270000,130,7,Si,4,2,,Buono / Abitabile
+05/05/2023,Torino,Piazza Solferino,via Pietro Micca,350000,91,2,Si,3,2,1800,Ottimo / Ristrutturato
+05/05/2023,Torino,Don Bosco,via Vicenza 4/b,125000,50,5,Si,2,1,1997,Ottimo / Ristrutturato
+05/05/2023,Torino,Barriera di Milano,via Giovanni Paisiello 10,49900,55,3,No,2,1,1960,Ottimo / Ristrutturato
+05/05/2023,Torino,Borgo Vittoria,via Bibiana 107,229000,150,1,Si,5,2,1992,Ottimo / Ristrutturato
+05/05/2023,Torino,Giardini Reali,piazza Vittorio Veneto,810000,229,2,Si,5,2,1900,Buono / Abitabile
+05/05/2023,Torino,Barriera di Milano,via Brandizzo 27,59000,70,3,Si,3,1,,Ottimo / Ristrutturato
+05/05/2023,Torino,Rebaudengo,piazza Conti di Rebaudengo 3/25,124900,90,3,Si,4,1,1960,Ottimo / Ristrutturato
+07/05/2023,Torino,Italia 61,via Ventimiglia,189000,115,4,Si,3,1,1965,Buono / Abitabile
+06/05/2023,Torino,San Salvario - Baretti,via Sant'Anselmo 13,445000,165,2,Si,4,2,1900,Ottimo / Ristrutturato
+05/05/2023,Torino,Centro Europa,via Francesco Saverio Nitti,168000,110,5,Si,5,1,,Buono / Abitabile
+05/05/2023,Torino,Borgo Vittoria,via Michele Coppino 87,79000,80,0,Si,3,1,1970,Ottimo / Ristrutturato
+05/05/2023,Torino,Nizza Millefonti,via Casimiro Sperino 23,89000,50,2,Si,2,1,2010,Ottimo / Ristrutturato
+05/05/2023,Torino,Cenisia,via Pragelato 1,105000,70,2,Si,3,1,1920,Da ristrutturare
+06/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Monte Sei Busi 19,97000,75,1,No,3,1,1970,Ottimo / Ristrutturato
+05/05/2023,Torino,Pozzo Strada,via Stelvio 14,109000,62,0,Si,3,1,2023,Nuovo / In costruzione
+05/05/2023,Torino,Pozzo Strada,via Stelvio 14,89000,60,0,Si,3,1,2023,Nuovo / In costruzione
+05/05/2023,Torino,Pozzo Strada,via Stelvio 14,160000,80,0,Si,4,2,2023,Nuovo / In costruzione
+06/05/2023,Torino,San Salvario - Baretti,via Sant'Anselmo 28,349000,135,1,Si,4,2,1900,Ottimo / Ristrutturato
+05/05/2023,Torino,San Paolo,corso Trapani,67000,43,0,No,2,1,1940,Buono / Abitabile
+05/05/2023,Torino,Pozzo Strada,via Rubiana,122000,75,0,Si,3,1,,Ottimo / Ristrutturato
+05/05/2023,Torino,Barriera di Milano,via Rondissone,62000,75,4,Si,3,1,,Da ristrutturare
+08/05/2023,Torino,Regio Parco,corso Taranto 137,149000,95,2,Si,4,1,1960,Ottimo / Ristrutturato
+05/05/2023,Torino,Parella,via Nicomede Bianchi 70/3,170000,75,4,Si,3,1,1980,Buono / Abitabile
+04/05/2023,Torino,Pozzo Strada,via Sagra di San Michele,169000,90,1,Si,3,1,1967,Ottimo / Ristrutturato
+08/05/2023,Torino,Santa Rita,via bainsizza 8//6,209000,110,1,Si,4,1,1970,Buono / Abitabile
+04/05/2023,Torino,Campidoglio,corso APPIO CLAUDIO,109000,66,0,Si,2,1,1965,Buono / Abitabile
+06/05/2023,Torino,Crocetta,via Marco Polo 43,199000,80,2,Si,3,1,1900,Buono / Abitabile
+06/05/2023,Torino,Centro Europa,via RUBINO,170000,85,1,Si,4,1,1970,Ottimo / Ristrutturato
+06/05/2023,Torino,Santa Rita,corso Sebastopoli 248,109000,50,4,No,2,1,1967,Ottimo / Ristrutturato
+08/05/2023,Torino,Santa Rita,via tripoli 40,135000,70,1,No,3,1,1970,Ottimo / Ristrutturato
+06/05/2023,Torino,Parella,piazza del Monastero 9,218000,116,1,No,4,1,1973,Da ristrutturare
+08/05/2023,Torino,Pozzo Strada,via Vandalino 123,159000,80,2,Si,3,1,1963,Ottimo / Ristrutturato
+04/05/2023,Torino,Parella,via Zumaglia 67B,55000,50,0,No,2,1,1950,Da ristrutturare
+04/05/2023,Torino,Parella,via Zumaglia 13,55000,50,0,Si,2,1,1950,Da ristrutturare
+04/05/2023,Torino,San Donato,via Principessa Clotilde,66225,75,4,Si,3,4,1967,Buono / Abitabile
+05/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Francesco Rismondo 12,118000,82,5,Si,3,1,1960,Buono / Abitabile
+04/05/2023,Torino,Pozzo Strada,via villafranca Piemonte 6,198000,90,6,Si,3,2,1960,Buono / Abitabile
+04/05/2023,Torino,Mirafiori Nord,via Passo Buole 17,135000,75,1,Si,3,1,,Buono / Abitabile
+04/05/2023,Torino,Mirafiori Nord,via Passo Buole 17,155000,100,1,Si,4,1,,Ottimo / Ristrutturato
+08/05/2023,Torino,Crocetta,corso Carlo e Nello Rosselli 84,249000,85,5,Si,3,1,1960,Buono / Abitabile
+04/05/2023,Torino,Aurora,via Aosta 16,105000,45,4,Si,2,1,1970,Ottimo / Ristrutturato
+05/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Fratelli De Maistre 43,59000,51,1,Si,2,1,1960,Buono / Abitabile
+04/05/2023,Torino,Vanchiglietta,corso Cadore 27,135000,60,2,Si,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,Quadrilatero Romano,via Corte d'Appello 13c,450000,160,1,Si,4,2,,Ottimo / Ristrutturato
+04/05/2023,Torino,Santa Rita,via Paolo Sarpi,109000,75,2,Si,3,1,1960,Da ristrutturare
+08/05/2023,Torino,Nizza Millefonti,via Genova 238,189000,96,6,Si,4,1,1960,Buono / Abitabile
+04/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via plava 171,87000,90,4,Si,4,1,1965,Buono / Abitabile
+05/05/2023,Torino,Santa Rita,via Castelgomberto 44,189000,105,2,Si,3,1,1960,Da ristrutturare
+05/05/2023,Torino,Parella,via Ludovico Bellardi 13,75000,40,0,Si,2,1,1960,Ottimo / Ristrutturato
+06/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Traiano 68/13,39000,20,0,Si,1,1,1970,Buono / Abitabile
+08/05/2023,Torino,Madonna di Campagna,via Borgaro 72,108000,118,4,Si,4,2,1956,Ottimo / Ristrutturato
+04/05/2023,Torino,Crocetta,via Antonio Genovesi,149000,57,5,Si,3,1,1906,Buono / Abitabile
+04/05/2023,Torino,Santa Rita,corso Giovanni Agnelli 98,83000,55,2,Si,2,1,1960,Ottimo / Ristrutturato
+05/05/2023,Torino,Santa Rita,corso Cesare Correnti 39,155000,93,1,Si,3,1,1970,Buono / Abitabile
+04/05/2023,Torino,Don Bosco,via Don Giovanni Bosco 65,49000,45,3,No,2,1,,Da ristrutturare
+04/05/2023,Torino,Don Bosco,via Don Giovanni Bosco 65,98000,88,3,No,4,2,,Da ristrutturare
+04/05/2023,Torino,Don Bosco,via Don Giovanni Bosco 65,49000,43,3,No,2,1,,Da ristrutturare
+04/05/2023,Torino,Santa Rita,corso Cosenza 54,149000,72,4,Si,3,1,,Da ristrutturare
+08/05/2023,Torino,Crocetta,corso Re Umberto 146,220000,106,0,Si,4,1,1958,Da ristrutturare
+04/05/2023,Torino,Parella,via Rochemolles 15,129000,105,3,No,3,1,1930,Buono / Abitabile
+05/05/2023,Torino,Campidoglio,via Balme 23,194000,90,0,Si,3,1,1950,Ottimo / Ristrutturato
+04/05/2023,Torino,Parella,via Ludovico Bellardi 104,220000,100,0,No,4,2,,Ottimo / Ristrutturato
+04/05/2023,Torino,Cenisia,corso Vittorio Emanuele II 225,180000,92,2,Si,3,1,1950,Buono / Abitabile
+04/05/2023,Torino,Santa Rita,via San Marino 89/7,41500,35,3,No,1,1,1940,Ottimo / Ristrutturato
+04/05/2023,Torino,Lingotto,via Asuncion,60000,60,4,Si,2,1,1962,Nuovo / In costruzione
+04/05/2023,Torino,Aurora,corso Emilia,48000,50,4,No,2,1,,Buono / Abitabile
+04/05/2023,Torino,Pozzo Strada,via Ozieri 23,45000,53,0,Si,2,1,1960,Buono / Abitabile
+06/05/2023,Torino,Pozzo Strada,corso Trapani 56,155000,100,0,Si,4,1,,Ottimo / Ristrutturato
+04/05/2023,Torino,Barriera di Milano,via Leinì 52,65000,73,1,No,5,2,1960,Buono / Abitabile
+08/05/2023,Torino,Le Vallette,via delle Pervinche 79,79000,138,2,No,4,1,1960,Da ristrutturare
+04/05/2023,Torino,Parella,piazza Tommaso Campanella 21,82000,55,3,Si,2,1,,Ottimo / Ristrutturato
+04/05/2023,Torino,San Paolo,corso Racconigi 128,85000,55,5,Si,2,1,1940,Ottimo / Ristrutturato
+04/05/2023,Torino,Santa Rita,via Gradisca 77,66000,56,A,Si,2,1,1970,Buono / Abitabile
+04/05/2023,Torino,Campidoglio,via Carisio 11,90000,72,2,Si,3,1,1957,Buono / Abitabile
+04/05/2023,Torino,Madonna di Campagna,via Borgaro,83000,52,2,No,3,1,1960,Buono / Abitabile
+04/05/2023,Torino,Lingotto,via Madonna delle Rose 18,98000,80,2,Si,3,1,1970,Buono / Abitabile
+07/05/2023,Torino,Santa Rita,via Mombarcaro 92,165000,58,1,No,2,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Buriasco 2,110000,80,2,Si,3,2,1970,Buono / Abitabile
+04/05/2023,Torino,Barriera di Milano,via Cherubini,79000,70,2,No,3,1,,Buono / Abitabile
+04/05/2023,Torino,Bertolla,Terratetto unifamiliare Strada Comunale di Bertolla 27,120000,173,2,No,3,1,1900,Da ristrutturare
+04/05/2023,Torino,Barriera di Milano,via Scarlatti,59000,58,0,No,2,1,,
+13/06/2023,Torino,Parella,via Borgosesia,66000,82,1,Si,3,1,1986,Buono / Abitabile
+04/05/2023,Torino,Parella,via Borgosesia 44,53000,55,0,Si,1,1,1955,Da ristrutturare
+05/05/2023,Torino,Lingotto,via Tunisi 63/1,110000,90,1,Si,4,1,1960,Da ristrutturare
+08/05/2023,Torino,Santa Rita,via Bene Vagienna 24,310000,86,4,Si,3,1,2022,Nuovo / In costruzione
+05/05/2023,Torino,Santa Rita,via Lanusei 4,269000,100,5,Si,4,2,1995,Ottimo / Ristrutturato
+03/05/2023,Torino,San Paolo,via Sestriere 26,415000,183,0,No,5,1,1940,Ottimo / Ristrutturato
+08/05/2023,Torino,Regio Parco,via pietracqua 29,89000,85,4,No,4,1,1900,Buono / Abitabile
+03/05/2023,Torino,Barriera di Milano,via Giovanni Paisiello,87000,137,4,No,4,4,1967,Buono / Abitabile
+03/05/2023,Torino,Campidoglio,via Carisio,71100,72,1,Si,3,1,1967,Buono / Abitabile
+04/05/2023,Torino,Regio Parco,via Sandro Botticelli 180,78000,62,1,Si,2,1,1970,Ottimo / Ristrutturato
+06/05/2023,Torino,San Salvario - Dante,via Nizza 89,144000,60,3,No,1,1,1920,Buono / Abitabile
+08/05/2023,Torino,Lucento,via Pietro Cossa 280/4,129000,78,3,Si,3,1,1995,Buono / Abitabile
+04/05/2023,Torino,Barriera di Milano,via Renato Martorelli 26,39000,55,5,No,2,1,1940,Buono / Abitabile
+03/05/2023,Torino,Lucento,via Mario Crimi 3,149000,85,3,Si,3,1,1970,Buono / Abitabile
+03/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Michele Amari 16,69000,50,4,Si,2,1,1960,Ottimo / Ristrutturato
+04/05/2023,Torino,Parco Dora,via Verolengo,120000,61,2,Si,2,1,2013,Ottimo / Ristrutturato
+03/05/2023,Torino,Lingotto,via Filadelfia 41,129000,76,1,Si,3,1,1960,Buono / Abitabile
+08/05/2023,Torino,Cenisia,via venasca 22,84000,60,0,No,2,1,1960,Buono / Abitabile
+04/05/2023,Torino,Gran Madre - Crimea,via Luisa del Carretto 74/C,315000,105,3,No,3,2,1957,Buono / Abitabile
+03/05/2023,Torino,Lucento,via Parenzo 22,45000,40,3,No,2,1,1950,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via Veglia 57,259000,100,6,Si,4,2,1990,Buono / Abitabile
+04/05/2023,Torino,San Paolo,via Rivalta 48,96000,51,2,Si,2,1,1940,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via Boston 122 122,150000,97,0,Si,2,1,2002,Buono / Abitabile
+04/05/2023,Torino,Centro Europa,via Paolo Gaidano 8,360000,220,7,Si,5,2,1972,Buono / Abitabile
+04/05/2023,Torino,Pozzo Strada,via rieti 23,115000,80,2,Si,3,1,1960,Da ristrutturare
+04/05/2023,Torino,Parella,via Masera 5,99000,75,4,No,3,1,1960,Da ristrutturare
+06/05/2023,Torino,Pozzo Strada,via rieti 11,95000,60,2,No,2,1,1940,Ottimo / Ristrutturato
+08/05/2023,Torino,Quadrilatero Romano,via Antonio Fabro,575000,190,3,Si,5,3,1900,Ottimo / Ristrutturato
+03/05/2023,Torino,Barriera di Milano,via Vestignè 4,158000,119,2,No,3,1,1920,Buono / Abitabile
+03/05/2023,Torino,Campidoglio,via Balme 23,194000,95,0,No,3,2,1950,Ottimo / Ristrutturato
+07/05/2023,Torino,San Paolo,via Monginevro,298000,82,6,Si,3,1,2015,Nuovo / In costruzione
+03/05/2023,Torino,Vanchiglia,via Giovanni Francesco Napione 33,95000,55,1,Si,2,1,1960,Buono / Abitabile
+03/05/2023,Torino,San Salvario - Baretti,corso Vittorio Emanuele II 5,398000,102,3,Si,4,2,1960,Ottimo / Ristrutturato
+03/05/2023,Torino,Cenisia,via Revello,240000,98,0,Si,4,1,1948,Ottimo / Ristrutturato
+05/05/2023,Torino,San Donato,via Amedeo Peyron 36,480000,166,3,Si,5,2,,Buono / Abitabile
+03/05/2023,Torino,Barriera di Lanzo,via Reiss Romoli 52,389000,220,0,No,5,2,,Ottimo / Ristrutturato
+03/05/2023,Torino,Cavoretto,corso Moncalieri 236,159000,60,2,No,1,1,1939,Nuovo / In costruzione
+03/05/2023,Torino,San Salvario - Dante,corso Massimo D'azeglio 106,1380000,237,4,Si,5,3,1960,Ottimo / Ristrutturato
+07/05/2023,Torino,Rebaudengo,via Rocco Scotellaro 67,148000,106,0,Si,4,2,1970,Ottimo / Ristrutturato
+05/05/2023,Torino,Santa Rita,via Baltimora 152,125000,84,1,Si,4,1,,Ottimo / Ristrutturato
+03/05/2023,Torino,Santa Rita,corso Sebastopoli 280,260000,105,4,Si,4,2,,Ottimo / Ristrutturato
+03/05/2023,Torino,Santa Rita,via Filadelfia 132,419000,210,9,Si,5,3,1970,Da ristrutturare
+05/05/2023,Torino,Aurora,via Francesco Cigna 41,118000,74,6,Si,2,1,,
+05/05/2023,Torino,Barriera di Milano,piazza Domenico Cimarosa 45,190000,110,7,Si,4,1,1980,Ottimo / Ristrutturato
+08/05/2023,Torino,San Salvario - Dante,via Saluzzo 52,78000,47,1,Si,1,1,2000,Ottimo / Ristrutturato
+02/05/2023,Torino,Pozzo Strada,via Bardonecchia,75000,68,3,Si,2,1,,Buono / Abitabile
+04/05/2023,Torino,Campidoglio,corso Alessandro Tassoni 45,320000,165,5,No,5,2,1960,
+04/05/2023,Torino,Santa Rita,corso Carlo e Nello Rosselli,75000,55,0,Si,2,1,1965,Buono / Abitabile
+03/05/2023,Torino,Vanchiglia,corso Regina Margherita 5,79000,50,4,Si,2,1,,Buono / Abitabile
+13/06/2023,Torino,Rebaudengo,via Giovanni Cena,31500,59,1,Si,3,1,1986,Buono / Abitabile
+04/07/2023,Torino,Barriera di Milano,via Giovanni Paisiello,87000,137,1,Si,5,1,1986,Buono / Abitabile
+13/06/2023,Torino,Cavoretto,corso Moncalieri,87000,58,1,Si,3,1,1986,Buono / Abitabile
+11/07/2023,Torino,Campidoglio,via Carisio,71100,72,1,Si,3,1,1986,Buono / Abitabile
+14/07/2023,Torino,Barriera di Milano,via PONT,69000,86,1,Si,3,1,1986,Buono / Abitabile
+03/05/2023,Torino,Crocetta,via Giuseppe Piazzi 7,75000,25,6,No,1,1,1946,Buono / Abitabile
+08/05/2023,Torino,Città Giardino,via Giacomo Balla 1,224000,126,6,Si,4,1,1973,Buono / Abitabile
+05/05/2023,Torino,Parella,via Valgioie 86,208000,95,4,Si,3,1,1969,Da ristrutturare
+03/05/2023,Torino,Santa Rita,corso SEBASTOPOLI,374000,198,2,Si,5,2,1962,Da ristrutturare
+05/05/2023,Torino,Parella,via Baveno 55,109000,60,0,No,2,1,1950,Buono / Abitabile
+06/05/2023,Torino,Parella,corso Monte Grappa 35,128000,80,1,Si,3,1,1959,Da ristrutturare
+08/05/2023,Torino,Santa Rita,via SAN MARINO 120,109000,50,3,Si,2,1,1965,Ottimo / Ristrutturato
+02/05/2023,Torino,Borgo Vittoria,via Casteldelfino 8,69000,70,3,Si,2,1,1970,Ottimo / Ristrutturato
+04/05/2023,Torino,San Salvario - Dante,via Tommaso Grossi 1,95000,31,6,Si,1,1,1970,Buono / Abitabile
+05/05/2023,Torino,Madonna di Campagna,corso Grosseto 266,119000,78,1,Si,3,1,1970,Ottimo / Ristrutturato
+08/05/2023,Torino,San Salvario - Baretti,corso Vittorio Emanuele II 5,398000,102,3,Si,3,2,1960,Ottimo / Ristrutturato
+06/05/2023,Torino,Crocetta,via Antonio Pigafetta 40,378000,116,4,Si,4,2,1820,Ottimo / Ristrutturato
+02/05/2023,Torino,Lingotto,corso Unione Sovietica 245,129000,83,1,Si,3,1,1960,Buono / Abitabile
+04/05/2023,Torino,Cavoretto,piazza Zara 1,158000,80,1,Si,3,1,1935,Buono / Abitabile
+04/05/2023,Torino,Mirafiori Nord,corso Traiano 27,179000,100,9,Si,4,2,1965,Ottimo / Ristrutturato
+05/05/2023,Torino,Barriera di Lanzo,via venaria 148,149000,83,4,Si,3,1,1990,Buono / Abitabile
+02/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Pramollo,167000,115,4,Si,4,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Matteo Bartoli 10,115000,80,2,No,3,1,1970,Buono / Abitabile
+02/05/2023,Torino,San Paolo,via Isonzo 123/12,145000,60,2,Si,2,1,2000,Ottimo / Ristrutturato
+04/05/2023,Torino,Pozzo Strada,via Rubiana 62,99000,70,3,No,3,1,1950,Buono / Abitabile
+08/05/2023,Torino,Cavoretto,corso Moncalieri 454,110000,63,2,No,3,1,1930,Ottimo / Ristrutturato
+03/05/2023,Torino,Nizza Millefonti,via finalmarina 23,100000,75,4,No,3,1,1960,Buono / Abitabile
+03/05/2023,Torino,Madonna del Pilone,corso Casale 235,188000,80,2,No,3,1,1965,Ottimo / Ristrutturato
+04/05/2023,Torino,Crocetta,corso Mediterraneo 114,1050000,259,2,Si,5,3,2010,Ottimo / Ristrutturato
+06/05/2023,Torino,Pozzo Strada,Monolocale Strada Antica di Grugliasco 271,115000,58,4,Si,1,1,2014,Ottimo / Ristrutturato
+02/05/2023,Torino,Borgo Vittoria,via Breglio 105,125000,85,2,Si,3,1,1950,Da ristrutturare
+02/05/2023,Torino,Cenisia,via Perosa 19,185000,70,1,Si,3,1,2006,Ottimo / Ristrutturato
+02/05/2023,Torino,Mirafiori Nord,corso Cosenza 61,258000,122,3,Si,4,1,1973,Ottimo / Ristrutturato
+02/05/2023,Torino,Crocetta,via Giovanni da Verrazzano 55,129000,42,0,No,2,1,1900,Buono / Abitabile
+08/05/2023,Torino,Pozzo Strada,via Francesco De Sanctis 76,129500,73,5,Si,3,1,1955,Ottimo / Ristrutturato
+02/05/2023,Torino,Mirafiori Nord,via Guido Reni 213/12,120000,75,3,No,3,1,1958,Da ristrutturare
+02/05/2023,Torino,Campidoglio,via Luigi Cibrario,165000,100,6,Si,4,1,1970,Buono / Abitabile
+02/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Michele Amari,93000,82,0,No,3,1,1956,Buono / Abitabile
+02/05/2023,Torino,Italia 61,via Caramagna 32,118000,52,3,Si,2,1,1960,Buono / Abitabile
+04/05/2023,Torino,Borgo Vittoria,via Leonardo Fea 30,25000,25,5,Si,1,1,1960,Da ristrutturare
+02/05/2023,Torino,Parella,via Sostegno 65 bis 30,84000,65,0,No,2,1,1960,Ottimo / Ristrutturato
+02/05/2023,Torino,Pozzo Strada,corso Monte Cucco 146,158000,93,2,Si,3,1,1964,Buono / Abitabile
+05/05/2023,Torino,Mirafiori Nord,via Canelli 83,59000,55,0,No,2,1,,Ottimo / Ristrutturato
+02/05/2023,Torino,Parella,via Valgioie 84,220000,125,2,Si,4,1,1968,Buono / Abitabile
+02/05/2023,Torino,Quadrilatero Romano,via Bligny 5,748000,185,4,Si,5,2,1700,Ottimo / Ristrutturato
+05/05/2023,Torino,Madonna di Campagna,via Viterbo 145,48000,56,4,Si,2,1,1958,Da ristrutturare
+02/05/2023,Torino,Pozzo Strada,via Luigi Ferdinando Marsigli 98,159000,70,2,Si,3,1,1975,Ottimo / Ristrutturato
+03/05/2023,Torino,Nizza Millefonti,via Varaita 13,159000,105,1,Si,4,1,1950,Buono / Abitabile
+03/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Candiolo 24,145000,55,1,Si,2,1,2010,Nuovo / In costruzione
+05/05/2023,Torino,Parella,via Exilles 23,390000,153,2,Si,5,2,1990,Ottimo / Ristrutturato
+05/05/2023,Torino,Lingotto,via Tunisi 49,119000,59,2,Si,2,1,1975,Buono / Abitabile
+04/05/2023,Torino,Cenisia,via Villar Focchiardo 15/A,278000,129,3,No,4,2,2023,Nuovo / In costruzione
+02/05/2023,Torino,Quadrilatero Romano,via Bellezia 15,290000,100,1,No,3,1,,Buono / Abitabile
+04/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Pramollo 2,140000,70,3,Si,2,1,,Ottimo / Ristrutturato
+03/05/2023,Torino,Parella,via Nicomede Bianchi 35,125000,75,1,No,3,1,1940,Buono / Abitabile
+02/05/2023,Torino,Lucento,via Pianezza 43,59000,40,3,Si,2,1,2006,Buono / Abitabile
+05/05/2023,Torino,Vanchiglia,corso Regina Margherita 72/74,259000,70,6,Si,1,1,,Buono / Abitabile
+08/05/2023,Torino,Parella,via Valentino Carrera 40,148000,90,1,No,4,1,1951,Ottimo / Ristrutturato
+04/05/2023,Torino,Cenisia,via Vigone 33,199000,97,2,Si,4,2,,Buono / Abitabile
+02/05/2023,Torino,Pozzo Strada,corso Monte Cucco 103,85000,66,7,Si,2,1,1967,Da ristrutturare
+04/05/2023,Torino,San Salvario - Dante,via Benvenuto Cellini 28,210000,100,4,Si,4,1,1940,Buono / Abitabile
+02/05/2023,Torino,Borgo Vittoria,via Ciamarella,75000,65,2,No,3,2,1970,Ottimo / Ristrutturato
+02/05/2023,Torino,Aurora,corso Emilia 30,79000,80,3,Si,3,1,,Buono / Abitabile
+02/05/2023,Torino,Crocetta,via Governolo,255000,170,0,No,5,1,1930,Buono / Abitabile
+03/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Piero Maroncelli 7,150000,65,6,Si,2,1,,Ottimo / Ristrutturato
+04/05/2023,Torino,Cenisia,via Villar Focchiardo 15/A,278000,129,3,No,4,2,2023,Nuovo / In costruzione
+05/05/2023,Torino,Madonna di Campagna,via Bernardino Luini 83,56000,52,5,Si,2,1,1960,Buono / Abitabile
+02/05/2023,Torino,Barriera di Milano,via Ruggero Leoncavallo 45,199000,130,8,Si,4,2,1950,Ottimo / Ristrutturato
+08/05/2023,Torino,Pozzo Strada,via Monginevro 259,159000,92,3,Si,3,1,1965,Buono / Abitabile
+03/05/2023,Torino,Madonna del Pilone,corso casale 235,145000,85,1,No,3,1,1950,Buono / Abitabile
+03/05/2023,Torino,Parella,via Vittorio Asinari di Bernezzo 68,310000,175,3,Si,5,2,1968,Da ristrutturare
+02/05/2023,Torino,Barriera di Milano,via Luigi Salvatore Cherubini 20,30900,55,5,No,2,1,1970,Buono / Abitabile
+02/05/2023,Torino,Le Vallette,corso Ferrara 31,99000,85,0,No,4,1,1960,Buono / Abitabile
+02/05/2023,Torino,Don Bosco,via SONDRIO,140000,55,2,No,3,1,,
+02/05/2023,Torino,San Donato,via PIERDIONIGI PINELLI,138000,68,0,No,3,1,,
+08/05/2023,Torino,Aurora,corso Brescia 28,149000,91,4,Si,3,1,,Buono / Abitabile
+08/05/2023,Torino,San Donato,via Pietro Piffetti 25,495000,200,1,Si,5,3,1972,Ottimo / Ristrutturato
+03/05/2023,Torino,Madonna del Pilone,corso Casale,119000,67,2,No,3,1,1900,Buono / Abitabile
+04/05/2023,Torino,Mirafiori Nord,via Felizzano 20,170000,96,4,Si,3,2,1996,Ottimo / Ristrutturato
+04/05/2023,Torino,Aurora,corso Emilia 30,129000,81,2,Si,3,1,1950,Ottimo / Ristrutturato
+05/05/2023,Torino,Campidoglio,corso Lecce,119000,80,6,Si,3,1,1970,Da ristrutturare
+01/05/2023,Torino,Aurora,corso Principe Oddone 50,72000,68,2,Si,2,1,1930,Ottimo / Ristrutturato
+08/05/2023,Torino,Madonna di Campagna,via Borgaro,186000,80,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Madonna di Campagna,piazza Ruggero Bonghi,235000,90,1,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Vanchiglietta,via Rimini,291000,90,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Vanchiglia,via Vanchiglia,363000,125,4,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Buenos Aires,235000,90,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,via Antonio Canova,281000,90,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Mirafiori Nord,via Canelli,184000,80,4,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,via Nizza,321000,100,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Barriera di Milano,via Desana,191000,85,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Vanchiglietta,corso Belgio,285000,90,7,Si,5,1,,Nuovo / In costruzione
+08/05/2023,Torino,Don Bosco,via Don Giovanni Bosco,161000,75,2,No,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Borgo Vittoria,via Bibiana,230000,110,1,Si,4,2,,Nuovo / In costruzione
+08/05/2023,Torino,Falchera,via Strambino,253000,105,3,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Monfalcone,182000,70,4,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Pozzo Strada,corso Trapani,234000,80,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Borgo Vittoria,via Vibo,188000,95,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Pozzo Strada,via Asiago,143000,60,2,No,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Nizza Millefonti,via Genova,213000,95,1,No,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Cittadella,via Giuseppe Garibaldi,291000,70,4,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Campidoglio,via Nicola Fabrizi,196000,75,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Crocetta,corso Duca Degli Abruzzi,345000,90,1,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Donato,via San Donato,197000,70,1,No,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Mirafiori Nord,via Felizzano,176000,75,1,No,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Secondo,via Arquata,224000,80,3,No,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Paolo,corso Racconigi,218000,70,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Pozzo Strada,corso Monte Cucco,237000,85,8,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Tripoli,171000,60,4,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Tirreno,255000,90,1,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Borgo Vittoria,via Chiesa Della Salute,162000,70,4,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Cenisia,via San Paolo,298000,95,1,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Barletta,215000,85,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Crocetta,corso Vittorio Emanuele Ii,278000,80,3,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Parella,via Capelli,151000,60,1,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Lingotto,via Eusebio Giambone,191000,75,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,corso Orbassano,227000,85,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,corso Giovanni Agnelli,209000,85,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Barriera di Milano,via Alessandro Scarlatti,166000,75,4,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Cenisia,via Valdieri,181000,70,1,No,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Lucento,via Giovannii Segantini,182000,85,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Parella,via Pietro Cossa,206000,75,6,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Paolo,via Osasco,185000,65,4,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Parella,corso Francia,231000,75,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Lucento,corso Potenza,158000,80,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Salvario - Dante,via Francesco Petrarca,205000,60,5,Si,2,1,,Nuovo / In costruzione
+01/05/2023,Torino,Nizza Millefonti,via Varazze 13,150000,53,0,Si,2,1,2023,Nuovo / In costruzione
+08/05/2023,Torino,Borgo Vittoria,corso Venezia,263000,125,3,Si,4,2,,Nuovo / In costruzione
+08/05/2023,Torino,Pozzo Strada,corso Montecucco,310000,100,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Paolo,via Paolo Braccini,156000,60,5,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Vanchiglietta,corso Chieti,336000,110,6,Si,4,1,,Nuovo / In costruzione
+01/05/2023,Torino,Pozzo Strada,via Vandalino 85,75000,55,0,Si,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,San Secondo,via Solero,261000,75,5,Si,3,1,,Nuovo / In costruzione
+01/05/2023,Torino,Pozzo Strada,via Quarto dei Mille 8,79000,55,3,Si,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,Barriera di Milano,via Renato Martorelli,209000,95,2,Si,3,1,,Nuovo / In costruzione
+02/05/2023,Torino,San Donato,via San Donato 55,297000,96,5,Si,4,1,,Ottimo / Ristrutturato
+01/05/2023,Torino,San Paolo,via Monginevro 70,205000,50,1,No,2,1,,
+02/05/2023,Torino,Barriera di Lanzo,via Guglielmo Reiss Romoli 81/7,95000,80,8,Si,3,2,1976,Buono / Abitabile
+08/05/2023,Torino,Parella,via Antonio Fogazzaro 21,77000,42,3,No,2,1,1950,Ottimo / Ristrutturato
+02/05/2023,Torino,Le Vallette,via Delle Pervinche 9,169000,96,2,No,4,2,1960,Ottimo / Ristrutturato
+05/05/2023,Torino,Cenisia,via Frejus 80,65000,42,0,No,2,1,1950,Ottimo / Ristrutturato
+02/05/2023,Torino,Vanchiglietta,via Oslavia 56,121000,60,6,Si,2,1,1970,Buono / Abitabile
+02/05/2023,Torino,Vanchiglia,corso Regina Margherita 73,295000,108,4,Si,4,1,,Ottimo / Ristrutturato
+06/05/2023,Torino,San Salvario - Baretti,via Ormea 6,145000,65,1,Si,3,1,,Da ristrutturare
+05/05/2023,Torino,Borgo Vittoria,via Bibiana,127000,85,1,Si,3,1,,
+04/05/2023,Torino,Mirafiori Nord,via Guido Reni 213/12,89000,55,1,No,2,1,1960,Da ristrutturare
+02/05/2023,Torino,Barriera di Milano,via sempione 160,47900,55,0,Si,2,1,1970,
+08/05/2023,Torino,Lucento,via Gaspare Gorresio 9,165000,90,1,No,3,1,1960,Buono / Abitabile
+29/04/2023,Torino,Madonna di Campagna,via Messedaglia 30,46000,50,0,No,2,1,1960,Buono / Abitabile
+29/04/2023,Torino,Madonna di Campagna,via Borgaro 84,139000,75,4,Si,3,1,1970,Da ristrutturare
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso traiano 24,195000,105,4,Si,4,1,1970,Da ristrutturare
+29/04/2023,Torino,Cittadella,corso Inghilterra 25,325000,75,2,Si,3,1,1900,Ottimo / Ristrutturato
+29/04/2023,Torino,Madonna di Campagna,via Caluso 1,193000,120,6,Si,4,1,1965,Ottimo / Ristrutturato
+02/05/2023,Torino,Mirafiori Nord,via Giovanni Zambelli 12,89000,60,1,Si,2,1,1960,Ottimo / Ristrutturato
+29/04/2023,Torino,Borgo Vittoria,via Orvieto 14,58000,50,1,No,2,1,1940,Buono / Abitabile
+02/05/2023,Torino,Santa Rita,corso Orbassano 199,209000,150,2,Si,5,1,1961,Da ristrutturare
+29/04/2023,Torino,Borgo Vittoria,via michele coppino 120,75000,55,1,Si,2,1,1970,Buono / Abitabile
+29/04/2023,Torino,San Paolo,piazza Don Franco Delpiano,198000,55,6,Si,2,1,2005,Ottimo / Ristrutturato
+29/04/2023,Torino,Borgo Vittoria,via Cardinal Massaia 40,229000,110,0,Si,4,1,1960,Ottimo / Ristrutturato
+29/04/2023,Torino,Borgo Vittoria,via Campiglia 34,149000,90,5,Si,3,1,1970,Buono / Abitabile
+29/04/2023,Torino,Crocetta,via Vincenzo Gioberti 36,355000,149,2,Si,5,2,1920,Buono / Abitabile
+08/05/2023,Torino,Gran Madre - Crimea,via Villa della Regina 12,680000,150,2,Si,5,2,1968,Ottimo / Ristrutturato
+03/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Unione Sovietica 439,93000,50,3,Si,2,1,1970,Ottimo / Ristrutturato
+08/05/2023,Torino,Lucento,via Val della Torre 109,48000,70,3,No,3,1,1950,Da ristrutturare
+08/05/2023,Torino,Lucento,via Mario Crimi 3,89000,80,5,Si,3,1,1960,Buono / Abitabile
+08/05/2023,Torino,Lucento,via Val della Torre 23,159000,76,2,Si,3,1,2006,Buono / Abitabile
+29/04/2023,Torino,Santa Rita,via Bene Vagienna 11,155000,90,2,Si,4,1,1955,Da ristrutturare
+06/05/2023,Torino,Madonna di Campagna,via Cardinal Massaia,139000,72,2,Si,3,1,1998,Buono / Abitabile
+02/05/2023,Torino,Lucento,corso Svizzera 149,84000,55,3,Si,2,1,1958,Da ristrutturare
+08/05/2023,Torino,Nizza Millefonti,via Nizza,235000,110,1,Si,5,2,1955,Ottimo / Ristrutturato
+08/05/2023,Torino,Lucento,via balangero 10,75000,73,3,No,4,1,1950,Da ristrutturare
+02/05/2023,Torino,San Salvario - Baretti,via Sant'Anselmo 11,225000,60,1,Si,2,1,1950,Ottimo / Ristrutturato
+29/04/2023,Torino,San Salvario - Baretti,via Sant'anselmo 11,230000,65,1,Si,2,1,1950,Ottimo / Ristrutturato
+03/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Loano 14_2,149500,71,5,No,4,1,1964,Ottimo / Ristrutturato
+08/05/2023,Torino,San Salvario - Baretti,via Sant'anselmo 11,1085000,330,1,Si,5,3,1950,Ottimo / Ristrutturato
+08/05/2023,Torino,San Salvario - Baretti,via Sant'anselmo 11,195000,60,1,Si,2,1,1950,Ottimo / Ristrutturato
+29/04/2023,Torino,Lingotto,via Gaspare Vera e Libera Arduino 45,153000,60,1,Si,2,1,2006,Ottimo / Ristrutturato
+29/04/2023,Torino,Bertolla,via Gran Sasso 10,47000,47,1,No,2,1,,Buono / Abitabile
+05/05/2023,Torino,Parella,corso Lecce 57,180000,165,0,Si,5,2,1950,Da ristrutturare
+29/04/2023,Torino,Barriera di Milano,via Pier Fortunato Calvi 16,38000,55,1,Si,2,1,,
+29/04/2023,Torino,Le Vallette,via Sansovino  270,65000,120,0,Si,5,2,1960,Buono / Abitabile
+02/05/2023,Torino,Borgo Vittoria,via Casteldelfino 10,54000,55,2,Si,2,1,1964,Buono / Abitabile
+02/05/2023,Torino,Mirafiori Nord,corso Orbassano 268,168000,100,6,Si,3,1,1966,Ottimo / Ristrutturato
+02/05/2023,Torino,Pozzo Strada,via Francesco De Sanctis 84,84000,58,6,No,2,1,1970,Buono / Abitabile
+03/05/2023,Torino,Parella,piazza Tommaso Campanella 21,98000,53,2,Si,2,1,1958,Ottimo / Ristrutturato
+08/05/2023,Torino,Cenisia,corso Trapani 81,79000,50,3,Si,2,1,1940,Da ristrutturare
+28/04/2023,Torino,San Paolo,via Morozzo 25,108000,60,2,Si,2,1,1950,Buono / Abitabile
+02/05/2023,Torino,Parella,via Arona 12,72000,46,1,Si,2,1,1935,Buono / Abitabile
+02/05/2023,Torino,San Paolo,via Chiomonte 14,72000,43,1,No,2,1,1920,Buono / Abitabile
+28/04/2023,Torino,San Paolo,via Tolmino 19,119000,60,1,No,2,1,,Ottimo / Ristrutturato
+08/05/2023,Torino,Santa Rita,via Tolmino 59/a,119000,85,0,No,4,1,1958,Ottimo / Ristrutturato
+05/05/2023,Torino,Parco Dora,via Verolengo 29/1,85000,50,4,Si,2,1,2006,Ottimo / Ristrutturato
+08/05/2023,Torino,Santa Rita,corso Cosenza 30,198000,82,3,Si,3,1,1965,Ottimo / Ristrutturato
+28/04/2023,Torino,Santa Rita,via Baltimora,103500,84,1,Si,4,1,1967,Ottimo / Ristrutturato
+27/04/2023,Torino,Mirafiori Sud - Strada del Drosso,via Plava,61692,102,6,Si,4,6,1963,Buono / Abitabile
+03/05/2023,Torino,Parella,via Piedicavallo 20,369000,190,4,Si,5,2,1930,
+28/04/2023,Torino,Lucento,via Lucento 81,129000,75,0,No,3,1,1900,Ottimo / Ristrutturato
+28/04/2023,Torino,Lucento,via Parenzo 72,55000,90,3,No,4,1,1950,Da ristrutturare
+06/05/2023,Torino,San Salvario - Dante,via Ormea 164,59000,34,4,Si,2,1,1968,Ottimo / Ristrutturato
+28/04/2023,Torino,Santa Rita,via Gorizia 175,59000,30,2,Si,1,1,1960,Ottimo / Ristrutturato
+04/05/2023,Torino,Aurora,via Bognanco 5,125000,71,1,Si,3,1,1900,Ottimo / Ristrutturato
+29/04/2023,Torino,Mirafiori Nord,via Castelgomberto 141,187000,85,6,Si,3,1,1970,Ottimo / Ristrutturato
+28/04/2023,Torino,Le Vallette,via delle Verbene 17,129000,115,2,No,5,1,1960,Buono / Abitabile
+02/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Traiano 82,158000,90,5,Si,4,1,1969,Buono / Abitabile
+02/05/2023,Torino,Vanchiglietta,via Varallo 30,348000,150,0,Si,5,2,1935,Ottimo / Ristrutturato
+02/05/2023,Torino,Le Vallette,via delle Pervinche 9,109000,97,2,No,4,1,1960,Buono / Abitabile
+28/04/2023,Torino,Parella,via Domodossola 7,210000,120,0,Si,5,3,1940,Ottimo / Ristrutturato
+08/05/2023,Torino,Santa Rita,via San Marino 98,85000,60,5,Si,2,1,1960,Buono / Abitabile
+02/05/2023,Torino,Cittadella,via Cernaia 28,199000,75,2,Si,3,1,1900,Da ristrutturare
+03/05/2023,Torino,Vanchiglietta,via Andorno 43,124000,82,4,No,4,1,1900,Buono / Abitabile
+08/05/2023,Torino,Aurora,via Salerno 5,157000,90,2,Si,4,1,1924,Buono / Abitabile
+28/04/2023,Torino,Lingotto,corso Eusebio Giambone 67,172000,90,5,Si,3,1,1970,Ottimo / Ristrutturato
+05/05/2023,Torino,Barriera di Milano,via Lauro Rossi 77,48000,55,2,Si,2,1,1955,Da ristrutturare
+28/04/2023,Torino,Barriera di Milano,corso Giulio Cesare 160,79000,66,3,No,3,1,1940,Ottimo / Ristrutturato
+02/05/2023,Torino,Cenisia,via cesana 43,138000,75,0,No,3,1,1910,Ottimo / Ristrutturato
+05/05/2023,Torino,Santa Rita,via Baltimora 181,169000,68,1,Si,2,1,1970,Ottimo / Ristrutturato
+28/04/2023,Torino,Borgo Vittoria,via Leopoldo Usseglio 16,65000,65,3,No,3,1,1940,Ottimo / Ristrutturato
+05/05/2023,Torino,Lingotto,piazza Tancredi Galimberti 15,105000,75,2,No,3,1,1935,Buono / Abitabile
+28/04/2023,Torino,Madonna di Campagna,via Michele Coppino 148,135000,90,4,Si,3,1,1955,Ottimo / Ristrutturato
+28/04/2023,Torino,Regio Parco,via Giambattista Pergolesi 96,165000,90,2,No,4,1,1960,Ottimo / Ristrutturato
+28/04/2023,Torino,Santa Rita,corso Sebastopoli 210,143000,78,8,Si,3,8,1955,Da ristrutturare
+28/04/2023,Torino,San Secondo,via Nizza 26,98000,30,4,Si,2,1,,Ottimo / Ristrutturato
+28/04/2023,Torino,San Paolo,via Monginevro 94,179000,90,4,Si,4,4,1955,Buono / Abitabile
+08/05/2023,Torino,Parco Dora,corso Enrico Gamba 24,229000,75,5,Si,4,1,2007,Ottimo / Ristrutturato
+02/05/2023,Torino,Rebaudengo,corso Vercelli 226,99000,93,5,Si,3,1,1965,Buono / Abitabile
+28/04/2023,Torino,Pozzo Strada,via Col di Lana 25,165000,95,1,No,3,1,1960,Ottimo / Ristrutturato
+28/04/2023,Torino,Madonna di Campagna,via Verolengo 42,75000,77,0,Si,3,1,1940,Buono / Abitabile
+28/04/2023,Torino,Crocetta,via Marco Polo 4,347000,140,1,Si,5,2,1940,Buono / Abitabile
+07/05/2023,Torino,Cenisia,via Frejus 58,82000,50,5,Si,2,1,1955,Buono / Abitabile
+28/04/2023,Torino,Santa Rita,corso Sebastopoli 295,240000,90,1,Si,3,1,1967,Da ristrutturare
+02/05/2023,Torino,Nizza Millefonti,via Nizza 140,129000,60,6,Si,3,1,1960,Ottimo / Ristrutturato
+28/04/2023,Torino,Parella,via Nicomede Bianchi 40,115000,80,1,No,3,1,1940,Ottimo / Ristrutturato
+02/05/2023,Torino,San Salvario - Dante,corso Dante Alighieri 75,390000,130,4,Si,4,2,1990,
+28/04/2023,Torino,Barriera di Milano,via Enrico Cavaglià 8,25000,40,0,No,2,1,1960,Buono / Abitabile
+05/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Gioacchino Quarello 22/B,125000,120,1,Si,5,2,1960,Buono / Abitabile
+05/05/2023,Torino,San Donato,via Pier Dionigi Pinelli 22,185000,91,4,Si,3,1,1950,Buono / Abitabile
+03/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Monastir 26,72000,56,2,Si,2,1,1960,Buono / Abitabile
+04/05/2023,Torino,San Salvario - Dante,via ormea 164,75000,40,6,Si,2,1,,Buono / Abitabile
+02/05/2023,Torino,Barriera di Milano,via Aosta 64,165000,110,9,Si,4,1,1962,Ottimo / Ristrutturato
+08/05/2023,Torino,Cenisia,via Ferrere 13,179000,72,1,No,2,1,2023,Ottimo / Ristrutturato
+28/04/2023,Torino,Regio Parco,via Pergolesi,165000,85,2,No,4,1,,Ottimo / Ristrutturato
+04/05/2023,Torino,San Paolo,via Paesana 22,159000,90,2,Si,4,1,1930,Ottimo / Ristrutturato
+28/04/2023,Torino,Borgo Vittoria,via Breglio 16,117000,90,5,Si,3,5,,
+28/04/2023,Torino,Aurora,via Francesco Cigna 41,61950,64,1,Si,3,1,,
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Onorato Vigliani 25/4,37000,20,0,Si,1,1,1975,Da ristrutturare
+11/07/2023,Torino,Santa Rita,via Baltimora,103500,84,1,Si,3,1,1986,Buono / Abitabile
+04/07/2023,Torino,Borgo Vittoria,via Chiesa della Salute,37500,51,1,Si,3,1,1986,Buono / Abitabile
+03/05/2023,Torino,Nizza Millefonti,via GENOVA,115000,55,2,Si,2,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Quadrilatero Romano,via Corte d'Appello 7,310000,95,2,Si,3,1,1800,Ottimo / Ristrutturato
+28/04/2023,Torino,Mirafiori Nord,corso siracusa,89000,65,2,Si,2,1,1960,Buono / Abitabile
+27/04/2023,Torino,Pozzo Strada,via Fossati,260000,102,5,Si,3,1,1971,Ottimo / Ristrutturato
+29/04/2023,Torino,Santa Rita,via Ticineto 11,148000,78,1,No,3,1,1950,Da ristrutturare
+06/05/2023,Torino,Santa Rita,via Monesiglio 35,99000,75,0,Si,3,1,1967,Da ristrutturare
+27/04/2023,Torino,Aurora,via Aosta 41,109000,78,1,Si,3,1,1960,Ottimo / Ristrutturato
+04/05/2023,Torino,Mirafiori Nord,corso Caio Plinio 28,135000,76,1,Si,3,1,1980,Buono / Abitabile
+02/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Italo Pizzi 3/D,184000,90,6,Si,3,1,1969,Ottimo / Ristrutturato
+27/04/2023,Torino,Campidoglio,via Balme 34,99000,70,2,No,3,1,1940,Ottimo / Ristrutturato
+27/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Benedetto Croce 30,119000,90,2,Si,3,1,1965,Da ristrutturare
+05/05/2023,Torino,Quadrilatero Romano,via San Domenico 5,215000,70,3,Si,3,1,1700,Buono / Abitabile
+06/05/2023,Torino,San Salvario - Dante,via Ormea 164,39000,34,4,Si,2,1,1968,Ottimo / Ristrutturato
+08/05/2023,Torino,Don Bosco,via don bosco 56,43000,40,4,No,2,1,1940,Da ristrutturare
+03/05/2023,Torino,San Salvario - Dante,via Tommaso Grossi 19,99000,75,4,No,3,1,1970,Buono / Abitabile
+05/05/2023,Torino,Pozzo Strada,corso Filippo Brunelleschi 69,140000,70,8,Si,2,1,1960,Da ristrutturare
+28/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Onorato Vigliani 9,138000,87,3,Si,3,1,1964,Buono / Abitabile
+27/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Unione Sovietica 493/27,149000,83,2,Si,3,1,1968,Ottimo / Ristrutturato
+29/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Onorato Vigliani 21,125000,85,1,Si,3,1,1970,Buono / Abitabile
+27/04/2023,Torino,Crocetta,corso de gasperi 24,290000,88,5,Si,3,1,1940,Buono / Abitabile
+02/05/2023,Torino,Pozzo Strada,via Tofane,148000,78,1,Si,3,1,1974,
+27/04/2023,Torino,Lucento,via Alfredo Oriani 25,115000,80,8,Si,3,1,1960,Buono / Abitabile
+28/04/2023,Torino,Sassi,via Tommaso Augudio 44,165000,80,2,No,3,1,1977,Ottimo / Ristrutturato
+28/04/2023,Torino,Lingotto,via Giordano Bruno 7,219000,109,1,Si,4,2,1950,Buono / Abitabile
+27/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Benedetto Croce 9,139000,85,5,Si,3,1,1970,Buono / Abitabile
+06/05/2023,Torino,Campidoglio,corso Svizzera 49,85000,60,2,Si,3,1,1950,Ottimo / Ristrutturato
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Onorato Vigliani 35/15,330000,155,2,Si,5,2,1968,Buono / Abitabile
+27/04/2023,Torino,Madonna di Campagna,via foligno 44,65000,60,5,Si,2,1,1965,Buono / Abitabile
+04/05/2023,Torino,Pozzo Strada,via Vincenzo Lancia 124/2,119000,60,4,Si,2,1,1960,Buono / Abitabile
+06/05/2023,Torino,San Salvario - Baretti,via Ormea 8,319000,104,1,Si,4,1,1900,Buono / Abitabile
+03/05/2023,Torino,San Paolo,corso Trapani 149,605000,153,9,Si,5,2,2001,Ottimo / Ristrutturato
+27/04/2023,Torino,San Donato,via Pier Dionigi Pinelli 42,100000,52,1,No,2,1,1947,Buono / Abitabile
+08/05/2023,Torino,Borgo Vittoria,via bibiana 83,81000,65,4,Si,2,1,1965,Ottimo / Ristrutturato
+08/05/2023,Torino,Lucento,corso Toscana 12,69000,54,0,Si,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via Boston 28,255000,115,4,Si,4,1,1960,Buono / Abitabile
+27/04/2023,Torino,Barriera di Lanzo,via macherione 14,68000,55,4,No,2,1,1960,Ottimo / Ristrutturato
+24/03/2023,Torino,Pozzo Strada,via Fidia 13,46500,65,4,No,3,4,1930,Buono / Abitabile
+29/04/2023,Torino,San Salvario - Dante,piazza nizza 81,218000,85,4,Si,3,1,1958,Nuovo / In costruzione
+04/05/2023,Torino,San Salvario - Dante,via Gaetano Donizetti 7,142000,65,3,No,3,1,1909,Buono / Abitabile
+08/05/2023,Torino,Borgo Vittoria,via Michele Coppino,79000,55,6,Si,2,1,1960,Ottimo / Ristrutturato
+28/04/2023,Torino,Pozzo Strada,via Rieti 23,120000,79,5,Si,3,1,1960,Buono / Abitabile
+27/04/2023,Torino,Crocetta,via Evangelista Torricelli,350000,133,3,Si,3,2,1970,Buono / Abitabile
+04/05/2023,Torino,Santa Rita,corso Giovanni Agnelli 113,93000,55,4,Si,2,1,1965,Buono / Abitabile
+27/04/2023,Torino,Regio Parco,via Monte Rosa 149,109000,90,0,Si,3,1,1970,Buono / Abitabile
+28/04/2023,Torino,San Salvario - Dante,via Giovanni Argentero 1,225000,81,0,No,3,1,1900,Ottimo / Ristrutturato
+27/04/2023,Torino,Santa Rita,via Castelgomberto 11,198000,115,2,Si,5,1,,Buono / Abitabile
+28/04/2023,Torino,Santa Rita,via Alfiano 7,137000,67,2,Si,2,1,1970,Ottimo / Ristrutturato
+04/05/2023,Torino,Gran Madre - Crimea,corso Quintino Sella 14,2500000,502,S,Si,5,3,1920,Buono / Abitabile
+27/04/2023,Torino,Mirafiori Nord,via Edoardo Daneo 20,270000,120,2,Si,4,2,,Ottimo / Ristrutturato
+02/05/2023,Torino,Santa Rita,via Montezemolo 8,105000,66,4,No,3,1,1956,Buono / Abitabile
+27/04/2023,Torino,Città Giardino,via Giuseppe Romita 4,154000,82,1,Si,3,1,1974,Buono / Abitabile
+27/04/2023,Torino,Barriera di Milano,via Montanaro 50,79900,80,2,Si,3,1,1970,Buono / Abitabile
+27/04/2023,Torino,Pozzo Strada,via Vandalino 69,370000,133,1,Si,4,2,2024,Nuovo / In costruzione
+04/05/2023,Torino,Parella,via Giovanni Servais 27,590000,240,4,Si,5,3,1995,Ottimo / Ristrutturato
+27/04/2023,Torino,Pozzo Strada,via Vandalino 69,525000,218,4,Si,4,2,2024,Nuovo / In costruzione
+28/04/2023,Torino,Barriera di Milano,corso Novara 47,40000,80,7,Si,3,1,1955,Buono / Abitabile
+27/04/2023,Torino,Pozzo Strada,via Vandalino 69,380000,121,3,Si,4,2,2024,
+02/05/2023,Torino,Campidoglio,corso Alessandro Tassoni 79/4,299000,145,2,Si,5,2,1970,Buono / Abitabile
+03/05/2023,Torino,Cavoretto,corso Moncalieri 236,159000,60,0,No,2,1,1939,Nuovo / In costruzione
+27/04/2023,Torino,Parella,via Gravere 11,79000,40,0,No,1,1,1960,Ottimo / Ristrutturato
+02/05/2023,Torino,Le Vallette,via delle Primule 67,168000,122,5,Si,5,3,1988,
+06/05/2023,Torino,Nizza Millefonti,via Genova,155000,80,1,No,3,1,,
+27/04/2023,Torino,Regio Parco,corso Giulio Cesare,115000,85,5,No,2,1,,Buono / Abitabile
+27/04/2023,Torino,Mirafiori Nord,via Giacomo Dina 75/1,95000,70,3,No,3,1,,Ottimo / Ristrutturato
+27/04/2023,Torino,Santa Rita,via Tripoli 42,65000,60,2,No,2,1,,Da ristrutturare
+27/06/2023,Torino,Madonna di Campagna,via Caltanisetta,25500,50,1,Si,3,1,1986,Buono / Abitabile
+20/06/2023,Torino,Barriera di Lanzo,via quincinetto,82500,57,1,Si,3,1,1986,Buono / Abitabile
+08/05/2023,Torino,Borgo Vittoria,via Chiesa della Salute 37,59000,70,4,No,3,1,,Ottimo / Ristrutturato
+27/04/2023,Torino,San Salvario - Dante,corso Dante Alighieri 79,219000,75,1,Si,3,1,1970,Ottimo / Ristrutturato
+05/05/2023,Torino,Parella,corso Bernardino Telesio 42,278000,134,9,Si,4,2,1960,Da ristrutturare
+29/04/2023,Torino,Crocetta,via Marco Polo 37,138000,52,0,No,2,1,1920,Buono / Abitabile
+04/05/2023,Torino,Parella,via Vittorio Asinari di Bernezzo 59,129000,75,1,Si,3,1,1960,Ottimo / Ristrutturato
+02/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Luigi Chiala 9,114000,90,5,Si,3,1,1950,Buono / Abitabile
+02/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Fratelli de Maistre 43,49000,60,4,Si,2,1,1961,Da ristrutturare
+27/04/2023,Torino,Barriera di Milano,via Monte Rosa 28,54900,50,2,No,3,1,1940,Buono / Abitabile
+26/04/2023,Torino,Santa Rita,corso Orbassano 255,285000,117,4,Si,5,2,1973,Ottimo / Ristrutturato
+06/05/2023,Torino,Quadrilatero Romano,via San Domenico,99000,40,4,No,1,1,1600,Da ristrutturare
+05/05/2023,Torino,Don Bosco,via Bari 10,99000,72,3,No,3,1,1960,Ottimo / Ristrutturato
+03/05/2023,Torino,Barriera di Milano,piazza Francesco Crispi 58,38000,47,3,No,2,1,1940,Buono / Abitabile
+28/04/2023,Torino,Lucento,corso Potenza 82,125000,64,8,Si,2,1,1956,Ottimo / Ristrutturato
+28/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Benedetto Croce 36,84000,50,4,Si,2,1,1960,Buono / Abitabile
+27/04/2023,Torino,Giardini Reali,via Matteo Pescatore 9,465000,122,2,No,4,2,1900,Ottimo / Ristrutturato
+26/04/2023,Torino,Barca,Monolocale Strada del Cascinotto 4,55000,33,1,Si,1,1,1990,Buono / Abitabile
+26/04/2023,Torino,Mirafiori Sud - Strada del Drosso,via Front,62000,53,1,No,2,1,1950,Buono / Abitabile
+03/05/2023,Torino,Barriera di Milano,via Baltea 10,54900,78,A,No,3,1,1960,Buono / Abitabile
+29/04/2023,Torino,Regio Parco,via Pisa 41/A,220000,120,1,Si,4,1,1930,Da ristrutturare
+27/04/2023,Torino,Cenisia,via Pellice 14,99000,60,0,Si,2,1,1930,Ottimo / Ristrutturato
+26/04/2023,Torino,San Salvario - Dante,via Vincenzo Monti 19,99000,50,0,Si,2,1,1900,Nuovo / In costruzione
+02/05/2023,Torino,Quadrilatero Romano,via Porta Palatina 1,125000,39,4,Si,2,1,1989,Ottimo / Ristrutturato
+26/04/2023,Torino,Lucento,via Bernardino Luini 96,49500,55,1,Si,2,1,1965,Buono / Abitabile
+04/05/2023,Torino,Barriera di Milano,via Fossata 24,48000,50,3,No,2,1,1925,Buono / Abitabile
+27/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Onorato Vigliani 25,105000,55,9,Si,2,1,1970,Da ristrutturare
+26/04/2023,Torino,Pozzo Strada,via Vandalino 137,128000,83,1,Si,3,1,1965,Buono / Abitabile
+27/04/2023,Torino,Lucento,via Borgomasino 2,49000,50,5,No,2,1,1950,Ottimo / Ristrutturato
+27/04/2023,Torino,Borgo Vittoria,via Michele Antonio Vibò 66,75000,70,3,Si,3,1,1950,Buono / Abitabile
+26/04/2023,Torino,San Salvario - Dante,via Ilarione Petitti 13,220000,86,2,Si,3,1,1960,Ottimo / Ristrutturato
+29/04/2023,Torino,Madonna di Campagna,via Caltanissetta,59000,50,0,No,2,1,1960,Buono / Abitabile
+26/04/2023,Torino,Borgo Vittoria,via Bibiana,102000,85,0,Si,3,2,1970,Buono / Abitabile
+29/04/2023,Torino,Borgo Vittoria,via Arturo Colautti,75000,65,5,Si,2,1,1960,Buono / Abitabile
+27/04/2023,Torino,Madonna di Campagna,via Cardinale Guglielmo Massaia 128,115000,88,6,Si,3,1,1963,Buono / Abitabile
+26/04/2023,Torino,Gran Madre - Crimea,via Principessa Felicita di Savoia,1500000,454,0,Si,5,3,1900,Ottimo / Ristrutturato
+06/05/2023,Torino,Italia 61,corso Maroncelli,108000,61,3,No,2,1,1958,Ottimo / Ristrutturato
+29/04/2023,Torino,Madonna di Campagna,via Borgaro 86,105000,80,3,Si,3,1,1958,Ottimo / Ristrutturato
+06/05/2023,Torino,Nizza Millefonti,via Genova 196,90000,67,0,Si,2,1,1960,Da ristrutturare
+26/04/2023,Torino,Rebaudengo,corso Giulio Cesare 205,55000,60,6,Si,2,1,1970,Da ristrutturare
+26/04/2023,Torino,Lucento,via Verolengo 157,94000,85,4,Si,3,1,1960,Buono / Abitabile
+04/05/2023,Torino,Pozzo Strada,via Stelvio 80,129000,64,5,No,2,1,1965,Da ristrutturare
+26/04/2023,Torino,Nizza Millefonti,via genova 196,145000,81,1,Si,3,1,1962,Buono / Abitabile
+28/04/2023,Torino,Regio Parco,via Sandro  Botticelli 151,145000,145,0,No,5,2,1960,Buono / Abitabile
+27/04/2023,Torino,Santa Rita,corso Siracusa 73,160000,92,4,Si,3,1,1968,Da ristrutturare
+26/04/2023,Torino,Madonna del Pilone,via Albugnano 19,139000,58,0,No,2,1,1900,Ottimo / Ristrutturato
+26/04/2023,Torino,Rebaudengo,corso Giulio Cesare 299,165000,150,2,Si,5,2,1965,Buono / Abitabile
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Fratelli De Maistre 33,58000,52,1,Si,2,1,1960,Buono / Abitabile
+26/04/2023,Torino,Don Bosco,via Ceva 44,168000,100,1,No,1,1,,Ottimo / Ristrutturato
+26/04/2023,Torino,Barriera di Milano,via Sempione 78,85000,95,4,No,4,1,1950,Ottimo / Ristrutturato
+26/04/2023,Torino,Campidoglio,via Balme,194000,94,0,No,4,2,1950,Ottimo / Ristrutturato
+26/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Benedetto Croce 31,175000,90,5,Si,3,5,,Ottimo / Ristrutturato
+08/05/2023,Torino,Regio Parco,via giovenale ancina 57,52000,65,3,Si,3,1,,Da ristrutturare
+04/05/2023,Torino,Rebaudengo,corso Vercelli 181,95000,95,8,Si,4,1,1970,Da ristrutturare
+27/04/2023,Torino,Quadrilatero Romano,via delle orfane 29,39000,18,4,No,1,1,,Ottimo / Ristrutturato
+26/04/2023,Torino,Crocetta,via Giovanni da Verrazzano 51,269000,80,3,Si,2,1,1900,Nuovo / In costruzione
+06/06/2023,Torino,Aurora,via Cigna,61950,72,1,Si,3,1,1986,Buono / Abitabile
+23/05/2023,Torino,Madonna di Campagna,via Assisi,30000,42,1,Si,2,1,1986,Buono / Abitabile
+06/06/2023,Torino,San Salvario - Dante,via Monti,62250,58,1,Si,3,1,1986,Buono / Abitabile
+23/05/2023,Torino,Barriera di Lanzo,via Gandino,28500,66,1,Si,3,1,1986,Buono / Abitabile
+20/06/2023,Torino,Crocetta,via Vespucci,570000,200,1,Si,5,1,1986,Buono / Abitabile
+13/06/2023,Torino,Madonna di Campagna,via Ponderano,56700,69,1,Si,3,1,1986,Buono / Abitabile
+20/06/2023,Torino,Centro Europa,via Gonin,43500,54,1,Si,3,1,1986,Buono / Abitabile
+26/05/2023,Torino,Barriera di Milano,via Pont,90000,80,1,Si,3,1,1986,Buono / Abitabile
+27/06/2023,Torino,Santa Rita,via Frinco,54750,55,1,Si,3,1,1986,Buono / Abitabile
+23/05/2023,Torino,Barriera di Milano,corso Novara,31125,65,1,Si,3,1,1986,Buono / Abitabile
+13/06/2023,Torino,Barriera di Milano,via antonio banfo,42750,65,1,Si,3,1,1986,Buono / Abitabile
+23/05/2023,Torino,Lucento,corso Cincinnato,24750,65,1,Si,3,1,1986,Buono / Abitabile
+13/06/2023,Torino,Madonna di Campagna,via MONTELLO,24750,45,1,Si,2,1,1986,Buono / Abitabile
+20/06/2023,Torino,Centro Europa,via GONIN,55125,50,1,Si,3,1,1986,Buono / Abitabile
+06/06/2023,Torino,Lucento,via Borgomasino,34557,57,1,Si,3,1,1986,Buono / Abitabile
+26/04/2023,Torino,Parella,corso Monte Grappa 75,54900,60,7,Si,2,7,,
+06/06/2023,Torino,Parella,corso Montegrappa,54900,58,1,Si,3,1,1986,Buono / Abitabile
+27/06/2023,Torino,Falchera,via delle Robinie,74250,98,1,Si,4,1,1986,Buono / Abitabile
+13/06/2023,Torino,Madonna di Campagna,via Borgaro,28800,48,1,Si,2,1,1986,Buono / Abitabile
+13/06/2023,Torino,Borgo Vittoria,via Stradella,59250,73,1,Si,3,1,1986,Buono / Abitabile
+27/04/2023,Torino,Cenisia,via Lombriasco 15,340000,100,1,Si,4,2,2005,Buono / Abitabile
+04/05/2023,Torino,Pozzo Strada,via Francesco De Sanctis,85000,65,7,Si,2,1,1970,Da ristrutturare
+30/04/2023,Torino,Madonna del Pilone,via Michelangelo Tonello 26,380000,116,3,Si,4,2,1960,Ottimo / Ristrutturato
+26/04/2023,Torino,Madonna di Campagna,corso Grosseto 272,199000,88,8,Si,3,1,1961,Ottimo / Ristrutturato
+04/05/2023,Torino,Madonna di Campagna,corso Grosseto,69000,60,4,Si,2,1,1959,Buono / Abitabile
+02/05/2023,Torino,Cittadella,via Carlo Boucheron 6,310000,145,1,Si,4,1,1930,Buono / Abitabile
+26/04/2023,Torino,Barriera di Milano,via Malone 27,59000,78,1,No,3,2,1907,Buono / Abitabile
+24/04/2023,Torino,Città Giardino,via Giuseppe Romita 3,189000,117,2,Si,5,2,1970,Buono / Abitabile
+01/05/2023,Torino,Pozzo Strada,via Mario Ponzio 24,168000,110,0,Si,5,2,1970,Buono / Abitabile
+26/04/2023,Torino,San Paolo,via Volvera 24,230000,91,4,Si,3,1,,Ottimo / Ristrutturato
+26/04/2023,Torino,Lingotto,corso Corsica 28,60000,58,3,Si,1,1,1959,Ottimo / Ristrutturato
+26/04/2023,Torino,Parella,via Exilles 36,90000,58,2,Si,2,1,1960,Buono / Abitabile
+26/04/2023,Torino,Parella,via Giacinto Pacchiotti 10,139000,65,4,Si,2,1,1960,Ottimo / Ristrutturato
+27/04/2023,Torino,Parella,corso Monte Grappa 37,169000,80,2,Si,3,1,1960,Ottimo / Ristrutturato
+27/04/2023,Torino,Parella,piazza Tommaso Campanella 21,129000,75,5,Si,3,1,1960,Da ristrutturare
+24/04/2023,Torino,Giardini Reali,via Eusebio Bava 7,149000,31,5,Si,1,1,1900,Buono / Abitabile
+26/04/2023,Torino,Borgo Vittoria,via Gaetano Mosca 10,109000,85,1,Si,3,1,1970,Buono / Abitabile
+29/04/2023,Torino,San Paolo,via Lurisia 15,149000,80,9,Si,3,1,1960,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via Baltimora 46,65000,71,0,No,3,1,1970,Nuovo / In costruzione
+05/05/2023,Torino,Madonna di Campagna,via venaria 60/10,59000,70,5,No,3,1,1960,Buono / Abitabile
+05/05/2023,Torino,Le Vallette,via venaria 102,139000,145,1,No,5,2,1960,Buono / Abitabile
+03/05/2023,Torino,Madonna di Campagna,via Messedaglia 22,73000,60,3,Si,2,1,1960,Ottimo / Ristrutturato
+06/05/2023,Torino,Crocetta,corso Germano Sommeiller 26,178000,50,5,Si,2,1,1960,Ottimo / Ristrutturato
+06/05/2023,Torino,Crocetta,corso Germano Sommeiller 26,438000,120,5,Si,4,2,1960,Ottimo / Ristrutturato
+06/05/2023,Torino,Crocetta,corso Germano Sommeiller 26,168000,45,5,Si,2,1,1960,Ottimo / Ristrutturato
+25/04/2023,Torino,Mirafiori Nord,via Giuseppe Vicarelli 10,350000,142,4,Si,5,2,1970,Ottimo / Ristrutturato
+08/05/2023,Torino,Santa Rita,via Gorizia 149,298000,105,4,Si,4,1,1970,Ottimo / Ristrutturato
+28/04/2023,Torino,San Donato,via San Donato 23,99000,41,1,Si,2,1,1850,Buono / Abitabile
+26/04/2023,Torino,San Paolo,via Orsiera 27,88000,50,5,Si,2,1,1960,Da ristrutturare
+26/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Fratelli De Maistre 8,119000,72,4,No,3,1,1950,Ottimo / Ristrutturato
+25/04/2023,Torino,Barriera di Milano,via Malone 27,39000,35,1,No,2,1,1907,Buono / Abitabile
+02/05/2023,Torino,Mirafiori Nord,corso Unione Sovietica 359,150000,65,5,Si,3,1,2003,Ottimo / Ristrutturato
+26/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Michele Kerbaker 2,107000,68,6,Si,3,1,1960,Da ristrutturare
+27/04/2023,Torino,Madonna di Campagna,via Cuniberti 90,128000,63,7,Si,3,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Lucento,via Val della Torre 37,159000,74,1,Si,3,1,2005,Buono / Abitabile
+08/05/2023,Torino,Rebaudengo,piazza Conti di Rebaudengo 12,49000,50,3,Si,2,1,1960,Buono / Abitabile
+27/04/2023,Torino,Santa Rita,corso Cesare Correnti 53,269000,96,2,Si,4,2,1968,Ottimo / Ristrutturato
+08/05/2023,Torino,San Secondo,corso Filippo Turati 11,295000,85,9,Si,3,1,1970,Ottimo / Ristrutturato
+24/04/2023,Torino,Bertolla,Terratetto unifamiliare Strada di San Mauro,249000,160,S,No,5,2,1950,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via Tripoli 35/10,140000,77,1,Si,3,1,1970,Buono / Abitabile
+24/04/2023,Torino,San Donato,corso Regina Margherita 179,69000,40,0,No,2,1,1930,Ottimo / Ristrutturato
+08/05/2023,Torino,Campidoglio,via Nicola Fabrizi,214000,80,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,San Secondo,corso Dante Alighieri,375000,120,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Vanchiglietta,corso Belgio,377000,115,5,Si,4,2,,Nuovo / In costruzione
+08/05/2023,Torino,Lingotto,corso Eusebio Giambone,191000,75,5,Si,3,1,,Nuovo / In costruzione
+24/04/2023,Torino,Vanchiglia,via Artisti,173000,67,2,No,2,1,1900,Ottimo / Ristrutturato
+03/05/2023,Torino,Nizza Millefonti,via Genova 237,78000,57,9,Si,2,1,1960,Buono / Abitabile
+24/04/2023,Torino,San Paolo,via Monginevro 86,175000,88,5,Si,3,1,,Buono / Abitabile
+24/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Candiolo 24/18,165000,53,1,Si,2,1,2010,Ottimo / Ristrutturato
+26/04/2023,Torino,Lucento,piazza Nazario Sauro 16,300000,160,7,Si,4,1,1970,Ottimo / Ristrutturato
+28/04/2023,Torino,Crocetta,corso Galileo Ferraris 151,308000,155,0,Si,5,2,1955,Buono / Abitabile
+28/04/2023,Torino,San Donato,via San Donato 20,89000,41,2,No,2,1,1930,Ottimo / Ristrutturato
+28/04/2023,Torino,San Donato,via Gaspare Saccarelli 31,139000,75,2,Si,3,1,1929,Buono / Abitabile
+22/04/2023,Torino,Mirafiori Nord,corso Traiano 81,159000,85,3,Si,3,1,1970,Buono / Abitabile
+24/04/2023,Torino,Aurora,via Antonio Cecchi 56,105000,92,1,Si,3,1,1950,Ottimo / Ristrutturato
+08/05/2023,Torino,Pozzo Strada,via Bardonecchia 104,69000,41,3,No,2,1,1939,Ottimo / Ristrutturato
+22/04/2023,Torino,San Donato,via Principessa Clotilde 41,120000,88,2,Si,4,2,1900,Buono / Abitabile
+24/04/2023,Torino,Parella,via Carlo Capelli 72,135000,55,3,No,2,1,1958,Ottimo / Ristrutturato
+22/04/2023,Torino,Madonna del Pilone,corso Casale 104,79900,50,3,No,2,1,1920,Ottimo / Ristrutturato
+26/04/2023,Torino,Lucento,corso Cincinnato 222,129000,85,5,Si,3,1,1970,Buono / Abitabile
+22/04/2023,Torino,Lucento,via Val Della Torre 20,165000,82,5,Si,3,1,2009,Ottimo / Ristrutturato
+22/04/2023,Torino,Madonna di Campagna,via Bernardino Luini 61,67000,75,1,Si,3,1,1960,Da ristrutturare
+22/04/2023,Torino,Pozzo Strada,via Bionaz 43,130000,87,1,No,3,1,1962,Buono / Abitabile
+22/04/2023,Torino,Crocetta,via Lazzaro Spallanzani 15,120000,60,2,Si,3,1,1935,Buono / Abitabile
+21/04/2023,Torino,Le Vallette,via Delle Primule,115000,100,1,No,4,1,,Ottimo / Ristrutturato
+27/04/2023,Torino,Barriera di Milano,via Brandizzo,65000,75,1,Si,3,1,,Buono / Abitabile
+29/04/2023,Torino,San Secondo,via Chisone 4,230000,271,0,Si,2,1,1970,Buono / Abitabile
+22/04/2023,Torino,San Secondo,via Nizza 26,124000,40,6,Si,2,1,1990,Ottimo / Ristrutturato
+08/05/2023,Torino,Aurora,corso Brescia,250000,90,3,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Città Giardino,via Alfonso Balzico 2,269000,112,6,Si,4,1,1974,Ottimo / Ristrutturato
+01/05/2023,Torino,Pozzo Strada,via Cardinale Maurilio Fossati 5,335000,140,8,Si,5,2,1978,Ottimo / Ristrutturato
+03/05/2023,Torino,Pozzo Strada,corso Monte Cucco 123,380000,135,3,Si,5,2,1963,Ottimo / Ristrutturato
+28/04/2023,Torino,Regio Parco,corso Regio Parco 147,85000,60,1,No,2,1,1950,Buono / Abitabile
+27/04/2023,Torino,Regio Parco,via Renato Wuillermin 7,139000,70,1,Si,2,1,1990,Ottimo / Ristrutturato
+07/05/2023,Torino,Barriera di Lanzo,via Drusacco,57000,50,3,No,2,1,,Ottimo / Ristrutturato
+21/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Alessandro Fleming 30,139000,130,2,Si,5,2,1960,Buono / Abitabile
+08/05/2023,Torino,Cavoretto,corso Moncalieri 236,159000,60,0,No,2,1,1930,Ottimo / Ristrutturato
+04/05/2023,Torino,Santa Rita,corso Carlo e Nello Rosselli 159,189000,120,1,No,4,1,1929,Buono / Abitabile
+21/04/2023,Torino,San Salvario - Baretti,corso Massimo d'Azeglio 30,600000,180,3,Si,5,2,1970,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,corso Sebastopoli 174,109000,55,5,Si,2,1,1960,Buono / Abitabile
+03/05/2023,Torino,Mirafiori Nord,via Guido Reni 211,115000,85,6,Si,3,1,1960,Da ristrutturare
+06/05/2023,Torino,Santa Rita,via Barletta 105,259000,135,3,Si,5,2,1967,Da ristrutturare
+27/04/2023,Torino,Aurora,via Vittorio Andreis 18//6,129000,70,1,Si,3,1,1960,Buono / Abitabile
+06/05/2023,Torino,San Salvario - Baretti,via Saluzzo 5,178000,54,2,Si,2,1,1874,Ottimo / Ristrutturato
+08/05/2023,Torino,Madonna del Pilone,corso Giuseppe Gabetti 1,448000,130,2,Si,4,2,1930,Ottimo / Ristrutturato
+08/05/2023,Torino,Cittadella,piazza Statuto 26,518000,170,1,Si,5,2,1930,Ottimo / Ristrutturato
+06/05/2023,Torino,Cittadella,corso Palestro 4,438000,115,4,Si,4,2,1950,Ottimo / Ristrutturato
+28/04/2023,Torino,Lingotto,via Arnaldo da Brescia 12,169000,63,2,Si,3,1,1955,Ottimo / Ristrutturato
+21/04/2023,Torino,Pozzo Strada,via Oulx 30,198000,75,8,Si,3,1,1970,Buono / Abitabile
+26/04/2023,Torino,Aurora,via Carlo Antonio Porporati 8,89000,45,4,Si,2,1,1950,Buono / Abitabile
+22/04/2023,Torino,Lingotto,corso Eusebio Giambone 65,264000,110,4,Si,4,1,1970,
+02/05/2023,Torino,San Donato,via Pier Dionigi Pinelli 60,225000,94,1,No,4,1,1969,Ottimo / Ristrutturato
+21/04/2023,Torino,Pozzo Strada,via Quinto Bevilacqua 12,75000,50,0,Si,2,1,1960,Buono / Abitabile
+21/04/2023,Torino,Pozzo Strada,via Vandalino 86,69000,55,2,Si,2,1,1960,Buono / Abitabile
+02/05/2023,Torino,Crocetta,via Sebastiano Caboto 23,345000,125,3,Si,5,1,1935,Buono / Abitabile
+03/05/2023,Torino,Barriera di Milano,via Baltea 10,33000,50,0,No,2,1,1950,Da ristrutturare
+21/04/2023,Torino,Borgo Vittoria,via Paolo della Cella 22,126000,97,6,Si,4,1,1957,Buono / Abitabile
+27/04/2023,Torino,Barriera di Milano,corso GIULIO CESARE  122,99000,110,5,Si,4,1,1930,Buono / Abitabile
+02/05/2023,Torino,Nizza Millefonti,via Finalmarina 14,89000,45,3,Si,2,1,1950,Ottimo / Ristrutturato
+04/05/2023,Torino,San Paolo,via Orsiera 27,69000,63,0,Si,2,1,1965,Da ristrutturare
+03/05/2023,Torino,Barriera di Milano,via Baltea 16,59000,50,2,No,2,1,1940,Buono / Abitabile
+21/04/2023,Torino,Santa Rita,via Castelgomberto 34,129000,69,2,Si,2,1,1985,Ottimo / Ristrutturato
+05/05/2023,Torino,Santa Rita,via Guido Reni 91,490000,291,9,Si,5,3,1965,Buono / Abitabile
+03/05/2023,Torino,Pozzo Strada,via Mattie 7,400000,143,5,Si,4,2,1973,Ottimo / Ristrutturato
+28/04/2023,Torino,Borgo Vittoria,via Francesco Baracca 64,65000,60,5,Si,2,1,1960,Da ristrutturare
+08/05/2023,Torino,Borgo Vittoria,via Chiesa della Salute 15,139000,100,1,No,4,1,1950,Ottimo / Ristrutturato
+08/05/2023,Torino,Don Bosco,via Aquila 3,79000,77,2,No,3,1,,Buono / Abitabile
+21/04/2023,Torino,Parella,via Pietro Cossa 35,330000,120,4,Si,5,2,2004,Buono / Abitabile
+21/04/2023,Torino,Madonna di Campagna,via reycend 4,68000,60,2,No,2,1,1960,Ottimo / Ristrutturato
+21/04/2023,Torino,San Paolo,corso Trapani 165,310000,120,1,Si,5,2,2001,Ottimo / Ristrutturato
+08/05/2023,Torino,Quadrilatero Romano,via San Dalmazzo,149000,82,4,No,3,1,1700,Ottimo / Ristrutturato
+21/04/2023,Torino,Vanchiglia,via Sant'Ottavio 51,185000,70,1,Si,3,1,1920,Ottimo / Ristrutturato
+08/05/2023,Torino,San Paolo,via Osasco 2,420000,160,9,Si,4,3,1955,Buono / Abitabile
+04/05/2023,Torino,Borgo Vittoria,corso Benedetto Brin 5,495000,547,4,Si,5,3,1970,Buono / Abitabile
+26/04/2023,Torino,Borgo Vittoria,via Chiesa della Salute 71,184000,140,3,No,4,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Cavoretto,corso Moncalieri 236,159000,60,0,No,2,1,1939,Nuovo / In costruzione
+08/05/2023,Torino,Campidoglio,via Balme 23,194000,90,0,No,4,2,1950,Nuovo / In costruzione
+21/04/2023,Torino,Barriera di Milano,via Alessandro Scarlatti 31,59000,65,0,Si,2,1,1970,Buono / Abitabile
+21/04/2023,Torino,San Salvario - Dante,via Ilarione Petitti,349000,120,3,Si,4,1,1963,Nuovo / In costruzione
+24/04/2023,Torino,Mirafiori Nord,corso Orbassano 254,175000,100,8,Si,4,2,1975,Ottimo / Ristrutturato
+03/05/2023,Torino,Santa Rita,corso Sebastopoli 248,188000,115,1,No,5,1,1950,Buono / Abitabile
+21/04/2023,Torino,Parella,via Arona 33,75000,60,3,Si,2,1,1958,Da ristrutturare
+26/04/2023,Torino,Pozzo Strada,via Villa Giusti 47,93000,65,2,No,2,1,1960,Buono / Abitabile
+22/04/2023,Torino,San Secondo,via Nizza 26,89000,30,4,Si,2,1,1990,Ottimo / Ristrutturato
+21/04/2023,Torino,Aurora,via Parma 11,98000,65,0,Si,2,1,1950,Buono / Abitabile
+03/05/2023,Torino,Aurora,via Parma 11,122000,75,3,Si,3,1,1950,Buono / Abitabile
+03/05/2023,Torino,Aurora,via Parma 11,125000,80,2,Si,3,1,1950,Buono / Abitabile
+03/05/2023,Torino,Aurora,via Parma 11,111000,81,1,Si,3,1,1950,Buono / Abitabile
+21/04/2023,Torino,Aurora,via Parma 11,126000,70,1,Si,2,1,1950,Buono / Abitabile
+21/04/2023,Torino,Aurora,via Parma 11,95000,60,2,Si,2,1,1950,Buono / Abitabile
+01/05/2023,Torino,Pozzo Strada,corso Monte Cucco 123,290000,135,3,Si,5,2,1963,Da ristrutturare
+21/04/2023,Torino,Aurora,via Parma 11,90000,59,0,Si,2,1,1950,Buono / Abitabile
+03/05/2023,Torino,San Salvario - Baretti,via Claudio Luigi Berthollet 14,229000,105,4,Si,4,1,1900,Ottimo / Ristrutturato
+26/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Fratelli De Maistre 33,58000,55,1,Si,2,1,1960,Buono / Abitabile
+05/05/2023,Torino,Crocetta,via Cristoforo Colombo 24,350000,140,1,Si,4,2,1952,Buono / Abitabile
+02/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via SETTE COMUNI,50000,43,0,No,2,1,1960,Buono / Abitabile
+22/04/2023,Torino,Lucento,piazza Nazario Sauro,300000,160,7,Si,4,1,1970,Ottimo / Ristrutturato
+03/05/2023,Torino,San Salvario - Baretti,via Saluzzo 17/A,79000,46,4,Si,2,1,1900,Ottimo / Ristrutturato
+22/04/2023,Torino,Lucento,piazza Nazario Sauro 16,300000,160,2,Si,3,1,1970,Ottimo / Ristrutturato
+22/04/2023,Torino,Lucento,piazza Nazario Sauro,300000,161,7,Si,4,1,1970,Ottimo / Ristrutturato
+28/04/2023,Torino,Barriera di Milano,via Jacopo Foroni 7,54900,75,2,No,3,1,1940,Buono / Abitabile
+06/05/2023,Torino,Parella,via Nicomede Bianchi 41,98000,80,3,No,3,1,1960,Ottimo / Ristrutturato
+20/04/2023,Torino,Cavoretto,corso Moncalieri 320,140000,87,3,No,3,1,1970,Buono / Abitabile
+06/05/2023,Torino,Santa Rita,corso Sebastopoli 225,149000,65,0,Si,3,1,1967,Ottimo / Ristrutturato
+08/05/2023,Torino,Pozzo Strada,via Brissogne 18BIS,65000,50,0,Si,2,1,2008,Ottimo / Ristrutturato
+06/05/2023,Torino,Santa Rita,corso Sebastopoli 225,139000,70,0,Si,3,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Nizza Millefonti,via Finalmarina,130000,60,0,Si,2,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,San Salvario - Dante,corso Dante 90,568000,170,3,Si,5,2,1940,Ottimo / Ristrutturato
+03/05/2023,Torino,Quadrilatero Romano,via san  Domenico 5,170000,53,1,Si,2,1,1650,Ottimo / Ristrutturato
+20/04/2023,Torino,Nizza Millefonti,via Nizza 239,139000,94,2,Si,3,2,1930,Ottimo / Ristrutturato
+03/05/2023,Torino,Centro Europa,via amedeo modigliani 18,259000,115,0,No,4,2,1950,Buono / Abitabile
+05/05/2023,Torino,Mirafiori Nord,via Publio Elvio Pertinace 48,298000,200,2,Si,5,2,1960,Ottimo / Ristrutturato
+06/05/2023,Torino,Rebaudengo,via Nicola Porpora 29/12,82000,82,2,No,3,1,1955,Buono / Abitabile
+20/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via onorato vigliani 179,69000,62,0,Si,2,1,1960,Da ristrutturare
+21/04/2023,Torino,Parella,via Rosolino Pilo 33,88000,76,4,No,3,1,1940,Buono / Abitabile
+20/04/2023,Torino,Parella,via Rosolino Pilo 78,39000,52,0,No,2,1,1950,Buono / Abitabile
+27/04/2023,Torino,Parella,via Giacinto Pacchiotti 12,156000,75,2,Si,3,1,1950,Ottimo / Ristrutturato
+26/04/2023,Torino,Vanchiglietta,via Cossila 10,119000,75,3,No,3,1,1940,Buono / Abitabile
+08/05/2023,Torino,Crocetta,via Fratelli Giuseppe e Antonio Carle 50,269000,73,2,No,3,1,1940,Ottimo / Ristrutturato
+03/05/2023,Torino,Vanchiglietta,piazza Antonio Fontanesi 2,139000,81,4,Si,3,1,1950,Buono / Abitabile
+03/05/2023,Torino,Regio Parco,via Giuseppe Tartini 31,94000,85,4,Si,4,1,1965,Buono / Abitabile
+28/04/2023,Torino,Santa Rita,via San Marino 11,269000,141,5,Si,5,2,1970,Buono / Abitabile
+02/05/2023,Torino,Crocetta,via Fratelli Giuseppe e Antonio Carle 25,325000,100,2,Si,4,2,1969,Buono / Abitabile
+01/05/2023,Torino,Cenisia,via Fratelli Bandiera 4,120000,50,5,Si,2,1,1938,Buono / Abitabile
+01/05/2023,Torino,Madonna di Campagna,piazza Giuseppe Manno 1,78000,74,0,Si,3,1,1965,Buono / Abitabile
+02/05/2023,Torino,Barriera di Milano,via Candia 19,38000,47,4,No,2,1,1950,Buono / Abitabile
+06/05/2023,Torino,Santa Rita,via Ricaldone 42,49000,50,4,No,2,1,1967,Da ristrutturare
+20/04/2023,Torino,Pozzo Strada,via Monte Ortigara 11,135000,60,2,Si,2,1,1970,Ottimo / Ristrutturato
+05/05/2023,Torino,San Donato,via Luigi Galvani 12,61000,40,1,No,2,1,1939,Buono / Abitabile
+20/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via monastir 30,68000,59,5,Si,2,1,1960,Buono / Abitabile
+21/04/2023,Torino,Pozzo Strada,via Monte Cimone 8,69000,60,4,No,2,1,1960,Ottimo / Ristrutturato
+26/04/2023,Torino,Crocetta,via Gaetano Filangieri 16,248000,100,0,Si,3,1,,Buono / Abitabile
+20/04/2023,Torino,Crocetta,via Giovanni da Verrazzano 51,100000,45,4,Si,2,1,1950,Da ristrutturare
+27/04/2023,Torino,Lingotto,corso Unione Sovietica 243,260000,120,0,Si,5,2,1975,Ottimo / Ristrutturato
+03/05/2023,Torino,Lingotto,via Asuncion 1,138000,85,6,Si,3,1,1970,Buono / Abitabile
+08/05/2023,Torino,Barriera di Milano,via Soana 17/d,120000,58,1,No,2,1,1901,Ottimo / Ristrutturato
+08/05/2023,Torino,Le Vallette,via Pietro Cossa 293/7,258000,103,9,Si,5,2,1994,Ottimo / Ristrutturato
+20/04/2023,Torino,San Donato,via Pietro Piffetti 35,389000,117,2,Si,3,1,1959,Buono / Abitabile
+21/04/2023,Torino,Pozzo Strada,via Vipacco 20,110000,40,1,No,2,1,1920,Buono / Abitabile
+20/04/2023,Torino,Cavoretto,corso Moncalieri 365,1090000,500,2,No,5,3,1900,Buono / Abitabile
+20/04/2023,Torino,Parco Dora,corso Enrico Gamba 37,149000,67,3,Si,2,1,,Ottimo / Ristrutturato
+05/05/2023,Torino,Cittadella,via Carlo Allioni 9,360000,140,2,Si,5,1,1929,Da ristrutturare
+20/04/2023,Torino,Pozzo Strada,Palazzo - Edificio in Vendita,430000,255,0,No,5,2,1964,Da ristrutturare
+04/05/2023,Torino,Pozzo Strada,corso Monte Cucco,290000,160,1,Si,5,2,1975,Buono / Abitabile
+20/04/2023,Torino,Santa Rita,corso Siracusa 134,90000,50,4,Si,2,1,1964,Da ristrutturare
+20/04/2023,Torino,Santa Rita,via Monfalcone 80,73000,78,4,No,3,1,1960,Da ristrutturare
+20/04/2023,Torino,Crocetta,via gioberti 26,128000,50,5,No,2,1,1873,Buono / Abitabile
+06/05/2023,Torino,Barriera di Milano,via Lauro Rossi 39.,78000,98,1,Si,4,1,,Da ristrutturare
+29/04/2023,Torino,Crocetta,corso Luigi Einaudi,398000,170,4,Si,5,2,1960,Buono / Abitabile
+20/04/2023,Torino,Mirafiori Sud - Strada del Drosso,via Celeste Negarville 23,55000,40,3,Si,1,1,1990,Buono / Abitabile
+26/04/2023,Torino,Barriera di Milano,corso Giulio Cesare 148,89000,75,6,Si,3,1,1930,Buono / Abitabile
+26/04/2023,Torino,Santa Rita,corso Siracusa,136000,73,1,Si,2,1,,Ottimo / Ristrutturato
+21/04/2023,Torino,Santa Rita,corso QUATTRO NOVEMBRE,214000,100,2,No,5,2,,Ottimo / Ristrutturato
+20/04/2023,Torino,Vanchiglia,via Artisti 10,130000,45,0,No,2,1,1940,Ottimo / Ristrutturato
+21/04/2023,Torino,Aurora,via Parma 11,97000,60,3,Si,2,1,1950,Buono / Abitabile
+08/05/2023,Torino,Lucento,via Val della Torre 118,65000,58,3,Si,2,1,,Buono / Abitabile
+05/05/2023,Torino,Santa Rita,via Tripoli,225000,130,4,Si,4,1,1960,Da ristrutturare
+24/04/2023,Torino,Crocetta,via Gaetano Filangieri 16,248000,90,0,No,2,1,,
+08/05/2023,Torino,Vanchiglietta,corso Belgio 68,145000,82,2,No,3,1,,Buono / Abitabile
+20/04/2023,Torino,Quadrilatero Romano,via CERNAIA,278000,83,2,Si,3,2,,
+20/04/2023,Torino,Santa Rita,via Baltimora 27,125000,80,2,Si,3,1,1960,Buono / Abitabile
+20/04/2023,Torino,Santa Rita,via Gradisca 88,99000,75,0,No,2,1,1900,Buono / Abitabile
+19/04/2023,Torino,Santa Rita,via GORIZIA,298000,140,4,Si,5,2,1960,Buono / Abitabile
+27/04/2023,Torino,Cenisia,via Villar Focchiardo 27,1300000,500,3,No,5,3,1960,Ottimo / Ristrutturato
+26/04/2023,Torino,Mirafiori Nord,via Publio Elvio Pertinace 19,50000,50,5,Si,2,1,1960,Da ristrutturare
+02/05/2023,Torino,Mirafiori Nord,corso Orbassano 269,239000,95,2,Si,4,1,1960,Ottimo / Ristrutturato
+19/04/2023,Torino,Borgo Vittoria,via Bibiana,97000,80,1,Si,3,1,1957,Buono / Abitabile
+06/05/2023,Torino,Mirafiori Nord,via Sette Comuni 31,83000,52,3,Si,2,1,1940,Ottimo / Ristrutturato
+20/04/2023,Torino,Crocetta,corso Carlo e Nello Rosselli 86,299000,90,7,Si,4,2,1956,Ottimo / Ristrutturato
+19/04/2023,Torino,Crocetta,via torricelli 35,259000,75,2,Si,3,1,1920,Ottimo / Ristrutturato
+20/04/2023,Torino,Barriera di Milano,via Girolamo Frescobaldi 6,62900,40,1,Si,2,1,2008,
+08/05/2023,Torino,Don Bosco,corso Regina Margherita 216,175000,85,5,Si,3,1,1900,Ottimo / Ristrutturato
+22/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Onorato Vigliani 144,124000,91,2,Si,4,1,1960,Buono / Abitabile
+05/05/2023,Torino,Crocetta,corso Carlo e Nello Rosselli 82,147000,64,3,Si,2,1,1910,Buono / Abitabile
+19/04/2023,Torino,Pozzo Strada,via Monginevro 194,148000,87,2,Si,3,1,,Ottimo / Ristrutturato
+04/05/2023,Torino,Borgo Vittoria,via Cristoforo Beggiamo 13,118000,90,1,Si,3,1,1950,Buono / Abitabile
+20/04/2023,Torino,Barriera di Milano,corso Vercelli 144,69900,70,1,No,3,1,1940,Buono / Abitabile
+08/05/2023,Torino,Lingotto,corso Unione Sovietica 239,149000,100,1,No,3,1,1926,Buono / Abitabile
+21/04/2023,Torino,Barriera di Milano,via Valprato 52,199000,93,1,Si,3,2,2006,Ottimo / Ristrutturato
+20/04/2023,Torino,Regio Parco,via Alessandro Cruto 21,45000,50,3,No,2,1,1950,Buono / Abitabile
+21/04/2023,Torino,Rebaudengo,via Nicola Porpora 29/18,43000,45,0,Si,2,1,1960,Da ristrutturare
+30/04/2023,Torino,Pozzo Strada,via Francesco De Sanctis,69000,55,3,No,2,1,1970,Ottimo / Ristrutturato
+19/04/2023,Torino,San Salvario - Baretti,via Silvio Pellico 1,235000,110,3,Si,4,1,1960,Buono / Abitabile
+19/04/2023,Torino,Cavoretto,via Oristano 12,349000,160,2,No,5,3,1980,Da ristrutturare
+19/04/2023,Torino,Cavoretto,via Oristano 12,349000,160,2,No,5,3,1980,Da ristrutturare
+19/04/2023,Torino,Santa Rita,corso Unione Sovietica 256,345000,125,6,Si,4,2,1970,Da ristrutturare
+19/04/2023,Torino,Crocetta,via marco polo 18,219000,78,3,Si,3,1,1960,Buono / Abitabile
+29/04/2023,Torino,San Secondo,via Nizza 26,98000,34,6,Si,1,1,1972,Ottimo / Ristrutturato
+29/04/2023,Torino,San Secondo,via Nizza 26,134000,45,6,Si,2,1,1972,Ottimo / Ristrutturato
+29/04/2023,Torino,San Secondo,via Nizza 26,124000,38,6,Si,2,1,1972,Ottimo / Ristrutturato
+29/04/2023,Torino,San Secondo,via Nizza 26,89000,32,6,Si,1,1,1972,Ottimo / Ristrutturato
+02/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Italo Pizzi 11/21,106000,68,1,Si,2,1,1985,Buono / Abitabile
+19/04/2023,Torino,Vanchiglia,via Michele Buniva 10,238000,100,1,Si,4,1,,Ottimo / Ristrutturato
+06/05/2023,Torino,Pozzo Strada,via Vandalino 9,159000,85,1,Si,3,1,1970,Ottimo / Ristrutturato
+03/05/2023,Torino,Borgo Vittoria,via Giovanni Randaccio 8,159000,90,5,Si,3,1,1965,Nuovo / In costruzione
+21/04/2023,Torino,Parella,via Domodossola 9,59000,39,5,Si,2,1,,Buono / Abitabile
+19/04/2023,Torino,Centro Europa,via Giovan Battista e Felice Biscarra 2,105000,55,5,Si,2,1,1958,Ottimo / Ristrutturato
+20/04/2023,Torino,Pozzo Strada,via Oulx 30,198000,75,8,Si,3,1,,
+20/04/2023,Torino,Santa Rita,via Buenos Aires,48000,46,4,No,2,1,1960,Da ristrutturare
+08/05/2023,Torino,Lingotto,piazza Tancredi Galimberti 10,189000,80,1,Si,3,1,1960,Ottimo / Ristrutturato
+19/04/2023,Torino,Falchera,via degli Abeti 2,95000,115,1,Si,5,1,1972,Buono / Abitabile
+19/04/2023,Torino,Mirafiori Sud - Strada del Drosso,via Giovanni Roveda 24,98000,150,2,Si,5,2,1960,Buono / Abitabile
+20/04/2023,Torino,Don Bosco,via Livorno 3,75000,65,4,Si,3,1,1931,Buono / Abitabile
+03/05/2023,Torino,Crocetta,via Giovanni Battista Bricherasio 18,595000,160,2,Si,5,3,1968,Ottimo / Ristrutturato
+19/04/2023,Torino,Pozzo Strada,via Challant 35,79000,58,2,Si,2,1,1967,Buono / Abitabile
+20/04/2023,Torino,San Donato,via Luigi Cibrario,132000,70,1,Si,3,1,1900,Buono / Abitabile
+02/05/2023,Torino,Crocetta,corso Re Umberto 97,385000,160,6,Si,5,2,1950,Da ristrutturare
+04/05/2023,Torino,Pozzo Strada,via Vincenzo Lancia,78000,62,3,No,3,1,1930,Buono / Abitabile
+19/04/2023,Torino,Pozzo Strada,via CHAMBERY 93 int 103,68000,55,2,No,2,1,1960,Ottimo / Ristrutturato
+19/04/2023,Torino,San Salvario - Dante,via Vincenzo Monti 14,210000,85,3,No,3,1,1913,Buono / Abitabile
+19/04/2023,Torino,Centro Europa,via Domenico Guidobono,205000,125,4,Si,5,2,,Buono / Abitabile
+26/04/2023,Torino,Aurora,corso Regina Margherita 102,290000,148,1,Si,5,1,1915,Da ristrutturare
+28/04/2023,Torino,Falchera,via Cavagnolo 23,219000,150,0,No,5,2,1945,Buono / Abitabile
+19/04/2023,Torino,San Salvario - Dante,via Francesco Petrarca 26,300000,85,4,Si,3,2,2024,Nuovo / In costruzione
+19/04/2023,Torino,Le Vallette,via Andrea Sansovino 125,155000,110,2,Si,4,1,1970,Buono / Abitabile
+03/05/2023,Torino,Vanchiglia,corso Regina Margherita 61,190000,65,6,Si,2,1,,Ottimo / Ristrutturato
+19/04/2023,Torino,San Salvario - Dante,via Francesco Petrarca 26,380000,120,1,Si,4,2,2024,Nuovo / In costruzione
+19/04/2023,Torino,San Salvario - Dante,via Francesco Petrarca 26,260000,82,1,Si,3,1,2024,Nuovo / In costruzione
+08/05/2023,Torino,Vanchiglia,via Cesare Balbo 6,128000,41,4,Si,2,1,1900,Buono / Abitabile
+02/05/2023,Torino,Le Vallette,via Andrea Sansovino 143,208000,160,9,Si,5,2,1970,Buono / Abitabile
+19/04/2023,Torino,San Salvario - Dante,via Francesco Petrarca 26,360000,112,0,Si,4,2,2024,Nuovo / In costruzione
+19/04/2023,Torino,Mirafiori Nord,via Carlo Alfonso Nallino,290000,110,1,No,4,1,1960,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via Baltimora 181,179000,95,7,Si,3,1,,
+19/04/2023,Torino,Santa Rita,via GRADISCA,83000,53,3,No,3,1,,Buono / Abitabile
+19/04/2023,Torino,San Salvario - Dante,via Francesco Petrarca 26,170000,52,1,Si,2,1,2024,Nuovo / In costruzione
+19/04/2023,Torino,Crocetta,corso Alcide De Gasperi 26,415000,135,4,Si,4,2,1990,Buono / Abitabile
+08/05/2023,Torino,Vanchiglietta,via Rimini 6,85000,48,1,No,2,1,,Da ristrutturare
+18/04/2023,Torino,Santa Rita,corso Sebastopoli,198000,85,3,Si,3,1,1960,Nuovo / In costruzione
+19/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Unione Sovietica 493/24,140000,90,3,No,3,1,1972,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,corso Sebastopoli 160,119000,81,0,Si,3,1,1234,Buono / Abitabile
+18/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso TRAIANO,149000,92,4,Si,3,1,1960,Da ristrutturare
+19/04/2023,Torino,Vanchiglia,corso San Maurizio 51,149000,45,2,No,2,1,1900,Nuovo / In costruzione
+03/05/2023,Torino,San Salvario - Baretti,via Cesare Lombroso 14,139000,70,0,Si,3,1,1900,Buono / Abitabile
+19/04/2023,Torino,San Donato,via Santa Chiara 60,225000,85,1,No,3,1,1800,Buono / Abitabile
+08/05/2023,Torino,Parco Dora,corso Ottone Rosai 38,149000,75,5,Si,3,1,2007,Ottimo / Ristrutturato
+27/04/2023,Torino,Aurora,corso Novara 10,115000,92,3,No,4,2,1940,Buono / Abitabile
+18/04/2023,Torino,Pozzo Strada,via Luigi Bergera 10,240000,130,1,Si,5,2,1974,Buono / Abitabile
+03/05/2023,Torino,San Salvario - Dante,via Tommaso Grossi 6,219000,100,0,Si,4,1,1960,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,via Montezemolo 8,79000,55,0,No,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,Vanchiglietta,via Andorno 30/A,49000,50,0,No,2,1,1920,Buono / Abitabile
+02/05/2023,Torino,Santa Rita,via Buenos Aires 112,169000,100,4,Si,3,1,1970,Da ristrutturare
+18/04/2023,Torino,Borgo Vittoria,via Stradella,59250,73,5,No,3,5,1950,Buono / Abitabile
+06/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Buriasco 1/E,69000,60,7,Si,2,1,1967,Buono / Abitabile
+18/04/2023,Torino,Regio Parco,via Giambattista Pergolesi 19,180000,165,9,Si,5,2,1965,Da ristrutturare
+04/05/2023,Torino,San Paolo,via Tolmino 25,94000,55,2,Si,2,1,1969,Buono / Abitabile
+18/04/2023,Torino,Madonna di Campagna,via Caltanissetta 7,59000,48,0,Si,2,1,1960,Buono / Abitabile
+28/04/2023,Torino,Barriera di Milano,via Monte Rosa 81,45000,45,6,Si,2,1,1960,Da ristrutturare
+08/05/2023,Torino,Santa Rita,via Fratelli Carando 25,86000,60,0,Si,2,1,1960,Buono / Abitabile
+18/04/2023,Torino,Aurora,via Cardinale Gaetano Alimonda 5,139000,90,1,Si,4,1,1940,Buono / Abitabile
+20/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Giovanni Verga 6,112000,102,1,Si,4,1,1970,Ottimo / Ristrutturato
+18/04/2023,Torino,Madonna di Campagna,via Saorgio 174,80000,68,2,Si,2,1,1965,Buono / Abitabile
+27/04/2023,Torino,San Salvario - Dante,piazza Edmondo De Amicis 76,218000,110,3,Si,4,1,1880,Buono / Abitabile
+18/04/2023,Torino,Santa Rita,via Montezemolo 35,137000,75,5,Si,3,1,1965,Buono / Abitabile
+18/04/2023,Torino,Lingotto,via Arnaldo Da Brescia 12,139000,75,5,Si,3,1,1955,Buono / Abitabile
+08/05/2023,Torino,Borgo Vittoria,via casteldelfino 10,119000,80,6,Si,3,1,1960,Ottimo / Ristrutturato
+19/04/2023,Torino,Falchera,via degli Ulivi 114,110000,115,8,Si,5,2,1972,Ottimo / Ristrutturato
+18/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Piacenza 6,228000,111,1,Si,4,1,1970,Buono / Abitabile
+18/04/2023,Torino,Cenisia,via San Paolo 3,177000,93,1,No,3,1,1930,Ottimo / Ristrutturato
+18/04/2023,Torino,Parella,via Piedicavallo 37,90000,70,3,No,3,1,1900,Ottimo / Ristrutturato
+27/04/2023,Torino,Vanchiglietta,via Mongrando 2,89000,55,0,No,2,1,,Ottimo / Ristrutturato
+18/04/2023,Torino,Barriera di Milano,via Giovanni Pierluigi da Palestrina 46,34000,41,3,No,2,1,1940,Da ristrutturare
+21/04/2023,Torino,Barriera di Milano,via Giovanni Pierluigi da Palestrina 46,65000,85,3,No,4,2,,Da ristrutturare
+24/04/2023,Torino,Cittadella,via Francesco Guicciardini 3,550000,230,4,Si,5,2,1860,Ottimo / Ristrutturato
+05/05/2023,Torino,Quadrilatero Romano,via Santa Chiara 34,239000,78,4,Si,2,2,1734,Ottimo / Ristrutturato
+19/04/2023,Torino,Rebaudengo,via campobasso 10,95000,80,0,Si,3,1,1970,Buono / Abitabile
+26/04/2023,Torino,Centro Europa,via Bellono 6,135000,85,0,Si,4,1,1966,Buono / Abitabile
+08/05/2023,Torino,San Donato,piazza Amedeo Peyron,560000,205,2,Si,5,3,1905,Buono / Abitabile
+19/04/2023,Torino,Borgo Vittoria,via Chiesa della Salute 3,109000,60,4,Si,3,1,1930,Ottimo / Ristrutturato
+18/04/2023,Torino,Lingotto,via Albenga 11,40000,30,2,Si,1,1,1960,Buono / Abitabile
+21/04/2023,Torino,Barriera di Lanzo,via Giuseppe Sirtori 14,75000,53,0,Si,2,1,1950,Ottimo / Ristrutturato
+18/04/2023,Torino,Gran Madre - Crimea,corso Quintino Sella 52,439000,109,1,Si,4,2,1910,Ottimo / Ristrutturato
+27/04/2023,Torino,Vanchiglietta,via Cigliano 5,138000,65,0,No,3,1,,Ottimo / Ristrutturato
+18/04/2023,Torino,Borgo Vittoria,via Giacomo Grosso 16,94000,80,2,Si,3,1,,Da ristrutturare
+18/04/2023,Torino,Madonna di Campagna,via Foligno 70,69000,55,3,Si,2,1,1960,Da ristrutturare
+21/04/2023,Torino,Crocetta,corso Carlo E Nello Rosselli 15,118000,83,0,Si,3,1,1950,Buono / Abitabile
+18/04/2023,Torino,Mirafiori Nord,via Felizzano 8,198000,76,6,Si,3,2,2009,Ottimo / Ristrutturato
+18/04/2023,Torino,San Paolo,via Paolo Braccini 52,89000,60,0,Si,3,1,1950,Da ristrutturare
+18/04/2023,Torino,Barriera di Milano,via Giovanni Pierluigi da Palestrina 46,99000,85,0,No,4,1,1940,Ottimo / Ristrutturato
+18/04/2023,Torino,Lucento,via Pianezza 8,57000,83,3,No,3,1,1940,
+18/04/2023,Torino,San Donato,via Santa Chiara 60,225000,75,1,Si,3,1,1930,Buono / Abitabile
+18/04/2023,Torino,Barca,via Martino Anglesio 30/C,138000,110,3,Si,4,2,,Ottimo / Ristrutturato
+18/04/2023,Torino,Pozzo Strada,via San Giorgio Canavese,135000,80,6,Si,3,1,1967,Buono / Abitabile
+18/04/2023,Torino,Santa Rita,via Montezemolo 39,184000,85,5,Si,3,1,1960,Buono / Abitabile
+18/04/2023,Torino,Vanchiglietta,via Oropa 123,98000,48,4,Si,2,1,1960,Buono / Abitabile
+18/04/2023,Torino,Vanchiglietta,corso Chieti 23,118000,67,0,Si,2,1,1970,Ottimo / Ristrutturato
+05/05/2023,Torino,Cenisia,via Roccaforte 1,127000,67,1,Si,2,1,1960,Ottimo / Ristrutturato
+18/04/2023,Torino,Rebaudengo,corso Vercelli 278,115000,87,2,Si,3,1,1992,Buono / Abitabile
+19/04/2023,Torino,Cavoretto,corso Moncalieri 334,145000,68,3,Si,2,1,1900,Buono / Abitabile
+18/04/2023,Torino,San Salvario - Dante,corso Raffaello,205000,80,7,Si,3,1,1970,Buono / Abitabile
+08/05/2023,Torino,Parella,via Nicola Fabrizi 95,139000,80,1,Si,3,1,1970,Buono / Abitabile
+18/04/2023,Torino,Barriera di Lanzo,via Traversella,62000,60,0,Si,2,1,1970,Ottimo / Ristrutturato
+07/05/2023,Torino,Madonna di Campagna,via Foligno,85000,75,2,No,5,1,,Buono / Abitabile
+08/05/2023,Torino,Mirafiori Nord,via Don Bartolomeo Grazioli 11,139000,85,2,Si,3,1,,
+18/04/2023,Torino,Parella,via Michele Lessona 101,119000,75,5,Si,3,2,1960,Buono / Abitabile
+18/04/2023,Torino,Parella,via Giacomo Medici 110,98000,55,3,No,2,1,1940,Ottimo / Ristrutturato
+03/05/2023,Torino,Crocetta,via Vincenzo Gioberti 24,119000,50,2,No,2,1,1890,Buono / Abitabile
+03/05/2023,Torino,Santa Rita,corso Cosenza 72,179000,90,7,Si,3,1,1967,Buono / Abitabile
+18/04/2023,Torino,Superga,corso Chieri,109000,120,0,No,4,2,1930,Buono / Abitabile
+06/05/2023,Torino,Santa Rita,corso Orbassano 214,459000,134,8,Si,5,3,1967,Ottimo / Ristrutturato
+19/04/2023,Torino,Nizza Millefonti,via Caramagna 28,135000,58,0,Si,2,1,2012,Ottimo / Ristrutturato
+03/05/2023,Torino,Centro Europa,via edoardo rubino 52,105000,58,0,Si,2,1,1959,Buono / Abitabile
+17/04/2023,Torino,San Paolo,corso Trapani 131,124000,78,3,No,3,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Crocetta,corso Luigi Einaudi 38,495000,136,7,Si,4,2,1960,Ottimo / Ristrutturato
+18/04/2023,Torino,Cenisia,via Vinadio 6,320000,140,2,Si,5,2,1900,Ottimo / Ristrutturato
+19/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Onorato Vigliani 11,195000,100,4,Si,4,1,1970,Ottimo / Ristrutturato
+17/04/2023,Torino,Santa Rita,via Guido Reni,185000,100,5,Si,4,1,,Da ristrutturare
+17/04/2023,Torino,Barriera di Milano,via Giovanni Paisiello 49,48000,60,2,Si,2,1,1950,Buono / Abitabile
+08/05/2023,Torino,Vanchiglietta,corso Belgio 105,248000,80,7,Si,3,1,1954,Ottimo / Ristrutturato
+05/05/2023,Torino,Centro Europa,via Paolo Gaidano 103/22,99000,40,0,Si,2,1,2000,Ottimo / Ristrutturato
+26/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Michele Amari,93000,82,0,No,3,1,1956,Buono / Abitabile
+17/04/2023,Torino,Mirafiori Sud - Strada del Drosso,via Plava 95,79000,122,1,Si,5,2,1970,Da ristrutturare
+06/05/2023,Torino,Lingotto,corso Corsica,155000,90,1,Si,3,1,1960,Ottimo / Ristrutturato
+05/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Giovanni Roveda 24/B,99000,90,4,Si,4,1,1967,Ottimo / Ristrutturato
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Rodolfo Morandi 34,185000,130,7,Si,4,2,1970,Buono / Abitabile
+08/05/2023,Torino,Barriera di Milano,corso Vercelli 121,65000,65,2,No,3,1,1950,Buono / Abitabile
+08/05/2023,Torino,Sassi,corso Casale 437,114000,60,0,No,2,1,1955,Buono / Abitabile
+18/04/2023,Torino,Crocetta,corso Galileo Ferraris 136,375000,145,7,Si,5,1,1950,Buono / Abitabile
+06/05/2023,Torino,Campidoglio,via Carisio 7,128000,70,2,Si,3,1,1950,Da ristrutturare
+26/04/2023,Torino,Crocetta,corso Duca degli Abruzzi 80,295000,122,2,Si,5,2,1915,Da ristrutturare
+02/05/2023,Torino,Mirafiori Nord,via Sette Comuni 34,295000,223,4,No,5,2,1970,Ottimo / Ristrutturato
+08/05/2023,Torino,Mirafiori Sud - Strada del Drosso,via Gioacchino Quarello 18,165000,145,7,Si,4,2,1970,Ottimo / Ristrutturato
+18/04/2023,Torino,Nizza Millefonti,corso Spezia 30,160000,90,6,Si,3,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Sassi,corso Casale 437,35000,35,0,No,1,1,1955,Buono / Abitabile
+26/04/2023,Torino,Giardini Reali,via Giuseppe Verdi 12,485000,142,2,Si,5,2,,Ottimo / Ristrutturato
+17/04/2023,Torino,Barriera di Milano,via Leinì 19,290000,280,0,No,5,3,1940,Buono / Abitabile
+17/04/2023,Torino,San Salvario - Dante,via Ormea 105,49000,12,4,Si,1,1,1900,
+08/05/2023,Torino,Santa Rita,corso Siracusa 40,135000,94,2,Si,3,1,,Buono / Abitabile
+17/04/2023,Torino,Aurora,via Borgo Dora 4,149000,65,2,Si,2,1,1945,Buono / Abitabile
+17/04/2023,Torino,San Salvario - Dante,corso Raffaello 20,195000,85,5,Si,3,1,1887,Ottimo / Ristrutturato
+17/04/2023,Torino,Vanchiglia,via Artisti 10,120000,40,0,No,2,1,1940,Ottimo / Ristrutturato
+18/04/2023,Torino,Campidoglio,via Rivara 36,105000,50,2,Si,2,1,1960,Buono / Abitabile
+08/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso Unione Sovietica,171000,85,1,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Giardini Reali,via Gioacchino Rossini,425000,95,5,Si,3,2,,Nuovo / In costruzione
+08/05/2023,Torino,Pozzo Strada,via Brissogne,197000,80,1,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Nizza Millefonti,via Genova,171000,70,1,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Borgo Vittoria,corso Grosseto,139000,65,6,Si,2,1,,Nuovo / In costruzione
+08/05/2023,Torino,Madonna di Campagna,via Giuseppe Massari,200000,100,6,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Madonna di Campagna,corso Grosseto,211000,105,2,Si,4,2,,Nuovo / In costruzione
+08/05/2023,Torino,Santa Rita,via Monfalcone,234000,80,2,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Crocetta,corso Alcide De Gasperi,384000,135,2,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Crocetta,via Rodolfo Montevecchio,272000,85,1,No,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Nizza Millefonti,via Caramagna,188000,80,2,No,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Lucento,via Foglizzo,220000,110,7,Si,4,1,,Nuovo / In costruzione
+08/05/2023,Torino,Borgo Vittoria,via Baracca,170000,75,5,Si,3,1,,Nuovo / In costruzione
+08/05/2023,Torino,Parella,via Invorio,163000,70,2,No,3,1,,Nuovo / In costruzione
+17/04/2023,Torino,Quadrilatero Romano,via 4 Marzo 7,315000,103,3,No,3,1,1890,Ottimo / Ristrutturato
+17/04/2023,Torino,Vanchiglia,via Artisti 10,135000,50,0,No,2,1,1940,Ottimo / Ristrutturato
+17/04/2023,Torino,San Salvario - Dante,via Ormea 164,80000,35,4,Si,1,1,1970,Ottimo / Ristrutturato
+17/04/2023,Torino,Santa Rita,via Buenos Aires 106,199000,86,2,Si,3,1,1970,Buono / Abitabile
+17/04/2023,Torino,San Paolo,via Rossana,90000,45,3,No,2,1,,Ottimo / Ristrutturato
+21/04/2023,Torino,Parella,via Servais,60000,75,0,Si,3,1,1955,Da ristrutturare
+17/04/2023,Torino,Vanchiglia,via Artisti 10,109000,42,0,No,1,1,1940,Ottimo / Ristrutturato
+17/04/2023,Torino,Barriera di Milano,via Courmayeur 8,29250,38,5,No,1,5,1960,Buono / Abitabile
+27/04/2023,Torino,Barriera di Milano,via Gaspare Spontini 8,29000,40,3,No,2,1,1960,Da ristrutturare
+18/04/2023,Torino,Borgo Vittoria,via Bibiana,102000,85,0,Si,3,2,1970,Ottimo / Ristrutturato
+08/05/2023,Torino,Vanchiglietta,piazza Enrico Toti,230000,110,1,Si,4,1,,Ottimo / Ristrutturato
+02/05/2023,Torino,Regio Parco,corso Taranto 15,76000,60,7,Si,2,1,1965,Buono / Abitabile
+05/05/2023,Torino,Santa Rita,via San Marino 89/19,105000,63,3,Si,2,1,1963,Ottimo / Ristrutturato
+08/05/2023,Torino,Pozzo Strada,via Francesco De Sanctis 51,69000,55,3,No,2,1,1940,Ottimo / Ristrutturato
+07/05/2023,Torino,San Salvario - Dante,via Nizza 106,340000,140,3,Si,4,2,1912,Buono / Abitabile
+17/04/2023,Torino,Barriera di Milano,via Leinì 19,290000,280,0,No,5,3,1940,Buono / Abitabile
+20/04/2023,Torino,San Paolo,via Vincenzo Lancia 37,370000,110,5,No,4,2,2005,Ottimo / Ristrutturato
+17/04/2023,Torino,Mirafiori Sud - Strada del Drosso,via Pramollo,140000,70,3,Si,3,1,1980,Ottimo / Ristrutturato
+16/04/2023,Torino,Parella,via Valentino Carrera 109,55800,66,1,Si,2,1,,
+16/04/2023,Torino,Barriera di Milano,via Renato Martorelli 46,90000,122,1,No,5,1,,
+19/04/2023,Torino,Cenisia,via Valdieri 32,105000,48,2,Si,1,1,2003,Buono / Abitabile
+27/04/2023,Torino,Cenisia,via Valdieri 32,119000,55,2,Si,1,1,2003,Buono / Abitabile
+27/04/2023,Torino,Cenisia,via Cesana 11,149000,61,6,Si,2,1,2003,Buono / Abitabile
+03/05/2023,Torino,San Paolo,via Volvera 9,99000,50,4,Si,2,1,1970,Ottimo / Ristrutturato
+17/04/2023,Torino,Santa Rita,via Buenos Aires 92,255000,117,7,Si,4,1,1970,Da ristrutturare
+20/04/2023,Torino,Barriera di Milano,corso Giulio Cesare 118,49900,60,3,Si,3,1,1940,Da ristrutturare
+22/04/2023,Torino,Lingotto,via Madonna delle Rose 13,149000,77,0,Si,3,1,1960,Buono / Abitabile
+14/04/2023,Torino,Borgo Vittoria,via Saorgio,31015,57,4,No,2,4,1953,Buono / Abitabile
+15/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Pio VII 130,169000,96,4,Si,3,1,1970,Ottimo / Ristrutturato
+15/04/2023,Torino,Mirafiori Nord,via Edoardo Daneo 5,142000,85,5,Si,3,1,1965,Buono / Abitabile
+28/04/2023,Torino,San Paolo,via Paolo Braccini 50,340000,131,4,Si,4,2,1940,Ottimo / Ristrutturato
+16/04/2023,Torino,Parella,via Giovanni Servais 112,310000,110,0,Si,4,2,1973,Ottimo / Ristrutturato
+28/04/2023,Torino,Crocetta,corso Re Umberto 94,340000,134,4,Si,4,1,1964,Da ristrutturare
+15/04/2023,Torino,Rebaudengo,via Nicola Porpora 26,49900,50,2,Si,2,1,1950,Da ristrutturare
+29/04/2023,Torino,Vanchiglietta,corso Cadore 45,57000,36,7,Si,2,1,1970,Ottimo / Ristrutturato
+17/04/2023,Torino,San Salvario - Dante,via Tommaso Valperga Caluso 25,270000,100,6,Si,3,2,,Da ristrutturare
+06/05/2023,Torino,Lingotto,corso Sebastopoli 55,195000,120,0,Si,5,1,1960,Buono / Abitabile
+15/04/2023,Torino,Rebaudengo,via Nicola Porpora 26,49900,50,2,Si,2,1,1950,Da ristrutturare
+08/05/2023,Torino,Santa Rita,corso Siracusa 132,178000,100,3,No,4,2,1940,Ottimo / Ristrutturato
+02/05/2023,Torino,Nizza Millefonti,via Ventimiglia 34,128000,73,6,Si,3,1,1965,Ottimo / Ristrutturato
+28/04/2023,Torino,Lingotto,via Giordano Bruno 85,89000,50,5,Si,2,1,1960,Buono / Abitabile
+19/04/2023,Torino,Lucento,via Val della Torre 25,198000,90,9,Si,3,1,2006,Ottimo / Ristrutturato
+15/04/2023,Torino,Santa Rita,via Buenos Aires 96,180000,96,8,Si,4,1,1970,Buono / Abitabile
+15/04/2023,Torino,Parella,via Zumaglia 48,69000,55,4,Si,2,1,1935,Buono / Abitabile
+15/04/2023,Torino,Lucento,via Borgomasino 63,92000,80,3,Si,4,1,1960,
+07/05/2023,Torino,Santa Rita,via San Marino 120,75000,46,1,Si,2,1,1966,Buono / Abitabile
+20/04/2023,Torino,Quadrilatero Romano,piazza della Repubblica 4,290000,134,1,Si,4,2,1700,Nuovo / In costruzione
+07/05/2023,Torino,Santa Rita,via mombarcaro 4,149000,75,5,Si,3,1,,Buono / Abitabile
+07/05/2023,Torino,Cenisia,via vigone 43,119000,50,0,Si,2,1,,Nuovo / In costruzione
+15/04/2023,Torino,Lucento,via Verolengo 150,220000,79,7,Si,2,2,1999,Buono / Abitabile
+02/05/2023,Torino,Pozzo Strada,via Luigi Bergera 10/E,189000,110,1,Si,4,1,1970,Ottimo / Ristrutturato
+18/04/2023,Torino,Aurora,corso Regio Parco,98000,40,0,No,2,1,1960,Buono / Abitabile
+18/04/2023,Torino,Barriera di Milano,via Brandizzo 98,48900,55,4,Si,2,1,1970,
+06/05/2023,Torino,Barriera di Milano,via Santhià 91,74800,50,2,No,2,1,1970,
+02/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Fratel Teodoreto 7,95000,60,8,Si,2,1,1958,Da ristrutturare
+14/04/2023,Torino,Regio Parco,via Sempione 244,60000,80,3,No,4,1,1955,Buono / Abitabile
+13/04/2023,Torino,Pozzo Strada,via Fidia,46500,65,4,No,3,4,1963,Da ristrutturare
+13/04/2023,Torino,Borgo Vittoria,via Sospello,57750,113,3,No,4,3,1985,Da ristrutturare
+29/04/2023,Torino,Barriera di Milano,via Monte Rosa 44,68000,72,1,No,3,1,1930,Buono / Abitabile
+14/04/2023,Torino,Barriera di Milano,via Antonio Vivaldi 4,39900,54,3,No,2,1,1955,Buono / Abitabile
+06/05/2023,Torino,San Salvario - Dante,via Madama Cristina 114,159000,71,1,No,4,1,1910,Ottimo / Ristrutturato
+06/05/2023,Torino,San Salvario - Dante,via Ormea 164,69000,37,2,Si,2,1,1968,Ottimo / Ristrutturato
+26/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,via Fratel Teodoreto,113000,76,1,Si,3,1,1967,Buono / Abitabile
+27/04/2023,Torino,San Donato,via Goffredo Casalis 23,175000,90,0,No,3,1,1930,Buono / Abitabile
+14/04/2023,Torino,Crocetta,corso Re Umberto 127,285000,119,1,Si,4,1,1940,Buono / Abitabile
+19/04/2023,Torino,Pozzo Strada,corso Peschiera 265,350000,150,3,Si,5,2,1970,Buono / Abitabile
+21/04/2023,Torino,Barriera di Milano,via Bologna 97,89000,70,4,No,3,1,,Buono / Abitabile
+06/05/2023,Torino,Bertolla,via Valle Stretta,89000,90,0,No,4,1,,Buono / Abitabile
+26/04/2023,Torino,Regio Parco,corso Giulio Cesare 180A,46000,82,5,No,3,1,1940,Buono / Abitabile
+08/05/2023,Torino,Borgo Vittoria,via errico giachino 24,94000,77,5,Si,3,1,1940,Ottimo / Ristrutturato
+08/05/2023,Torino,Borgo Vittoria,via vibò 19,65000,55,2,No,2,1,1940,Buono / Abitabile
+14/04/2023,Torino,Regio Parco,corso Giulio Cesare 180,99000,75,2,No,3,1,1910,Buono / Abitabile
+14/04/2023,Torino,Madonna di Campagna,via Cardinal Massaia 47,239000,146,1,No,4,1,1950,Buono / Abitabile
+14/04/2023,Torino,Santa Rita,via Lagnasco 9,98000,60,4,Si,2,1,1968,Buono / Abitabile
+18/04/2023,Torino,Cenisia,via barge 4,128000,69,2,No,3,1,1920,Da ristrutturare
+26/04/2023,Torino,Parella,via Pietro Cossa 20,249000,120,1,No,4,2,1950,Buono / Abitabile
+14/04/2023,Torino,Barriera di Milano,via Desana 19,43000,54,2,No,2,1,1940,Buono / Abitabile
+27/04/2023,Torino,Pozzo Strada,via Giovanni Fattori 4,280000,110,6,Si,4,2,1972,Buono / Abitabile
+15/04/2023,Torino,Madonna di Campagna,piazza Bonghi 2,119000,85,1,Si,3,1,1970,Buono / Abitabile
+08/05/2023,Torino,Pozzo Strada,piazza Massaua 3,98000,55,6,Si,2,1,1965,Ottimo / Ristrutturato
+14/04/2023,Torino,Cenisia,corso Francesco Ferrucci 81,370000,120,3,Si,4,2,2002,Ottimo / Ristrutturato
+08/05/2023,Torino,Lucento,via BORSI 69/8,215000,108,1,No,4,2,1927,Buono / Abitabile
+08/05/2023,Torino,Madonna di Campagna,via viterbo 118,59000,60,4,Si,2,1,1960,Ottimo / Ristrutturato
+26/04/2023,Torino,Gran Madre - Crimea,via Argonne,1100000,198,2,Si,5,2,1800,Ottimo / Ristrutturato
+02/05/2023,Torino,Lucento,corso Toscana 93,80000,75,4,Si,4,1,,Buono / Abitabile
+08/05/2023,Torino,Campidoglio,via Giacomo Medici 15,489000,236,3,Si,5,3,1930,Da ristrutturare
+04/05/2023,Torino,Crocetta,via Evangelista Torricelli 12,500000,165,1,Si,4,2,1950,Ottimo / Ristrutturato
+17/04/2023,Torino,San Salvario - Dante,via Federico Menabrea 18,1400000,178,5,Si,5,2,2009,Ottimo / Ristrutturato
+02/05/2023,Torino,Lucento,corso Toscana 93,85000,80,4,Si,4,1,,Buono / Abitabile
+17/04/2023,Torino,Cittadella,corso Inghilterra,79000,28,1,No,1,1,1930,Buono / Abitabile
+17/04/2023,Torino,Parella,via Giovanni Servais 200,49000,30,1,Si,1,1,1960,Buono / Abitabile
+05/05/2023,Torino,Mirafiori Nord,corso Giovanni Agnelli 148,138000,88,4,Si,4,1,1950,Da ristrutturare
+14/04/2023,Torino,Le Vallette,via Andrea Sansovino 249,99000,70,3,No,3,1,1960,Buono / Abitabile
+17/04/2023,Torino,Parella,via Pietrino Belli,78000,56,2,No,2,1,1964,Ottimo / Ristrutturato
+01/05/2023,Torino,Pozzo Strada,via Francesco De Sanctis 71,112000,68,3,Si,3,1,1960,Buono / Abitabile
+19/04/2023,Torino,San Salvario - Dante,via Nizza 155,275000,100,5,Si,3,2,2007,Ottimo / Ristrutturato
+14/04/2023,Torino,Rebaudengo,piazza Derna 231,520000,900,3,Si,5,3,1993,Ottimo / Ristrutturato
+18/04/2023,Torino,Borgo Vittoria,via Bibiana,97000,85,0,Si,3,2,,Buono / Abitabile
+27/04/2023,Torino,Nizza Millefonti,corso Spezia 55,140000,85,4,No,2,1,1950,Ottimo / Ristrutturato
+14/04/2023,Torino,Santa Rita,corso ORBASSANO,139000,85,2,Si,3,1,1965,Da ristrutturare
+29/04/2023,Torino,Crocetta,via Giuseppe Piazzi 2,265000,80,2,No,3,1,1930,Ottimo / Ristrutturato
+19/04/2023,Torino,Madonna di Campagna,via STRESA 33,45000,55,2,Si,2,1,1960,Da ristrutturare
+08/05/2023,Torino,Santa Rita,via tripoli 7,125000,60,3,Si,2,1,1970,Ottimo / Ristrutturato
+18/04/2023,Torino,Barriera di Lanzo,via Rueglio 22,184000,130,6,Si,4,1,1980,Buono / Abitabile
+18/04/2023,Torino,Crocetta,via lamarmora 61,450000,183,3,Si,5,3,1960,Buono / Abitabile
+05/05/2023,Torino,Borgo Vittoria,via Ala di Stura 60,149000,78,8,Si,3,1,2007,Ottimo / Ristrutturato
+08/05/2023,Torino,San Salvario - Dante,corso Dante 64,360000,120,3,Si,4,2,1869,Ottimo / Ristrutturato
+13/04/2023,Torino,Madonna di Campagna,via Messedaglia,75000,55,4,No,2,1,1960,Ottimo / Ristrutturato
+17/04/2023,Torino,Parella,via Michele Lessona 35/B,74000,65,5,No,3,1,1940,Ottimo / Ristrutturato
+12/04/2023,Torino,Don Bosco,via San Giovanni Bosco,29550,49,2,No,4,2,1919,Da ristrutturare
+12/04/2023,Torino,Mirafiori Sud - Onorato Vigliani,corso unione Sovietica,71250,88,2,Si,3,2,1968,Da ristrutturare
+13/04/2023,Torino,San Paolo,via Malta 36,415000,120,7,Si,4,2,1965,Buono / Abitabile
+17/04/2023,Torino,Parella,via arona 28/B,94000,65,5,Si,3,1,1940,Da ristrutturare
+21/04/2023,Torino,Barriera di Milano,via Valprato 56/4,300000,147,5,Si,5,2,2011,Nuovo / In costruzione
+13/04/2023,Torino,Città Giardino,via Giuseppe Romita 4,180000,103,2,Si,4,2,1970,Buono / Abitabile
+13/04/2023,Torino,Crocetta,via Giovanni da Verrazzano 31,490000,180,4,Si,5,2,1971,Da ristrutturare
+06/05/2023,Torino,San Salvario - Dante,via Belfiore 51,50000,20,5,Si,1,1,1885,Buono / Abitabile
+26/04/2023,Torino,Crocetta,corso Duca degli Abruzzi 79,350000,130,2,Si,5,2,1970,Ottimo / Ristrutturato
+19/04/2023,Torino,Nizza Millefonti,via Genova 200,189000,120,3,Si,4,1,1960,Da ristrutturare
+08/05/2023,Torino,Madonna di Campagna,via Stradella 232,104000,80,1,Si,3,1,1970,Buono / Abitabile
+13/04/2023,Torino,Mirafiori Nord,via Pio VII 83,140000,90,5,Si,3,1,1969,Buono / Abitabile
+05/05/2023,Torino,Cavoretto,corso Moncalieri 310,115000,70,1,No,2,1,1959,Da ristrutturare
+13/04/2023,Torino,Mirafiori Nord,via Pio VII 83,155000,88,5,Si,3,1,1965,Da ristrutturare
+18/04/2023,Torino,Parella,via Sostegno 41,379000,220,2,No,3,2,1973,Buono / Abitabile
+13/04/2023,Torino,Borgo Vittoria,corso Venezia 65,159000,115,5,Si,4,1,1970,Buono / Abitabile
+13/04/2023,Torino,Barriera di Milano,via Gaspare Spontini 27,29000,48,0,No,2,1,1950,Buono / Abitabile
+13/04/2023,Torino,Regio Parco,via Sandro Botticelli 184,45000,56,0,Si,2,1,1960,Da ristrutturare
+15/04/2023,Torino,Lucento,via Val della Torre,169000,90,1,Si,3,1,2008,Ottimo / Ristrutturato
+20/04/2023,Torino,Madonna del Pilone,corso Casale 91,187000,86,3,Si,3,1,,Da ristrutturare
+18/04/2023,Torino,Barriera di Milano,via Luigi Salvatore Cherubini 10,39900,59,4,Si,2,1,1970,Buono / Abitabile
+06/05/2023,Torino,Lucento,via Bernardino Luini,145000,84,9,Si,3,1,1960,Ottimo / Ristrutturato
+13/04/2023,Torino,Mirafiori Nord,via Nizza 342 342,89000,55,5,Si,2,1,1960,Buono / Abitabile
+13/04/2023,Torino,Pozzo Strada,via Borgone 65,355000,174,2,Si,5,2,1950,Nuovo / In costruzione
+14/04/2023,Torino,Lingotto,via Tunisi,256000,160,2,Si,4,1,,
+17/04/2023,Torino,Barriera di Milano,via Feletto 35,55000,38,2,Si,2,1,1950,Ottimo / Ristrutturato
+13/04/2023,Torino,Mirafiori Nord,via Eleonora d'Arborea 6,105000,60,3,Si,2,1,1960,Buono / Abitabile
+18/04/2023,Torino,Nizza Millefonti,via Nizza 239,149000,130,4,Si,5,1,1930,Da ristrutturare
+14/04/2023,Torino,San Paolo,via Issiglio 17,170000,78,5,Si,2,1,1963,Buono / Abitabile
+08/05/2023,Torino,Don Bosco,corso Regina Margherita 218,59000,45,1,Si,2,1,,Buono / Abitabile
+28/04/2023,Torino,Vanchiglia,via Conte Luigi Tarino 2B,195000,85,1,No,3,1,1900,Ottimo / Ristrutturato
+17/04/2023,Torino,Lingotto,via Gaspare Vera e Libera Arduino 39,89000,50,4,Si,2,1,1960,Da ristrutturare
+07/05/2023,Torino,Mirafiori Sud - Strada del Drosso,corso Unione Sovietica,89000,81,7,Si,3,1,,Da ristrutturare
+05/05/2023,Torino,Mirafiori Sud - Onorato Vigliani,Terratetto unifamiliare Strada Comunale Di Mirafiori,380000,180,0,No,4,1,,
+13/04/2023,Torino,Madonna di Campagna,via STRESA 37/B,69000,75,0,Si,3,1,1950,Ottimo / Ristrutturato
+03/05/2023,Torino,Santa Rita,via Tripoli,239000,115,2,Si,5,2,1960,Buono / Abitabile
+18/04/2023,Torino,Quadrilatero Romano,corso Giuseppe Siccardi 15,79000,25,3,Si,1,1,1900,Buono / Abitabile
+27/04/2023,Torino,Borgo Vittoria,via Casteldelfino 21,159000,110,1,Si,4,1,1970,Ottimo / Ristrutturato
+12/04/2023,Torino,Santa Rita,corso Orbassano 255,140000,80,1,Si,3,1,1973,Da ristrutturare
+26/04/2023,Torino,Mirafiori Nord,via Pietro Frattini 12/5,99000,85,0,No,3,1,1960,Nuovo / In costruzione
+12/04/2023,Torino,Aurora,via Beinasco 7,79000,75,2,No,3,1,1977,Buono / Abitabile
+13/04/2023,Torino,Cenisia,via Dante di Nanni 90,208000,90,3,Si,4,2,1930,Ottimo / Ristrutturato
+04/05/2023,Torino,Pozzo Strada,via La Thuile 11,119000,55,3,Si,2,1,1950,Ottimo / Ristrutturato
+12/04/2023,Torino,Aurora,corso Vercelli 28,43900,50,3,No,2,1,1870,Buono / Abitabile
+08/05/2023,Torino,Santa Rita,corso Sebastopoli 212,114000,58,3,Si,2,1,1965,Buono / Abitabile
+06/05/2023,Torino,Borgo Vittoria,via Giovanni Randaccio 18,123000,96,4,Si,3,1,1970,Da ristrutturare
+12/04/2023,Torino,Barca,via Damiano Chiesa 43/7,235000,102,6,Si,4,2,2019,Ottimo / Ristrutturato
+04/05/2023,Torino,Campidoglio,via Levanna 27,99000,85,0,No,4,1,1940,Da ristrutturare
+26/04/2023,Torino,Lingotto,via Taggia 2,105000,56,2,Si,2,1,1968,Ottimo / Ristrutturato
+12/04/2023,Torino,San Salvario - Dante,via Monti,62250,58,1,Si,2,1,1967,Buono / Abitabile
+12/04/2023,Torino,Cavoretto,corso Moncalieri,87000,58,1,No,2,1,1967,Buono / Abitabile
+12/04/2023,Torino,Lingotto,via Montevideo,160500,148,3,Si,5,3,1968,Buono / Abitabile
+12/04/2023,Torino,Lucento,via Pianezza 84,79000,66,5,Si,3,1,1942,Buono / Abitabile
+18/04/2023,Torino,Parella,via Borgosesia 91,99000,50,5,No,2,1,1950,Ottimo / Ristrutturato
+06/05/2023,Torino,Lingotto,corso Unione Sovietica 163,155000,70,6,Si,3,1,2015,Nuovo / In costruzione
+03/05/2023,Torino,Cittadella,corso Matteotti 36,750000,278,2,Si,5,3,1890,Ottimo / Ristrutturato
+14/04/2023,Torino,Madonna di Campagna,via gubbio 101,76000,60,2,Si,2,1,1967,Ottimo / Ristrutturato
+13/04/2023,Torino,Centro Europa,corso gaetano salvemini 65,99000,67,7,Si,2,1,1986,Ottimo / Ristrutturato
+12/04/2023,Torino,Le Vallette,via delle Primule 56,105000,80,1,Si,4,1,1969,Da ristrutturare
+17/04/2023,Torino,Parella,via GIANFRANCESCO RE 67,179000,109,1,Si,4,2,1962,Buono / Abitabile
+12/04/2023,Torino,Centro Europa,via Domenico Girolamo Induno 17,125000,51,2,Si,2,1,2011,Ottimo / Ristrutturato
+13/04/2023,Torino,San Paolo,via Costigliole 5,85000,55,0,No,2,1,1920,Da ristrutturare
+13/04/2023,Torino,Giardini Reali,piazza Vittorio Veneto 21,950000,224,3,Si,5,2,1830,Ottimo / Ristrutturato
+08/05/2023,Torino,Borgo Vittoria,via palli 14,38000,55,5,No,2,1,1950,Buono / Abitabile
+12/04/2023,Torino,Parella,via Giovanni Servais,222000,125,3,Si,5,2,1970,Buono / Abitabile
+12/04/2023,Torino,Madonna di Campagna,via Cardinale Guglielmo Massaia 60,75000,57,4,Si,2,1,1970,Ottimo / Ristrutturato
+12/04/2023,Torino,Parella,via Rochemolles 11,87000,75,4,No,3,1,1960,Buono / Abitabile
+18/04/2023,Torino,Aurora,via Pisa 18,1030000,268,4,Si,5,3,2023,Nuovo / In costruzione
+13/04/2023,Torino,Madonna del Pilone,via Guido Cavalcanti 6,195000,100,3,No,4,1,1950,Buono / Abitabile
+18/04/2023,Torino,Aurora,via Pisa 18,799000,209,4,Si,4,3,2023,Nuovo / In costruzione
+12/04/2023,Torino,Gran Madre - Crimea,corso Casale 6,220000,70,2,Si,2,1,1910,Buono / Abitabile
+12/04/2023,Torino,Pozzo Strada,via Stelvio,135000,65,5,Si,2,1,1960,Ottimo / Ristrutturato
+08/05/2023,Torino,Lucento,via Magnano 3,45000,47,3,No,2,1,1950,Buono / Abitabile
+12/04/2023,Torino,Parella,via Giovanni Servais 200,280000,129,2,Si,4,2,1973,Ottimo / Ristrutturato
+26/04/2023,Torino,Barca,via Damiano Chiesa 33,110000,93,3,Si,3,1,1950,Da ristrutturare
+14/04/2023,Torino,San Salvario - Dante,via Saluzzo 43,375000,108,3,Si,3,2,2023,Nuovo / In costruzione
+28/04/2023,Torino,Gran Madre - Crimea,corso Quintino Sella 56,155000,52,1,Si,2,1,2000,Ottimo / Ristrutturato
+12/04/2023,Torino,Nizza Millefonti,via Nizza 173B,210000,105,8,Si,4,1,1970,Buono / Abitabile
+04/05/2023,Torino,San Paolo,via Fabbriche 5,94000,55,3,Si,2,1,1960,Buono / Abitabile
+03/05/2023,Torino,Mirafiori Nord,corso unione sovietica 371,238000,130,6,No,4,2,1970,Buono / Abitabile
+12/04/2023,Torino,San Salvario - Baretti,via Goito,185000,95,1,No,4,1,1890,Buono / Abitabile
+13/04/2023,Torino,Barriera di Lanzo,via Drusacco 5,57000,50,4,No,2,1,1940,Ottimo / Ristrutturato
+12/04/2023,Torino,Aurora,via Piossasco 11/4,105000,103,2,Si,4,1,1960,Da ristrutturare
+17/04/2023,Torino,Cittadella,via Antonio Giuseppe Ignazio Bertola 55,165000,48,3,Si,2,1,1975,Nuovo / In costruzione
+03/05/2023,Torino,San Secondo,corso Filippo Turati 13,390000,175,6,Si,5,2,,Buono / Abitabile
+12/04/2023,Torino,Superga,corso CHIERI,410000,300,S,No,5,3,,Buono / Abitabile
+21/04/2023,Torino,San Donato,via Antonio Vagnone 16,200000,120,1,Si,5,2,1960,Buono / Abitabile
+12/04/2023,Torino,Barriera di Milano,via Jacopo Foroni,26250,57,3,No,2,3,1960,Buono / Abitabile
+06/05/2023,Torino,Santa Rita,via Paolo Sarpi 94,109000,81,2,Si,3,1,1960,Da ristrutturare
+12/04/2023,Torino,Santa Rita,via Buenos Aires 19,125000,60,1,Si,2,1,1960,Ottimo / Ristrutturato
+01/05/2023,Torino,Pozzo Strada,corso Monte Cucco 115,115000,60,7,Si,2,1,1960,Buono / Abitabile
