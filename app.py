@@ -91,75 +91,76 @@ if choice == 'Home':
 
 
 elif choice == 'Analytics':
-    st.title('Data Analisis') 
-    st.write('Here you can find some data analisis about the real estate market in Turin')
-
     @st.cache_data 
     def load_data(nrows):
         data = pd.read_csv('listings5.1.csv', nrows=nrows)
         return data
-
+    
+    #load data
     data = load_data(1374)
 
+    st.title('Data Analisis') 
+    st.write('Here you can find some data analisis about the real estate market in Turin')
     st.write('Here is a sample of the data:')
     st.write(data.head(10))
 
+    #setting colors to plot
     colorscale = ["red", "blue"]
     # Crea il DataFrame con le colonne specificate
     df = pd.DataFrame(data, columns=['Zona', 'Price'])
-
     # Crea il plot
-    st.subheader('Plot')
+    st.subheader('Insights of the number of houses in sale for each area')
     # Calcola il numero di case in vendita per ogni zona
     zone_counts = df['Zona'].value_counts().sort_values(ascending=True)
     # Crea il plot utilizzando Plotly Express
-    fig = px.bar(
-        x=zone_counts.values, 
-        y=zone_counts.index, 
-        color=zone_counts.values,
-        color_continuous_scale=colorscale,
-        labels={'x': 'Zone', 'y': 'Numero di case in vendita'}
-    )
+    col1, col2 = st.columns(2)
+    with col1:
+        fig = px.bar(
+            x=zone_counts.values, 
+            y=zone_counts.index, 
+            color=zone_counts.values,
+            color_continuous_scale=colorscale,
+            labels={'x': 'Zone', 'y': 'House in sale'}
+        )
+        
+        fig.update_layout(
+            xaxis_title="Number of houses in sale",  # Etichetta dell'asse x 
+            yaxis_title="Zona",  # Etichetta dell'asse y
+        )
 
-    fig.update_layout(
-        xaxis_title="Numero di Proprietà",  # Etichetta dell'asse x
-        yaxis_title="Zona",  # Etichetta dell'asse y
-    )
+        st.plotly_chart(fig, use_container_width=True)
 
-    st.plotly_chart(fig, use_container_width=True)
+    with col2:
+        # ---- SIDEBAR ----
+        st.sidebar.header("Please Filter Here:")
+        default_zona = ["Santa Rita"]
+        zona = st.sidebar.multiselect(
+            "Select the Type:",
+            options=data["Zona"].unique(),
+            default=default_zona,
+        )
+        #--- END SIDEBAR ---
+        # Crea il DataFrame con le colonne specificate
+        df = pd.DataFrame(data, columns=['Zona', 'Price'])
+        data_selection = data.query("Zona == @zona")
+        number = (data_selection['Zona'].value_counts().sort_values(ascending=True))
+        fig_select = px.bar(
+            number,
+            x=number.values,  # Utilizza i valori come etichette sull'asse x
+            y=number.index, 
+            orientation="h",
+            title="<b>Sales by Product Line</b>",
+            color=number.values,
+            color_continuous_scale=colorscale,
+            template="plotly_dark"
+        )
 
-    st.write('Number of properties per area')
-    # ---- SIDEBAR ----
-    default_zona = ["Santa Rita"]
-    st.sidebar.header("Please Filter Here:")
-    zona = st.sidebar.multiselect(
-        "Select the Type:",
-        options=data["Zona"].unique(),
-        default=default_zona,
-    )
-    df = pd.DataFrame(data, columns=['Zona', 'Price'])
-    data_selection = data.query("Zona == @zona")
-    number = (
-        data_selection['Zona'].value_counts().sort_values(ascending=True)
-    )
+        fig_select.update_layout(
+            xaxis_title="Numero di Proprietà",  # Etichetta dell'asse x
+            yaxis_title="Zona",  # Etichetta dell'asse y
+        )
 
-    fig_product_sales = px.bar(
-        number,
-        x=number.values,  # Utilizza i valori come etichette sull'asse x
-        y=number.index, 
-        orientation="h",
-        title="<b>Sales by Product Line</b>",
-        color=number.values,
-        color_continuous_scale=colorscale,
-        template="plotly_dark"
-    )
-
-    fig_product_sales.update_layout(
-        xaxis_title="Numero di Proprietà",  # Etichetta dell'asse x
-        yaxis_title="Zona",  # Etichetta dell'asse y
-    )
-
-    st.plotly_chart(fig_product_sales, use_container_width=True)
+        st.plotly_chart(fig_select, use_container_width=True)
 
     chart_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [45.07, 7.68],
