@@ -101,8 +101,6 @@ elif choice == 'Analytics':
 
     st.title('Data Analisis') 
     st.write('Here you can find some data analisis about the real estate market in Turin')
-    st.write('Here is a sample of the data:')
-    st.write(data.head(10))
 
     #setting colors to plot
     colorscale = ["red", "blue"]
@@ -118,6 +116,7 @@ elif choice == 'Analytics':
         fig = px.bar(
             x=zone_counts.values, 
             y=zone_counts.index, 
+            title="<b>All the properties</b>",
             color=zone_counts.values,
             color_continuous_scale=colorscale,
             labels={'x': 'Zone', 'y': 'House in sale'}
@@ -149,7 +148,7 @@ elif choice == 'Analytics':
             x=number.values,  # Utilizza i valori come etichette sull'asse x
             y=number.index, 
             orientation="h",
-            title="<b>Sales by Product Line</b>",
+            title="<b>Select the zone to see the properties</b>",
             color=number.values,
             color_continuous_scale=colorscale,
             template="plotly_dark"
