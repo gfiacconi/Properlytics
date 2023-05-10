@@ -7,3 +7,4 @@ ply==3.11
 tiktoken==0.3.3
 python-dotenv
 matplotlib
+plotly
