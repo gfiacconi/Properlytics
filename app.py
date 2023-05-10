@@ -19,6 +19,7 @@ from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAIS
 
 os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
+
 # Set up navbar
 st.set_page_config(page_title='Properlytics', page_icon=':house:', layout='wide')
 menu = ['Home', 'Analytics', 'About']
@@ -103,14 +104,63 @@ elif choice == 'Analytics':
     st.write('Here is a sample of the data:')
     st.write(data.head(10))
 
-    st.write('Number of properties per area')
+    colorscale = ["red", "blue"]
+    # Crea il DataFrame con le colonne specificate
     df = pd.DataFrame(data, columns=['Zona', 'Price'])
-    df = df.groupby('Zona').size().reset_index(name='Number of properties')
-    df = df.sort_values('Number of properties', ascending=True)
-    fig = px.bar(df, x='Number of properties', y='Zona', color='Number of properties', height=500)
-    
-    st.plotly_chart(fig)
-   
+
+    # Crea il plot
+    st.subheader('Plot')
+    # Calcola il numero di case in vendita per ogni zona
+    zone_counts = df['Zona'].value_counts().sort_values(ascending=True)
+    # Crea il plot utilizzando Plotly Express
+    fig = px.bar(
+        x=zone_counts.values, 
+        y=zone_counts.index, 
+        color=zone_counts.values,
+        color_continuous_scale=colorscale,
+        labels={'x': 'Zone', 'y': 'Numero di case in vendita'}
+    )
+
+    fig.update_layout(
+        xaxis_title="Numero di Proprietà",  # Etichetta dell'asse x
+        yaxis_title="Zona",  # Etichetta dell'asse y
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.write('Number of properties per area')
+    # ---- SIDEBAR ----
+    default_zona = ["Santa Rita"]
+    st.sidebar.header("Please Filter Here:")
+    zona = st.sidebar.multiselect(
+        "Select the Type:",
+        options=data["Zona"].unique(),
+        default=default_zona,
+    )
+    df = pd.DataFrame(data, columns=['Zona', 'Price'])
+    data_selection = data.query("Zona == @zona")
+    number = (
+        data_selection['Zona'].value_counts().sort_values(ascending=True)
+    )
+
+    fig_product_sales = px.bar(
+        number,
+        x=number.values,  # Utilizza i valori come etichette sull'asse x
+        y=number.index, 
+        orientation="h",
+        title="<b>Sales by Product Line</b>",
+        color=number.values,
+        color_continuous_scale=colorscale,
+        template="plotly_dark"
+    )
+
+    fig_product_sales.update_layout(
+        xaxis_title="Numero di Proprietà",  # Etichetta dell'asse x
+        yaxis_title="Zona",  # Etichetta dell'asse y
+    )
+
+    st.plotly_chart(fig_product_sales, use_container_width=True)
+
     chart_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [45.07, 7.68],
     columns=['lat', 'lon'])
