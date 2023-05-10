@@ -108,8 +108,7 @@ elif choice == 'Analytics':
     df = df.groupby('Zona').size().reset_index(name='Number of properties')
     df = df.sort_values('Number of properties', ascending=True)
     fig = px.bar(df, x='Number of properties', y='Zona', color='Number of properties', height=500)
-    fig.update_layout(height=700, width=900)
-
+    
     st.plotly_chart(fig)
    
     chart_data = pd.DataFrame(
