@@ -19,7 +19,6 @@ from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAIS
 
 os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
-
 # Set up navbar
 st.set_page_config(page_title='Properlytics', page_icon=':house:', layout='wide')
 menu = ['Home', 'Analytics', 'About']
@@ -126,7 +125,7 @@ elif choice == 'Analytics':
             labels={'x': 'Zone', 'y': 'House in sale'}
         )
         fig.update_layout(xaxis_title='Dimension (m2)', yaxis_title='Price')
-        st.plotly_chart(fig)
+        st.plotly_chart(fig, use_container_width=True)
     
     with col2:
                 # Crea il DataFrame con le colonne specificate
@@ -147,7 +146,7 @@ elif choice == 'Analytics':
             color_continuous_scale=colorscale
         )
         fig.update_layout(xaxis_title='Bathrooms', yaxis_title='Rooms')
-        st.plotly_chart(fig)
+        st.plotly_chart(fig, use_container_width=True)
     
 
     # Crea il DataFrame con le colonne specificate
