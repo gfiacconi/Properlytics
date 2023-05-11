@@ -19,6 +19,7 @@ from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAIS
 
 os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
+
 file_name= 'combined2.0.csv'
 # Set up navbar
 st.set_page_config(page_title='Properlytics', page_icon=':house:', layout='wide')
@@ -213,9 +214,28 @@ elif choice == 'Analytics':
     df['longitude'] = pd.to_numeric(df['longitude'], errors='coerce')
 
     # Filtra le righe con valori numerici validi per latitudine e longitudine
-    df = df.dropna(subset=['latitude', 'longitude', 'Price'])
+    df = df.dropna(subset=['latitude', 'longitude'])
     # Mostra la mappa dei dati
     st.map(df)
+
+    df = pd.read_csv('combined_with_coords.csv', on_bad_lines='skip')
+    # Creazione della mappa di densità
+    fig = px.density_mapbox(
+        df,
+        lat="latitude",
+        lon="longitude",
+        z="Price",
+        radius=20,
+        center={"lat": 45.0705, "lon": 7.6868},
+        zoom=10,
+        mapbox_style="open-street-map",
+        title="Turin",
+        color_continuous_scale="Jet",
+        opacity=0.6,
+    )
+
+    # Mostra la mappa
+    st.plotly_chart(fig, use_container_width=True)
 
 # Add your FAQ content here
 elif choice == 'About':
