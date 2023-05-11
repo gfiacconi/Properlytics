@@ -19,6 +19,7 @@ from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAIS
 
 os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
+file_name= 'combined2.0.csv'
 # Set up navbar
 st.set_page_config(page_title='Properlytics', page_icon=':house:', layout='wide')
 menu = ['Home', 'Analytics', 'About']
@@ -88,17 +89,16 @@ if choice == 'Home':
         st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
         col2.metric("Final Price",chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro e senza spazi o punti'))
 
-
 elif choice == 'Analytics':
     @st.cache_data 
     def load_data(nrows):
-        data = pd.read_csv('listings5.1.csv', nrows=nrows)
+        data = pd.read_csv(file_name, nrows=nrows)
         return data
     
     #load data
-    data = load_data(1374)
+    data = load_data(8507)
 
-    st.title('Data Analisis') 
+    st.title('Data Analisis of the Real Estate Market in Turin') 
     st.write('Here you can find some data analisis about the real estate market in Turin')
 
     #setting colors to plot
@@ -148,7 +148,7 @@ elif choice == 'Analytics':
         fig.update_layout(xaxis_title='Bathrooms', yaxis_title='Rooms')
         st.plotly_chart(fig, use_container_width=True)
     
-
+    
     # Crea il DataFrame con le colonne specificate
     df = pd.DataFrame(data, columns=['Zona', 'Price'])
     # Crea il plot
@@ -205,38 +205,19 @@ elif choice == 'Analytics':
 
         st.plotly_chart(fig_select, use_container_width=True)
 
-    chart_data = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [45.07, 7.68],
-    columns=['lat', 'lon'])
-    st.pydeck_chart(pdk.Deck(
-        map_style=None,
-        initial_view_state=pdk.ViewState(
-            latitude=45.07,
-            longitude=7.68,
-            zoom=11,
-            pitch=50,
-        ),
-        layers=[
-            pdk.Layer(
-            'HexagonLayer',
-            data=chart_data,
-            get_position='[lon, lat]',
-            radius=200,
-            elevation_scale=4,
-            elevation_range=[0, 1000],
-            pickable=True,
-            extruded=True,
-            ),
-            pdk.Layer(
-                'ScatterplotLayer',
-                data=chart_data,
-                get_position='[lon, lat]',
-                get_color='[200, 30, 0, 160]',
-                get_radius=200,
-            ),
-        ],
-    ))
-    # Add your FAQ content here
+    # Carica i dati dal file CSV
+    df = pd.read_csv('combined_with_coords.csv', on_bad_lines='skip')
+
+    # Converti le colonne "latitude" e "longitude" in numeri
+    df['latitude'] = pd.to_numeric(df['latitude'], errors='coerce')
+    df['longitude'] = pd.to_numeric(df['longitude'], errors='coerce')
+
+    # Filtra le righe con valori numerici validi per latitudine e longitudine
+    df = df.dropna(subset=['latitude', 'longitude', 'Price'])
+    # Mostra la mappa dei dati
+    st.map(df)
+
+# Add your FAQ content here
 elif choice == 'About':
     st.title('About Properlytics')
     st.write('Properlytics is a real estate analytics platform that helps you make smarter real estate decisions through predictive analytics. We are a team of data scientists, engineers, and real estate professionals who are passionate about helping you make better real estate decisions.')
