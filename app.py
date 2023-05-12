@@ -27,34 +27,71 @@ choice = st.sidebar.selectbox('Select a page', menu)
 
 # App framework
 if choice == 'Home':
+
+    @st.cache_data 
+    def load_data(nrows):
+        data = pd.read_csv(file_name, nrows=nrows)
+        return data
+
     st.title('🏘 📈Properlytics: Smarter Real Estate Decisions through Predictive Analytics')
 
+    
     col1, col2= st.columns(2)
-    col1.metric("Prezzo medio vendita (€/m²)", "€ 1.923", "+ 2,34%")
+    data = load_data(8507)
+    df = pd.DataFrame(data, columns=['Price', 'Dimension (m2)'])
+    df['Price'] = df['Price'].astype(float)  # Rimuovi il simbolo dell'euro e le virgole dal prezzo
+    df['Dimension'] = df['Dimension (m2)'].astype(float)  
+    df['Price_per_sqm'] = df['Price'] / df['Dimension (m2)'] 
+    prezzo_medio_per_sqm = df['Price_per_sqm'].mean() 
+    prezzo_medio_per_sqm = round(prezzo_medio_per_sqm, 2)   # Rimuovi il simbolo del metro quadro e le virgole dalla dimensione
+    col1.metric("Prezzo medio vendita (€/m²)", f"€ {prezzo_medio_per_sqm}", "+ 2,34%")
     col2.metric("Prezzo medio affitto (€/m²)", "€ 10,12", "+ 10,84%")
 
-    col1, col2= st.columns(2)
 
+
+    optionAddress = st.text_input('Address')
+
+    col1, col2= st.columns(2)
     with col1:
-        squareMeter = st.slider('insert sqaure meter', 0, 800, 100)
-        st.write('You selected:', squareMeter, 'm²')
+        df = pd.DataFrame(data, columns=['Dimension (m2)'])
+        dimension_options = df['Dimension (m2)'].unique()
+        min_dimension = df['Dimension (m2)'].min()
+        max_dimension = df['Dimension (m2)'].max()
+        optionSquareMeter = st.slider('Insert square meter', min_value=min_dimension, max_value=max_dimension, value=min_dimension)
+        st.write('You selected:', optionSquareMeter, 'm²')
 
     with col2:
-        option = st.selectbox(
-        'Floor',
-        ('1', '2', '3','4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14','15', '16', '17', '18', '19', '20', '21', '22', '23', '24'))
+        df = pd.DataFrame(data, columns=['Floor'])
+        floor_options = df['Floor'].unique()
+        optionFloor = st.selectbox('Floor', floor_options)
 
+    col1, col2= st.columns(2)
+    with col1:
+        df = pd.DataFrame(data, columns=['Zona'])
+        zone_options = df['Zona'].unique()
+        optionZone = st.selectbox('Zona', zone_options)
+    
+    with col2:
+        df = pd.DataFrame(data, columns=['Bathrooms'])
+        bathrooms_options = df['Bathrooms'].unique()
+        optionBathroom = st.selectbox('Bathrooms', bathrooms_options)       
+    
+    col1, col2= st.columns(2)
+    with col1:
+        df = pd.DataFrame(data, columns=['Ascensore'])
+        elevator_options = df['Ascensore'].unique()
+        optionElevator = st.selectbox('Elevator', elevator_options)  
+    
+    with col2:
+        df = pd.DataFrame(data, columns=['Stato'])
+        df = df.dropna(subset=['Stato'])
+        condition_options = df['Stato'].unique()
+        optionCondition = st.select_slider('Conditions', condition_options)      
 
-    genre = st.radio(
-    "enter the area",
-    ('Centro', 'Borgo Po', 'San Salvario', 'Crocetta'))
-
-    prompt = f"square meter: {squareMeter} \n floor: {option} \n area: {genre}"
+    prompt = f"square meter: {optionSquareMeter} \n floor: {optionFloor} \n area: {optionZone} \n bathrooms: {optionBathroom} \n elevator: {optionElevator} \n conditions: {optionCondition} \n"
     # Llms
-    llm = OpenAI(temperature=0.1) 
-
+    llm = OpenAI(temperature=0.5) 
     #wiki = WikipediaAPIWrapper()
-
     reader = PdfReader('dataTorino.pdf')
 
     raw_text = ''
@@ -78,6 +115,28 @@ if choice == 'Home':
     chain = load_qa_chain(OpenAI(), chain_type="stuff")
 
     # Show stuff to the screen if there's a prompt
+    if st.button('Calculate'):
+        filtered_data = data[
+        (data['Floor'] == optionFloor) &
+        (data['Zona'] == optionZone) &
+        (data['Bathrooms'] == optionBathroom) &
+        (data['Stato'] == optionCondition)
+        ]
+    
+    # Calcola la media del valore al metro quadro e moltiplica per il valore dato in input
+    price_per_sqm = filtered_data['Price'] / filtered_data['Dimension (m2)']
+    average_price_per_sqm = price_per_sqm.mean()
+    calculated_value = average_price_per_sqm * optionSquareMeter
+    #valore finale approsimato fino ai centesimi
+    calculated_value = round(calculated_value, 2)
+    
+    #stampa il valore calcolato con il simbolo degli euro prima
+    st.write('The estimated value is:')
+    st.write(f"€ {calculated_value}")
+
+
+
+
     if st.button('submit'):
         progress_text = "Operation in progress. Please wait."
         my_bar = st.progress(0, text=progress_text)
@@ -86,7 +145,7 @@ if choice == 'Home':
             my_bar.progress(percent_complete + 1, text=progress_text)
         response = llm(prompt)
         docs = docsearch.similarity_search(prompt)
-        st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
+        st.write(chain.run(question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
         col2.metric("Final Price",chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro e senza spazi o punti'))
 
 elif choice == 'Analytics':
