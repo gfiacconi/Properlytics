@@ -145,7 +145,7 @@ if choice == 'Home':
             my_bar.progress(percent_complete + 1, text=progress_text)
         response = llm(prompt)
         docs = docsearch.similarity_search(prompt)
-        st.write(chain.run(question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
+        st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
         col2.metric("Final Price",chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro e senza spazi o punti'))
 
 elif choice == 'Analytics':
