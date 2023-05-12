@@ -19,7 +19,6 @@ from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAIS
 
 os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
-
 file_name= 'combined2.0.csv'
 # Set up navbar
 st.set_page_config(page_title='Properlytics', page_icon=':house:', layout='wide')
@@ -109,18 +108,14 @@ elif choice == 'Analytics':
     with col1:
         # Crea il DataFrame con le colonne specificate
         df = pd.DataFrame(data, columns=['Dimension (m2)', 'Price'])
-
-        # Configurazione Streamlit
-        st.title('Plot of the price and dimension of the houses in sale')
         # Crea il plot
-        st.subheader('Plot')
-
+        st.subheader('Comparison between the price and the dimension of the houses in sale')
         # Crea lo scatter plot utilizzando Plotly Express
         fig = px.scatter(
             df, 
             x='Dimension (m2)', 
             y='Price',
-            title="<b>All the properties</b>",
+            title="<b>Price-Dimension</b>",
             color=df['Price'],
             color_continuous_scale=colorscale,
             labels={'x': 'Zone', 'y': 'House in sale'}
@@ -129,24 +124,27 @@ elif choice == 'Analytics':
         st.plotly_chart(fig, use_container_width=True)
     
     with col2:
-                # Crea il DataFrame con le colonne specificate
-        df = pd.DataFrame(data, columns=['Rooms', 'Bathrooms'])
-        zone_counts = df['Rooms'].value_counts().sort_values(ascending=True)
-
-        # Configurazione Streamlit
-        st.title('Plot of the price and dimension of the houses in sale')
-        # Crea il plot
-        st.subheader('Plot')
-        # Crea lo scatter plot utilizzando Plotly Express
-        fig = px.bar(
-            df, 
-            x=zone_counts.values, 
-            y=zone_counts.index,
-            title="<b>All the properties</b>",
-            color=zone_counts.values,
-            color_continuous_scale=colorscale
+        st.subheader('Heat map of the houses in sale in Turin')
+        #add a space
+        st.write("")
+        st.write("")
+        df = pd.read_csv('combined_with_coords.csv', on_bad_lines='skip')
+        # Creazione della mappa di densità
+        fig = px.density_mapbox(
+            df,
+            lat="latitude",
+            lon="longitude",
+            z="Price",
+            radius=20,
+            center={"lat": 45.0705, "lon": 7.6868},
+            zoom=10,
+            mapbox_style="open-street-map",
+            title="Heat-map based on Price",
+            color_continuous_scale="Jet",
+            opacity=0.6,
         )
-        fig.update_layout(xaxis_title='Bathrooms', yaxis_title='Rooms')
+
+        # Mostra la mappa
         st.plotly_chart(fig, use_container_width=True)
     
     
@@ -170,16 +168,16 @@ elif choice == 'Analytics':
         
         fig.update_layout(
             xaxis_title="Number of houses in sale",  # Etichetta dell'asse x 
-            yaxis_title="Zona",  # Etichetta dell'asse y
+            yaxis_title="Zone",  # Etichetta dell'asse y
         )
 
         st.plotly_chart(fig, use_container_width=True)
     with col2:
         # ---- SIDEBAR ----
-        st.sidebar.header("Please Filter Here:")
+        st.sidebar.header("Tune analysis 🕹 ")
         default_zona = ["Santa Rita"]
         zona = st.sidebar.multiselect(
-            "Select the Type:",
+            "Select the Neighborhood for the number of properties:",
             options=data["Zona"].unique(),
             default=default_zona,
         )
@@ -193,50 +191,69 @@ elif choice == 'Analytics':
             x=number.values,  # Utilizza i valori come etichette sull'asse x
             y=number.index, 
             orientation="h",
-            title="<b>Select the zone to see the properties</b>",
+            title="<b>Select the zone to see the number properties for each Neighbor</b>",
             color=number.values,
             color_continuous_scale=colorscale,
             template="plotly_dark"
         )
 
         fig_select.update_layout(
-            xaxis_title="Numero di Proprietà",  # Etichetta dell'asse x
-            yaxis_title="Zona",  # Etichetta dell'asse y
+            xaxis_title="Number of houses in sale",  # Etichetta dell'asse x
+            yaxis_title="Zone",  # Etichetta dell'asse y
         )
 
         st.plotly_chart(fig_select, use_container_width=True)
 
+    
+   
     # Carica i dati dal file CSV
     df = pd.read_csv('combined_with_coords.csv', on_bad_lines='skip')
+    st.subheader('Heat map of the houses in sale in Turin for each zone')
+    # Creazione della barra laterale per la selezione della zona
+    default_zona = ["Santa Rita"]
+    key = "zona_selection"
+    zona = st.sidebar.multiselect(
+        "Select the Zone to see the Heat-Map:",
+        options=df["Zona"].unique(),
+        default=default_zona,
+        key=key
+    )
 
+    # Filtra i dati in base alle zone selezionate
+    data_selection = df[df["Zona"].isin(zona)]
+
+    # Controlla se sono state selezionate delle zone
+    if not data_selection.empty:
+        # Crea il grafico di densità
+        fig = px.density_mapbox(
+            data_selection,
+            lat="latitude",
+            lon="longitude",
+            z="Price",
+            radius=20,
+            center={"lat": 45.0705, "lon": 7.6868},
+            zoom=10,
+            mapbox_style="open-street-map",
+            title="Turin",
+            color_continuous_scale="Jet",
+            opacity=0.6,
+        )
+
+        # Mostra il grafico
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.warning("No data selected")
+
+    st.subheader('Insights of all the houses in sale')
+    # Carica i dati dal file CSV
+    df = pd.read_csv('combined_with_coords.csv', on_bad_lines='skip')
     # Converti le colonne "latitude" e "longitude" in numeri
     df['latitude'] = pd.to_numeric(df['latitude'], errors='coerce')
     df['longitude'] = pd.to_numeric(df['longitude'], errors='coerce')
-
     # Filtra le righe con valori numerici validi per latitudine e longitudine
     df = df.dropna(subset=['latitude', 'longitude'])
     # Mostra la mappa dei dati
     st.map(df)
-
-    df = pd.read_csv('combined_with_coords.csv', on_bad_lines='skip')
-    # Creazione della mappa di densità
-    fig = px.density_mapbox(
-        df,
-        lat="latitude",
-        lon="longitude",
-        z="Price",
-        radius=20,
-        center={"lat": 45.0705, "lon": 7.6868},
-        zoom=10,
-        mapbox_style="open-street-map",
-        title="Turin",
-        color_continuous_scale="Jet",
-        opacity=0.6,
-    )
-
-    # Mostra la mappa
-    st.plotly_chart(fig, use_container_width=True)
-
 # Add your FAQ content here
 elif choice == 'About':
     st.title('About Properlytics')
