@@ -53,7 +53,7 @@ if choice == 'Home':
     col1, col2= st.columns(2)
     with col1:
         #fai uno slider che parte da 3 e arrivi a 10000
-        optionSquareMeter = st.slider('Square meter', 3, 10000)
+        optionSquareMeter = st.number_input('Square meter', value=60)
 
 
     with col2:
