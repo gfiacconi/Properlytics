@@ -47,8 +47,6 @@ if choice == 'Home':
     col1.metric("Prezzo medio vendita (€/m²)", f"€ {prezzo_medio_per_sqm}", "+ 2,34%")
     col2.metric("Prezzo medio affitto (€/m²)", "€ 10,12", "+ 10,84%")
 
-
-
     optionAddress = st.text_input('Address')
 
     col1, col2= st.columns(2)
@@ -125,10 +123,20 @@ if choice == 'Home':
         calculated_value = average_price_per_sqm * optionSquareMeter
         #valore finale approsimato fino ai centesimi
         calculated_value = round(calculated_value, 2)
-        
+        progress_text = "Operation in progress. Please wait."
+        my_bar = st.progress(0, text=progress_text)
+
+        llm = OpenAI(temperature=0.9)
+        for percent_complete in range(100):
+            time.sleep(0.1)
+            my_bar.progress(percent_complete + 1, text=progress_text)
         #stampa il valore calcolato con il simbolo degli euro prima
-        st.write('The estimated value is:')
-        st.write(f"€ {calculated_value}")
+        st.metric('The estimated value is:', f"€ {calculated_value}")
+        #text = "Tu sei un agente immobiliare e l'utente ti ha fornito tutte queste informazioni perche vuole vendere la sua casa, fai una panoramica della zona e di tutte le info che ti ha fornito e convincilo a proseguire a venderla con noi: \n\nIndirizzo: {}\nNumero di bagni: {}\nCondizione: {}\nPresenza ascensore: {}\nPiano: {}\nMetri quadrati: {}\nZona: {}".format(optionAddress, optionBathroom, optionCondition, optionElevator, optionFloor, optionSquareMeter, optionZone)
+        #st.write(llm(text))
+
+
+
 
 
 
