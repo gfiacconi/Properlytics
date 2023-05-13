@@ -51,6 +51,12 @@ if choice == 'Home':
 
     optionAddress = st.text_input('Address')
 
+    col1, col2= st.columns(2)
+
+    with col2:
+        df = pd.DataFrame(data, columns=['Floor'])
+        floor_options = df['Floor'].unique()
+        optionFloor = st.selectbox('Floor', floor_options)
 
     col1, col2= st.columns(2)
     with col1:
