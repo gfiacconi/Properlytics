@@ -33,7 +33,8 @@ if choice == 'Home':
         data = pd.read_csv(file_name, nrows=nrows)
         return data
 
-    st.title('🏘 📈Properlytics: Smarter Real Estate Decisions through Predictive Analytics')
+    st.title('🏘 📈Properlytics')
+    st.subheader('Smarter Real Estate Decisions through Predictive Analytics')
     data = load_data(8507)
 
     
@@ -135,22 +136,16 @@ if choice == 'Home':
         #text = "Tu sei un agente immobiliare e l'utente ti ha fornito tutte queste informazioni perche vuole vendere la sua casa, fai una panoramica della zona e di tutte le info che ti ha fornito e convincilo a proseguire a venderla con noi: \n\nIndirizzo: {}\nNumero di bagni: {}\nCondizione: {}\nPresenza ascensore: {}\nPiano: {}\nMetri quadrati: {}\nZona: {}".format(optionAddress, optionBathroom, optionCondition, optionElevator, optionFloor, optionSquareMeter, optionZone)
         #st.write(llm(text))
 
-
-
-
-
-
-
-    if st.button('submit'):
-        progress_text = "Operation in progress. Please wait."
-        my_bar = st.progress(0, text=progress_text)
-        for percent_complete in range(100):
-            time.sleep(0.1)
-            my_bar.progress(percent_complete + 1, text=progress_text)
-        response = llm(prompt)
-        docs = docsearch.similarity_search(prompt)
-        st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
-        col2.metric("Final Price",chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro e senza spazi o punti'))
+    # if st.button('submit'):
+    #     progress_text = "Operation in progress. Please wait."
+    #     my_bar = st.progress(0, text=progress_text)
+    #     for percent_complete in range(100):
+    #         time.sleep(0.1)
+    #         my_bar.progress(percent_complete + 1, text=progress_text)
+    #     response = llm(prompt)
+    #     docs = docsearch.similarity_search(prompt)
+    #     st.write(chain.run(input_documents=docs, question='parla in un modo articolato da venditore ad ogni cosa che devi rispondere' + prompt + 'descrivi la zona e di qualsiasi cosa di interessante'))
+    #     col2.metric("Final Price",chain.run(input_documents=docs, question='in base a questi dati:' + prompt + 'calcola il prezzo finale in base ai metri quadri inseriti, scrivi solo il prezzo finale senza nient altro e senza spazi o punti'))
 
 elif choice == 'Analytics':
     @st.cache_data 
