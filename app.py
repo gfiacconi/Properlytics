@@ -51,19 +51,6 @@ if choice == 'Home':
 
     optionAddress = st.text_input('Address')
 
-    col1, col2= st.columns(2)
-    with col1:
-        df = pd.DataFrame(data, columns=['Dimension (m2)'])
-        dimension_options = df['Dimension (m2)'].unique()
-        min_dimension = df['Dimension (m2)'].min()
-        max_dimension = df['Dimension (m2)'].max()
-        optionSquareMeter = st.slider('Insert square meter', min_value=min_dimension, max_value=max_dimension, value=min_dimension)
-        st.write('You selected:', optionSquareMeter, 'm²')
-
-    with col2:
-        df = pd.DataFrame(data, columns=['Floor'])
-        floor_options = df['Floor'].unique()
-        optionFloor = st.selectbox('Floor', floor_options)
 
     col1, col2= st.columns(2)
     with col1:
