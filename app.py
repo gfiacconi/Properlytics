@@ -53,14 +53,8 @@ if choice == 'Home':
 
     col1, col2= st.columns(2)
     with col1:
-        df = pd.DataFrame(data, columns=['Dimension (m2)'])
-        df = df.dropna(subset=['Dimension (m2)'])
-        #trova il valore minimo e massimo della dimensione
-        min_dimension = df['Dimension (m2)'].min()
-        max_dimension = df['Dimension (m2)'].max()
-        #crea uno slider per selezionare la dimensione
-        optionSquareMeter = st.slider('Dimension (m2)', min_dimension, max_dimension)   
-        
+        #fai uno slider che parte da 3 e arrivi a 10000
+        optionSquareMeter = st.slider('Square meter', 3, 10000)
 
 
     with col2:
