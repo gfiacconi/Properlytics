@@ -37,7 +37,15 @@ if choice == 'Home':
     data = load_data(8507)
 
     
-
+    col1, col2= st.columns(2)
+    df = pd.DataFrame(data, columns=['Price', 'Dimension (m2)'])
+    df['Price'] = df['Price'].astype(float)  # Rimuovi il simbolo dell'euro e le virgole dal prezzo
+    df['Dimension'] = df['Dimension (m2)'].astype(float)  
+    df['Price_per_sqm'] = df['Price'] / df['Dimension (m2)'] 
+    prezzo_medio_per_sqm = df['Price_per_sqm'].mean() 
+    prezzo_medio_per_sqm = round(prezzo_medio_per_sqm, 2)   # Rimuovi il simbolo del metro quadro e le virgole dalla dimensione
+    col1.metric("Prezzo medio vendita (€/m²)", f"€ {prezzo_medio_per_sqm}", "+ 2,34%")
+    col2.metric("Prezzo medio affitto (€/m²)", "€ 10,12", "+ 10,84%")
 
 
 
