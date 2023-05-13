@@ -121,17 +121,16 @@ if choice == 'Home':
         (data['Bathrooms'] == optionBathroom) &
         (data['Stato'] == optionCondition)
         ]
-    
-    # Calcola la media del valore al metro quadro e moltiplica per il valore dato in input
-    price_per_sqm = filtered_data['Price'] / filtered_data['Dimension (m2)']
-    average_price_per_sqm = price_per_sqm.mean()
-    calculated_value = average_price_per_sqm * optionSquareMeter
-    #valore finale approsimato fino ai centesimi
-    calculated_value = round(calculated_value, 2)
-    
-    #stampa il valore calcolato con il simbolo degli euro prima
-    st.write('The estimated value is:')
-    st.write(f"€ {calculated_value}")
+        # Calcola la media del valore al metro quadro e moltiplica per il valore dato in input
+        price_per_sqm = filtered_data['Price'] / filtered_data['Dimension (m2)']
+        average_price_per_sqm = price_per_sqm.mean()
+        calculated_value = average_price_per_sqm * optionSquareMeter
+        #valore finale approsimato fino ai centesimi
+        calculated_value = round(calculated_value, 2)
+        
+        #stampa il valore calcolato con il simbolo degli euro prima
+        st.write('The estimated value is:')
+        st.write(f"€ {calculated_value}")
 
 
 
