@@ -81,7 +81,7 @@ if choice == 'Home':
         condition_options = df['Stato'].unique()
         optionCondition = st.select_slider('Conditions', condition_options)      
 
-    prompt = f"square meter: {optionSquareMeter} \n floor: {optionFloor} \n area: {optionZone} \n bathrooms: {optionBathroom} \n elevator: {optionElevator} \n conditions: {optionCondition} \n"
+    prompt = f" \n floor: {optionFloor} \n area: {optionZone} \n bathrooms: {optionBathroom} \n elevator: {optionElevator} \n conditions: {optionCondition} \n"
     # Llms
     llm = OpenAI(temperature=0.5) 
     #wiki = WikipediaAPIWrapper()
