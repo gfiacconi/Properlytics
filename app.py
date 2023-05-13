@@ -8,6 +8,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 from PyPDF2 import PdfReader
 from langchain.llms import OpenAI
+from sklearn.linear_model import LinearRegression
 from langchain.prompts import PromptTemplate
 from langchain.utilities import WikipediaAPIWrapper
 from langchain.memory import ConversationBufferMemory
@@ -132,9 +133,85 @@ if choice == 'Home':
             time.sleep(0.1)
             my_bar.progress(percent_complete + 1, text=progress_text)
         #stampa il valore calcolato con il simbolo degli euro prima
-        st.metric('The estimated value is:', f"€ {calculated_value}")
-        #text = "Tu sei un agente immobiliare e l'utente ti ha fornito tutte queste informazioni perche vuole vendere la sua casa, fai una panoramica della zona e di tutte le info che ti ha fornito e convincilo a proseguire a venderla con noi: \n\nIndirizzo: {}\nNumero di bagni: {}\nCondizione: {}\nPresenza ascensore: {}\nPiano: {}\nMetri quadrati: {}\nZona: {}".format(optionAddress, optionBathroom, optionCondition, optionElevator, optionFloor, optionSquareMeter, optionZone)
-        #st.write(llm(text))
+        
+        df = pd.read_csv('combined_with_coords.csv', on_bad_lines='skip')
+        #filtra df per optionZone
+        df = df[df['Zona'] == optionZone]
+        # Creazione della mappa di densità
+        col1, col2 = st.columns(2)
+        with col1:
+            st.metric('The estimated value is:', f"€ {calculated_value}")
+            #aggiungi una riga vuota
+            st.write('')
+            fig = px.density_mapbox(
+                df,
+                lat="latitude",
+                lon="longitude",
+                z="Price",
+                radius=20,
+                center={"lat": 45.0705, "lon": 7.6868},
+                zoom=12,
+                mapbox_style="open-street-map",
+                title="Heat-map based on Price-Zone",
+                color_continuous_scale="Jet",
+                opacity=0.6,
+            )
+
+            # Mostra la mappa
+            st.plotly_chart(fig, use_container_width=True)
+
+        with col2:
+            df = pd.read_csv('combined_with_coords.csv', on_bad_lines='skip')
+            #filtra df per optionZone e Ref.Data
+            df = df[df['Zona'] == optionZone]
+            df = df = df[['Zona', 'Ref.Data', 'Price', 'Dimension (m2)']]
+            # Converti la colonna 'Ref.Data' in formato di data
+            df['Ref.Data'] = pd.to_datetime(df['Ref.Data'], format='%d/%m/%Y')
+            df = df.sort_values(by='Ref.Data', ascending=True)
+            # Calcola il prezzo al metro quadro
+            df['Prezzo al mq'] = df['Price'] / df['Dimension (m2)']
+
+            # Prepara i dati per la regressione lineare
+            X = pd.to_numeric(df['Ref.Data'].values, errors='coerce').reshape(-1, 1)  # Data di riferimento come variabile indipendente
+            y = df['Prezzo al mq'].values.reshape(-1, 1)
+            # Crea un modello di regressione lineare
+
+            #fai la media dei valori del Prezzo al mq
+            average_price_per_sqm = df['Prezzo al mq'].mean()
+            #arrotonda il valore a 2 cifre decimali
+            average_price_per_sqm = round(average_price_per_sqm, 2)
+            regression_model = LinearRegression()
+
+            # Addestra il modello sui dati
+            regression_model.fit(X, y)
+            
+            delta = format(regression_model.coef_[0][0])
+            #simbolo dell'euro
+            st.metric(label="Prezzo al metro quadro", value=f"€ {average_price_per_sqm}", delta= f"{delta}")
+
+            fig = px.scatter(
+                df,
+                x='Ref.Data',
+                y='Prezzo al mq',
+                title="<b>Price-Dimension</b>",
+                color=df['Price'],
+                color_continuous_scale='Jet',
+                labels={'x': 'Data di riferimento', 'y': 'Prezzo al metro quadro'}
+            )
+
+            fig.add_trace(px.line(
+                x=df['Ref.Data'],
+                y=regression_model.predict(X).flatten(),
+            ).data[0])
+
+            fig.update_layout(xaxis_title='Data di riferimento', yaxis_title='Prezzo al metro quadro')
+            st.plotly_chart(fig, use_container_width=True)
+
+        info = f"square meter: {optionSquareMeter} \n floor: {optionFloor} \n area: {optionZone} \n bathrooms: {optionBathroom} \n elevator: {optionElevator} \n conditions: {optionCondition} \n"
+        prompt2= "in base a queste informazioni fornite da il proprietario della casa che vuole venderla rispondi come fossi un agente immobiliare e fai una panoramica e convincilo a vendere la sua casa con noi, scrivi tutto in massimo 1 paragrafo molto breve" + info
+        st.write(llm(prompt2))
+
+
 
     # if st.button('submit'):
     #     progress_text = "Operation in progress. Please wait."
