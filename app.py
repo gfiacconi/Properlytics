@@ -52,6 +52,12 @@ if choice == 'Home':
     optionAddress = st.text_input('Address')
 
     col1, col2= st.columns(2)
+    with col1:
+        df = pd.DataFrame(data, columns=['Dimension (m2)'])
+        df = df.dropna(subset=['Dimension (m2)'])
+        dimension_options = df['Dimension (m2)'].unique()
+        optionSquareMeter = st.select_slider('Dimension (m2)', dimension_options)     
+
 
     with col2:
         df = pd.DataFrame(data, columns=['Floor'])
@@ -81,7 +87,7 @@ if choice == 'Home':
         condition_options = df['Stato'].unique()
         optionCondition = st.select_slider('Conditions', condition_options)      
 
-    prompt = f" \n floor: {optionFloor} \n area: {optionZone} \n bathrooms: {optionBathroom} \n elevator: {optionElevator} \n conditions: {optionCondition} \n"
+    prompt = f"square meter: {optionSquareMeter} \n floor: {optionFloor} \n area: {optionZone} \n bathrooms: {optionBathroom} \n elevator: {optionElevator} \n conditions: {optionCondition} \n"
     # Llms
     llm = OpenAI(temperature=0.5) 
     #wiki = WikipediaAPIWrapper()
