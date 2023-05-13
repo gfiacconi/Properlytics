@@ -34,7 +34,9 @@ if choice == 'Home':
         return data
 
     st.title('🏘 📈Properlytics: Smarter Real Estate Decisions through Predictive Analytics')
+    data = load_data(8507)
 
+    
 
 
 
